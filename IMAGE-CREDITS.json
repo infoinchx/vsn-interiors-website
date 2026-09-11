@@ -1,0 +1,92 @@
+[
+  {
+    "file": "hero.jpg",
+    "credit": "GoodLifeConstruction",
+    "description": "Neutral living room",
+    "source": "https://unsplash.com/photos/e0oJLc5FYsg",
+    "image": "https://images.unsplash.com/photo-1771888703723-01d85da1dae1?auto=format&fit=crop&fm=jpg&q=85&w=1600",
+    "license": "Unsplash License",
+    "original_filename": "hero.jpg"
+  },
+  {
+    "file": "kitchen-1.jpg",
+    "credit": "Puscas Adryan",
+    "description": "Walnut and marble kitchen",
+    "source": "https://unsplash.com/photos/ilbLEHMhxMA",
+    "image": "https://images.unsplash.com/photo-1769326541248-5e09a8ace25b?auto=format&fit=crop&fm=jpg&q=85&w=1600",
+    "license": "Unsplash License",
+    "original_filename": "kitchen.jpg"
+  },
+  {
+    "file": "living-1.jpg",
+    "credit": "Clay Banks",
+    "description": "Spacious living room",
+    "source": "https://unsplash.com/photos/gNH2sWVCQg8",
+    "image": "https://images.unsplash.com/photo-1773578639782-2046b150ce28?auto=format&fit=crop&fm=jpg&q=85&w=1600",
+    "license": "Unsplash License",
+    "original_filename": "living-room.jpg"
+  },
+  {
+    "file": "living-3.jpg",
+    "credit": "Puscas Adryan",
+    "description": "Natural living room, 3D render",
+    "source": "https://unsplash.com/photos/2cfj0Y5ch00",
+    "image": "https://images.unsplash.com/photo-1772797583328-f83bc3f94f80?auto=format&fit=crop&fm=jpg&q=85&w=1600",
+    "license": "Unsplash License",
+    "original_filename": "natural-interior.jpg"
+  },
+  {
+    "file": "bedroom-1.jpg",
+    "credit": "Aleksandra Dementeva",
+    "description": "Bedroom with black accents",
+    "source": "https://unsplash.com/photos/fET61nFRf70",
+    "image": "https://images.unsplash.com/photo-1775241183056-06f3f6c10c76?auto=format&fit=crop&fm=jpg&q=85&w=1600",
+    "license": "Unsplash License",
+    "original_filename": "bedroom.jpg"
+  },
+  {
+    "file": "bedroom-2.jpg",
+    "credit": "Christian Ventura",
+    "description": "Bedroom suite",
+    "source": "https://unsplash.com/photos/JXYEhMreZsA",
+    "image": "https://images.unsplash.com/photo-1766928210452-2470f91bae26?auto=format&fit=crop&fm=jpg&q=85&w=1600",
+    "license": "Unsplash License",
+    "original_filename": "bedroom-suite.jpg"
+  },
+  {
+    "file": "dining-1.jpg",
+    "credit": "Caroline Badran",
+    "description": "Sunlit dining room",
+    "source": "https://unsplash.com/photos/ew0GEbhe-Ec",
+    "image": "https://images.unsplash.com/photo-1751290986099-874a49f457a1?auto=format&fit=crop&fm=jpg&q=85&w=1600",
+    "license": "Unsplash License",
+    "original_filename": "dining.jpg"
+  },
+  {
+    "file": "dining-2.jpg",
+    "credit": "Aalo Lens",
+    "description": "Wooden dining room",
+    "source": "https://unsplash.com/photos/u7apeDIhIaI",
+    "image": "https://images.unsplash.com/photo-1758448511421-debb41f3e621?auto=format&fit=crop&fm=jpg&q=85&w=1600",
+    "license": "Unsplash License",
+    "original_filename": "dining-wood.jpg"
+  },
+  {
+    "file": "living-2.jpg",
+    "credit": "jason hu",
+    "description": "Living room with ambient lighting",
+    "source": "https://unsplash.com/photos/O085J-xsM70",
+    "image": "https://images.unsplash.com/photo-1776303054657-4d21e2a6ef18?auto=format&fit=crop&fm=jpg&q=85&w=1600",
+    "license": "Unsplash License",
+    "original_filename": "living-evening.jpg"
+  },
+  {
+    "file": "detail.jpg",
+    "credit": "Caroline Badran",
+    "description": "Dining room with kitchen and scenic view",
+    "source": "https://unsplash.com/photos/7VSkY7mEwUk",
+    "image": "https://images.unsplash.com/photo-1758565810995-bee5d73315f0?auto=format&fit=crop&fm=jpg&q=85&w=1600",
+    "license": "Unsplash License",
+    "original_filename": "dining-view.jpg"
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "description": "A spacious premium Indian apartment living room, sculptural ivory boucle sofa, deep teal paneled accent wall, travertine coffee table, brushed copper lighting, walnut cabinetry, sheer curtains and warm afternoon sunlight. Wide corner view with realistic spatial depth.",
+    "image": "living-teal.png",
+    "name": "living-teal",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Asset type: original architecture editorial photograph for Vsn Interiors concept gallery. Primary request: A spacious premium Indian apartment living room, sculptural ivory boucle sofa, deep teal paneled accent wall, travertine coffee table, brushed copper lighting, walnut cabinetry, sheer curtains and warm afternoon sunlight. Wide corner view with realistic spatial depth. Style: convincing high-end architectural magazine photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, natural light with warm practical lighting, no people. Landscape 3:2 photograph. No logos, no text, no watermarks, no collage. Single fully resolved room image.",
+    "style": "Contemporary",
+    "title": "Teal Atelier",
+    "type": "Living"
+  },
+  {
+    "description": "A premium Indian villa living room opening into a lush internal courtyard, low clay-toned sofa, navy lounge chair, limestone floor, warm teak ceiling, brass accents and broad arched opening. Airy sunlit architecture with dappled tree shadows.",
+    "image": "living-courtyard.png",
+    "name": "living-courtyard",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Asset type: original architecture editorial photograph for Vsn Interiors concept gallery. Primary request: A premium Indian villa living room opening into a lush internal courtyard, low clay-toned sofa, navy lounge chair, limestone floor, warm teak ceiling, brass accents and broad arched opening. Airy sunlit architecture with dappled tree shadows. Style: convincing high-end architectural magazine photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, natural light with warm practical lighting, no people. Landscape 3:2 photograph. No logos, no text, no watermarks, no collage. Single fully resolved room image.",
+    "style": "Warm Minimal",
+    "title": "Courtyard Retreat",
+    "type": "Living"
+  },
+  {
+    "description": "A premium contemporary Indian apartment kitchen with matte teal lower cabinets, warm oak upper cabinetry, ivory quartz island, subtle handmade tile, brushed brass handles, integrated appliances, perfectly practical uncluttered layout. Wide corner interior view.",
+    "image": "kitchen-teal.png",
+    "name": "kitchen-teal",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Asset type: original architecture editorial photograph for Vsn Interiors concept gallery. Primary request: A premium contemporary Indian apartment kitchen with matte teal lower cabinets, warm oak upper cabinetry, ivory quartz island, subtle handmade tile, brushed brass handles, integrated appliances, perfectly practical uncluttered layout. Wide corner interior view. Style: convincing high-end architectural magazine photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, natural light with warm practical lighting, no people. Landscape 3:2 photograph. No logos, no text, no watermarks, no collage. Single fully resolved room image.",
+    "style": "Contemporary",
+    "title": "Teal & Oak",
+    "type": "Kitchen"
+  },
+  {
+    "description": "A luxurious compact Indian kitchen with warm clay and cream flat-front cabinetry, charcoal stone worktop, narrow walnut breakfast ledge, fluted glass display cabinet and copper pendant. Elegant functional proportions, soft morning sun, wide architectural interior view.",
+    "image": "kitchen-clay.png",
+    "name": "kitchen-clay",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Asset type: original architecture editorial photograph for Vsn Interiors concept gallery. Primary request: A luxurious compact Indian kitchen with warm clay and cream flat-front cabinetry, charcoal stone worktop, narrow walnut breakfast ledge, fluted glass display cabinet and copper pendant. Elegant functional proportions, soft morning sun, wide architectural interior view. Style: convincing high-end architectural magazine photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, natural light with warm practical lighting, no people. Landscape 3:2 photograph. No logos, no text, no watermarks, no collage. Single fully resolved room image.",
+    "style": "Modern",
+    "title": "Clay Kitchen",
+    "type": "Kitchen"
+  },
+  {
+    "description": "A serene premium Indian master bedroom with a navy upholstered full-width headboard, warm walnut wall panels, ivory linen bedding, curved stone bedside tables, tiny brass reading lamps, a large balcony window and soft dawn light. Spacious refined composition viewed diagonally from the doorway.",
+    "image": "bedroom-navy.png",
+    "name": "bedroom-navy",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Asset type: original architecture editorial photograph for Vsn Interiors concept gallery. Primary request: A serene premium Indian master bedroom with a navy upholstered full-width headboard, warm walnut wall panels, ivory linen bedding, curved stone bedside tables, tiny brass reading lamps, a large balcony window and soft dawn light. Spacious refined composition viewed diagonally from the doorway. Style: convincing high-end architectural magazine photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, natural light with warm practical lighting, no people. Landscape 3:2 photograph. No logos, no text, no watermarks, no collage. Single fully resolved room image.",
+    "style": "Contemporary",
+    "title": "Midnight Suite",
+    "type": "Bedroom"
+  },
+  {
+    "description": "A restful Indian contemporary guest bedroom with clay limewash walls, pale oak bed, cream linen, woven bench, an elegant teal reading chair, a niche with ceramic objects, delicate copper ceiling light. Soft warm late-afternoon sunlight and carefully balanced architectural proportions.",
+    "image": "bedroom-earth.png",
+    "name": "bedroom-earth",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Asset type: original architecture editorial photograph for Vsn Interiors concept gallery. Primary request: A restful Indian contemporary guest bedroom with clay limewash walls, pale oak bed, cream linen, woven bench, an elegant teal reading chair, a niche with ceramic objects, delicate copper ceiling light. Soft warm late-afternoon sunlight and carefully balanced architectural proportions. Style: convincing high-end architectural magazine photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, natural light with warm practical lighting, no people. Landscape 3:2 photograph. No logos, no text, no watermarks, no collage. Single fully resolved room image.",
+    "style": "Warm Minimal",
+    "title": "Earth & Linen",
+    "type": "Bedroom"
+  },
+  {
+    "description": "An elegant contemporary Indian dining room with a long oval walnut table seating six, ivory upholstered curved chairs, sculptural aged-brass pendant, deep teal wall with abstract framed art without writing, pale stone floor and full-height window. Evening amber ambient light, rich layered spatial composition.",
+    "image": "dining-brass.png",
+    "name": "dining-brass",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Asset type: original architecture editorial photograph for Vsn Interiors concept gallery. Primary request: An elegant contemporary Indian dining room with a long oval walnut table seating six, ivory upholstered curved chairs, sculptural aged-brass pendant, deep teal wall with abstract framed art without writing, pale stone floor and full-height window. Evening amber ambient light, rich layered spatial composition. Style: convincing high-end architectural magazine photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, natural light with warm practical lighting, no people. Landscape 3:2 photograph. No logos, no text, no watermarks, no collage. Single fully resolved room image.",
+    "style": "Contemporary",
+    "title": "Brass Dining",
+    "type": "Dining"
+  },
+  {
+    "description": "An airy Indian villa dining room facing tropical greenery, round travertine dining table, four teak and cane chairs, sculptural linen pendant, clay-toned curved niche, white plaster and terracotta pots, subtle brass details. Warm morning sunlight across textured floors, calm understated luxury.",
+    "image": "dining-courtyard.png",
+    "name": "dining-courtyard",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Asset type: original architecture editorial photograph for Vsn Interiors concept gallery. Primary request: An airy Indian villa dining room facing tropical greenery, round travertine dining table, four teak and cane chairs, sculptural linen pendant, clay-toned curved niche, white plaster and terracotta pots, subtle brass details. Warm morning sunlight across textured floors, calm understated luxury. Style: convincing high-end architectural magazine photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, natural light with warm practical lighting, no people. Landscape 3:2 photograph. No logos, no text, no watermarks, no collage. Single fully resolved room image.",
+    "style": "Warm Minimal",
+    "title": "Courtyard Table",
+    "type": "Dining"
+  },
+  {
+    "description": "An elegant premium Indian home office with a floating walnut desk, teal built-in bookshelves, caramel leather task chair, brass desk lamp and a full-height window framing trees. Thoughtful closed storage and quiet focused atmosphere.",
+    "image": "office-walnut.png",
+    "name": "office-walnut",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Asset type: original architecture editorial photograph for Vsn Interiors concept gallery. Primary request: An elegant premium Indian home office with a floating walnut desk, teal built-in bookshelves, caramel leather task chair, brass desk lamp and a full-height window framing trees. Thoughtful closed storage and quiet focused atmosphere. Style: convincing high-end architectural magazine photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting, no people. Landscape 3:2. No logos, no writing, no watermarks, no collage. Single fully resolved room.",
+    "style": "Contemporary",
+    "title": "Walnut Study",
+    "type": "Office"
+  },
+  {
+    "description": "A premium compact Indian home workspace integrated into a living space, curved clay-toned desk against fluted cream wall, navy upholstered chair, rounded oak shelving, copper task light and sheer window curtain. Soft morning light.",
+    "image": "office-creative.png",
+    "name": "office-creative",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Asset type: original architecture editorial photograph for Vsn Interiors concept gallery. Primary request: A premium compact Indian home workspace integrated into a living space, curved clay-toned desk against fluted cream wall, navy upholstered chair, rounded oak shelving, copper task light and sheer window curtain. Soft morning light. Style: convincing high-end architectural magazine photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting, no people. Landscape 3:2. No logos, no writing, no watermarks, no collage. Single fully resolved room.",
+    "style": "Modern",
+    "title": "Creative Corner",
+    "type": "Office"
+  },
+  {
+    "description": "A reverent premium contemporary Indian home pooja room, beautifully carved white marble altar with a modest small Ganesha statue, symmetrical brass oil lamps, carved perforated stone side screens, teak drawers, subtle warm lighting, tiny fresh flowers. Quiet sacred atmosphere.",
+    "image": "pooja-marble.png",
+    "name": "pooja-marble",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Asset type: original architecture editorial photograph for Vsn Interiors concept gallery. Primary request: A reverent premium contemporary Indian home pooja room, beautifully carved white marble altar with a modest small Ganesha statue, symmetrical brass oil lamps, carved perforated stone side screens, teak drawers, subtle warm lighting, tiny fresh flowers. Quiet sacred atmosphere. Style: convincing high-end architectural magazine photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting, no people. Landscape 3:2. No logos, no writing, no watermarks, no collage. Single fully resolved room.",
+    "style": "Contemporary",
+    "title": "Marble Sanctuary",
+    "type": "Pooja"
+  },
+  {
+    "description": "A premium Indian apartment pooja alcove, finely crafted teak framed shrine with small brass Ganesha idol, suspended brass bells, cream stone backdrop, graceful lotus-inspired wood detailing, warm copper lamps and small white floral offering. Restrained authentic reverent design.",
+    "image": "pooja-teak.png",
+    "name": "pooja-teak",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Asset type: original architecture editorial photograph for Vsn Interiors concept gallery. Primary request: A premium Indian apartment pooja alcove, finely crafted teak framed shrine with small brass Ganesha idol, suspended brass bells, cream stone backdrop, graceful lotus-inspired wood detailing, warm copper lamps and small white floral offering. Restrained authentic reverent design. Style: convincing high-end architectural magazine photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting, no people. Landscape 3:2. No logos, no writing, no watermarks, no collage. Single fully resolved room.",
+    "style": "Traditional",
+    "title": "Sacred Teak",
+    "type": "Pooja"
+  },
+  {
+    "description": "A premium Indian high-rise apartment living room with a panoramic rain-softened city view, deep navy sofa, sculptural copper floor lamp, stone nesting tables, oak joinery and ivory rug. Moody afternoon light and rich realistic reflections.",
+    "image": "living-03.png",
+    "name": "living-03",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Asset type: original architecture editorial photograph for Vsn Interiors concept gallery. Primary request: A premium Indian high-rise apartment living room with a panoramic rain-softened city view, deep navy sofa, sculptural copper floor lamp, stone nesting tables, oak joinery and ivory rug. Moody afternoon light and rich realistic reflections. Style: convincing high-end architectural magazine photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting, no people. Landscape 3:2. No logos, no writing, no watermarks, no collage. Single fully resolved room.",
+    "style": "Contemporary",
+    "title": "Monsoon Lounge",
+    "type": "Living"
+  },
+  {
+    "description": "A premium Bengaluru villa living room with tall teak-framed glazed doors, oatmeal linen sofas, clay boucle lounge chair, black stone coffee table, brass wall accents and flourishing garden beyond. Airy warm minimal architecture.",
+    "image": "living-04.png",
+    "name": "living-04",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Asset type: original architecture editorial photograph for Vsn Interiors concept gallery. Primary request: A premium Bengaluru villa living room with tall teak-framed glazed doors, oatmeal linen sofas, clay boucle lounge chair, black stone coffee table, brass wall accents and flourishing garden beyond. Airy warm minimal architecture. Style: convincing high-end architectural magazine photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting, no people. Landscape 3:2. No logos, no writing, no watermarks, no collage. Single fully resolved room.",
+    "style": "Warm Minimal",
+    "title": "The Teak Pavilion",
+    "type": "Living"
+  },
+  {
+    "description": "A premium sculptural Indian living room with curved ivory plaster walls, sunken cream seating, pale travertine flooring, one teal sculptural armchair and a small copper accent table. Clean comfortable residential scale with late afternoon sunlight.",
+    "image": "living-05.png",
+    "name": "living-05",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Asset type: original architecture editorial photograph for Vsn Interiors concept gallery. Primary request: A premium sculptural Indian living room with curved ivory plaster walls, sunken cream seating, pale travertine flooring, one teal sculptural armchair and a small copper accent table. Clean comfortable residential scale with late afternoon sunlight. Style: convincing high-end architectural magazine photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting, no people. Landscape 3:2. No logos, no writing, no watermarks, no collage. Single fully resolved room.",
+    "style": "Minimal",
+    "title": "Sculpted Calm",
+    "type": "Living"
+  },
+  {
+    "description": "A refined Indian apartment living salon with emerald teal velvet sofa, geometric walnut wall panels, rounded brass mirror, dark marble coffee table, subtle navy patterned rug and sculptural lighting. Warm intimate evening editorial photography.",
+    "image": "living-06.png",
+    "name": "living-06",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Asset type: original architecture editorial photograph for Vsn Interiors concept gallery. Primary request: A refined Indian apartment living salon with emerald teal velvet sofa, geometric walnut wall panels, rounded brass mirror, dark marble coffee table, subtle navy patterned rug and sculptural lighting. Warm intimate evening editorial photography. Style: convincing high-end architectural magazine photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting, no people. Landscape 3:2. No logos, no writing, no watermarks, no collage. Single fully resolved room.",
+    "style": "Art Deco",
+    "title": "Evening Salon",
+    "type": "Living"
+  },
+  {
+    "description": "Double-height premium Mumbai penthouse living room, tall ivory curtains, charcoal curved sofa, teal chairs, copper sculptural chandelier, grey marble fireplace wall and sunset city skyline.",
+    "image": "living-07.png",
+    "name": "living-07",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Double-height premium Mumbai penthouse living room, tall ivory curtains, charcoal curved sofa, teal chairs, copper sculptural chandelier, grey marble fireplace wall and sunset city skyline. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "style": "Luxury",
+    "title": "City Penthouse",
+    "type": "Living"
+  },
+  {
+    "description": "Premium Indian living room with indoor plants, sage plaster, teal linen sofa, honey oak shelves, pale woven rug, brass accent lighting and generous garden-facing windows.",
+    "image": "living-08.png",
+    "name": "living-08",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium Indian living room with indoor plants, sage plaster, teal linen sofa, honey oak shelves, pale woven rug, brass accent lighting and generous garden-facing windows. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "style": "Biophilic",
+    "title": "Botanical Haven",
+    "type": "Living"
+  },
+  {
+    "description": "Premium renovated Indian heritage living room, arched windows, polished patterned stone floor, contemporary cream sofa, carved antique teak cabinet, copper decor, indigo cushions and restrained traditional craftsmanship.",
+    "image": "living-09.png",
+    "name": "living-09",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium renovated Indian heritage living room, arched windows, polished patterned stone floor, contemporary cream sofa, carved antique teak cabinet, copper decor, indigo cushions and restrained traditional craftsmanship. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "style": "Modern Indian",
+    "title": "Heritage Reimagined",
+    "type": "Living"
+  },
+  {
+    "description": "Premium compact Indian apartment living room, elegant teal loveseat, cream wall-mounted media console, warm oak storage, nesting copper tables, subtle navy rug and wide balcony doors.",
+    "image": "living-10.png",
+    "name": "living-10",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium compact Indian apartment living room, elegant teal loveseat, cream wall-mounted media console, warm oak storage, nesting copper tables, subtle navy rug and wide balcony doors. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "style": "Modern",
+    "title": "Compact Elegance",
+    "type": "Living"
+  },
+  {
+    "description": "Premium Indian kitchen with deep navy cabinets, a broad white marble island with waterfall edges, warm walnut tall storage, copper pendants, three ivory counter stools and soft evening light.",
+    "image": "kitchen-03.png",
+    "name": "kitchen-03",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium Indian kitchen with deep navy cabinets, a broad white marble island with waterfall edges, warm walnut tall storage, copper pendants, three ivory counter stools and soft evening light. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "style": "Luxury",
+    "title": "Midnight Island",
+    "type": "Kitchen"
+  },
+  {
+    "description": "Sunlit premium Indian kitchen overlooking a garden, light oak cabinetry, cream counters, sage green backsplash, brass tap, terracotta herb pots, functional broad sink window and a small breakfast table.",
+    "image": "kitchen-04.png",
+    "name": "kitchen-04",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Sunlit premium Indian kitchen overlooking a garden, light oak cabinetry, cream counters, sage green backsplash, brass tap, terracotta herb pots, functional broad sink window and a small breakfast table. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "style": "Biophilic",
+    "title": "The Garden Kitchen",
+    "type": "Kitchen"
+  },
+  {
+    "description": "Premium minimalist Indian kitchen, textured sand-toned cabinets, grey stone counters and full-height splashback, sculptural copper range hood, concealed storage and warm perimeter lighting.",
+    "image": "kitchen-05.png",
+    "name": "kitchen-05",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium minimalist Indian kitchen, textured sand-toned cabinets, grey stone counters and full-height splashback, sculptural copper range hood, concealed storage and warm perimeter lighting. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "style": "Minimal",
+    "title": "Stone & Copper",
+    "type": "Kitchen"
+  },
+  {
+    "description": "Premium modern Indian kitchen with teak-framed cream shaker cupboards, teal handmade tile backsplash, brass handles, natural stone counters, terracotta floor and arched window with soft morning light.",
+    "image": "kitchen-06.png",
+    "name": "kitchen-06",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium modern Indian kitchen with teak-framed cream shaker cupboards, teal handmade tile backsplash, brass handles, natural stone counters, terracotta floor and arched window with soft morning light. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "style": "Modern Indian",
+    "title": "Heritage Pantry",
+    "type": "Kitchen"
+  },
+  {
+    "description": "Sophisticated premium Indian narrow galley kitchen, matte navy lower cabinets, ivory upper cupboards, copper fixtures, warm wood flooring, luminous quartz worktops, efficient clear passage and balcony window.",
+    "image": "kitchen-07.png",
+    "name": "kitchen-07",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Sophisticated premium Indian narrow galley kitchen, matte navy lower cabinets, ivory upper cupboards, copper fixtures, warm wood flooring, luminous quartz worktops, efficient clear passage and balcony window. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "style": "Modern",
+    "title": "Urban Galley",
+    "type": "Kitchen"
+  },
+  {
+    "description": "Large premium Indian open-plan kitchen with curved teal island, cream bar stools, oak pantry wall, brass pendant lighting and a bright adjoining breakfast nook with built-in clay banquette.",
+    "image": "kitchen-08.png",
+    "name": "kitchen-08",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Large premium Indian open-plan kitchen with curved teal island, cream bar stools, oak pantry wall, brass pendant lighting and a bright adjoining breakfast nook with built-in clay banquette. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "style": "Contemporary",
+    "title": "Breakfast at Home",
+    "type": "Kitchen"
+  },
+  {
+    "description": "Premium Indian kitchen with creamy limewash walls, pale oak cupboards, warm ivory stone island, sculptural copper pendant, generous skylight and a subtle teal ceramic collection. Minimal but welcoming.",
+    "image": "kitchen-09.png",
+    "name": "kitchen-09",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium Indian kitchen with creamy limewash walls, pale oak cupboards, warm ivory stone island, sculptural copper pendant, generous skylight and a subtle teal ceramic collection. Minimal but welcoming. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "style": "Warm Minimal",
+    "title": "Ivory Workshop",
+    "type": "Kitchen"
+  },
+  {
+    "description": "Dramatic premium Indian chef's kitchen, dark walnut cabinetry, deep teal polished tile, charcoal island, copper cookware accents, integrated appliances and cinematic warm under-cabinet light.",
+    "image": "kitchen-10.png",
+    "name": "kitchen-10",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Dramatic premium Indian chef's kitchen, dark walnut cabinetry, deep teal polished tile, charcoal island, copper cookware accents, integrated appliances and cinematic warm under-cabinet light. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "style": "Luxury",
+    "title": "Chef's Studio",
+    "type": "Kitchen"
+  },
+  {
+    "description": "Premium Indian bedroom with a refined contemporary teak canopy bed, ivory linens, teal pillows, fluted clay wall, brass sconces and sunlight streaming through sheer curtains.",
+    "image": "bedroom-03.png",
+    "name": "bedroom-03",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium Indian bedroom with a refined contemporary teak canopy bed, ivory linens, teal pillows, fluted clay wall, brass sconces and sunlight streaming through sheer curtains. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "style": "Modern Indian",
+    "title": "Sunrise Canopy",
+    "type": "Bedroom"
+  },
+  {
+    "description": "Premium Indian coastal bedroom, white plaster, light oak bed, soft blue teal linen, cane wardrobe doors, creamy textured rug and full-height windows showing a sunlit terrace.",
+    "image": "bedroom-04.png",
+    "name": "bedroom-04",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium Indian coastal bedroom, white plaster, light oak bed, soft blue teal linen, cane wardrobe doors, creamy textured rug and full-height windows showing a sunlit terrace. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "style": "Coastal",
+    "title": "Coastal Quiet",
+    "type": "Bedroom"
+  },
+  {
+    "description": "Premium urban Indian bedroom with curved deep teal velvet headboard, brass-lined geometric wall detailing, walnut bedside tables, cream bed linen and warm amber lamps.",
+    "image": "bedroom-05.png",
+    "name": "bedroom-05",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium urban Indian bedroom with curved deep teal velvet headboard, brass-lined geometric wall detailing, walnut bedside tables, cream bed linen and warm amber lamps. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "style": "Art Deco",
+    "title": "The Brass Suite",
+    "type": "Bedroom"
+  },
+  {
+    "description": "Premium Indian bedroom facing a dense private garden, low teak bed, moss green and ivory textiles, clay walls, stone floor, sculptural copper lamp and sliding wood-framed glass doors.",
+    "image": "bedroom-06.png",
+    "name": "bedroom-06",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium Indian bedroom facing a dense private garden, low teak bed, moss green and ivory textiles, clay walls, stone floor, sculptural copper lamp and sliding wood-framed glass doors. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "style": "Biophilic",
+    "title": "Garden Awakening",
+    "type": "Bedroom"
+  },
+  {
+    "description": "Premium minimalist Indian bedroom, rounded cream upholstered platform bed, navy alcove headboard, pale oak floor, floating stone nightstands, subtle brass lights and soft morning shadows.",
+    "image": "bedroom-07.png",
+    "name": "bedroom-07",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium minimalist Indian bedroom, rounded cream upholstered platform bed, navy alcove headboard, pale oak floor, floating stone nightstands, subtle brass lights and soft morning shadows. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "style": "Minimal",
+    "title": "Soft Geometry",
+    "type": "Bedroom"
+  },
+  {
+    "description": "Premium Indian bedroom with terracotta limewash wall, caramel leather headboard, warm white linens, teak bench, brushed copper wall lamps and an arched window with sheer curtain.",
+    "image": "bedroom-08.png",
+    "name": "bedroom-08",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium Indian bedroom with terracotta limewash wall, caramel leather headboard, warm white linens, teak bench, brushed copper wall lamps and an arched window with sheer curtain. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "style": "Warm Minimal",
+    "title": "Terracotta Dreams",
+    "type": "Bedroom"
+  },
+  {
+    "description": "Premium Indian penthouse bedroom with panoramic dusk skyline view, broad ivory bed, dark walnut wall, navy velvet chaise, slim brass pendants and luxurious muted stone surfaces.",
+    "image": "bedroom-09.png",
+    "name": "bedroom-09",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium Indian penthouse bedroom with panoramic dusk skyline view, broad ivory bed, dark walnut wall, navy velvet chaise, slim brass pendants and luxurious muted stone surfaces. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "style": "Luxury",
+    "title": "Skyline Retreat",
+    "type": "Bedroom"
+  },
+  {
+    "description": "Premium compact Indian bedroom, built-in teal storage framing a cream upholstered bed, clever walnut bedside niches, warm brass reading lights, ivory linen and sunny balcony door.",
+    "image": "bedroom-10.png",
+    "name": "bedroom-10",
+    "origin": "AI design concept",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium compact Indian bedroom, built-in teal storage framing a cream upholstered bed, clever walnut bedside niches, warm brass reading lights, ivory linen and sunny balcony door. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "style": "Contemporary",
+    "title": "Everyday Sanctuary",
+    "type": "Bedroom"
+  },
+  {
+    "name": "dining-03",
+    "image": "dining-03.png",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium Indian dining room with dark walnut oval table, six navy velvet chairs, geometric copper chandelier, cream stone wall panels and amber evening light. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "title": "Indigo Supper",
+    "type": "Dining",
+    "style": "Art Deco",
+    "description": "Premium Indian dining room with dark walnut oval table, six navy velvet chairs, geometric copper chandelier, cream stone wall panels and amber evening light.",
+    "origin": "AI design concept"
+  },
+  {
+    "name": "dining-04",
+    "image": "dining-04.png",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium Indian breakfast dining nook with a curved teal built-in banquette, small oval marble table, two cane chairs, brass pendant and tall sunny window, cream and terracotta palette. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "title": "Morning Nook",
+    "type": "Dining",
+    "style": "Contemporary",
+    "description": "Premium Indian breakfast dining nook with a curved teal built-in banquette, small oval marble table, two cane chairs, brass pendant and tall sunny window, cream and terracotta palette.",
+    "origin": "AI design concept"
+  },
+  {
+    "name": "dining-05",
+    "image": "dining-05.png",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium Indian dining room with a reclaimed teak table, eight contemporary ivory chairs, carved wood sideboard, handwoven indigo textile artwork without writing, brass lantern and warm afternoon sun. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "title": "Heritage Table",
+    "type": "Dining",
+    "style": "Modern Indian",
+    "description": "Premium Indian dining room with a reclaimed teak table, eight contemporary ivory chairs, carved wood sideboard, handwoven indigo textile artwork without writing, brass lantern and warm afternoon sun.",
+    "origin": "AI design concept"
+  },
+  {
+    "name": "dining-06",
+    "image": "dining-06.png",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium Indian penthouse dining room, long monolithic light stone table, caramel leather dining chairs, sculptural copper pendant, dark walnut sideboard and city skyline at dusk. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "title": "Skyline Dining",
+    "type": "Dining",
+    "style": "Luxury",
+    "description": "Premium Indian penthouse dining room, long monolithic light stone table, caramel leather dining chairs, sculptural copper pendant, dark walnut sideboard and city skyline at dusk.",
+    "origin": "AI design concept"
+  },
+  {
+    "name": "dining-07",
+    "image": "dining-07.png",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium minimal Indian dining room with light oak table, six cream upholstered chairs, clay plaster walls, understated brass linear pendant, pale rug and full-height sheer curtains. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "title": "Oak Gathering",
+    "type": "Dining",
+    "style": "Warm Minimal",
+    "description": "Premium minimal Indian dining room with light oak table, six cream upholstered chairs, clay plaster walls, understated brass linear pendant, pale rug and full-height sheer curtains.",
+    "origin": "AI design concept"
+  },
+  {
+    "name": "dining-08",
+    "image": "dining-08.png",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium Indian villa dining room, rectangular teak table with deep teal upholstered chairs, indoor tree, wide garden-facing sliding doors, copper pendant and sunlit stone flooring. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "title": "Garden Table",
+    "type": "Dining",
+    "style": "Biophilic",
+    "description": "Premium Indian villa dining room, rectangular teak table with deep teal upholstered chairs, indoor tree, wide garden-facing sliding doors, copper pendant and sunlit stone flooring.",
+    "origin": "AI design concept"
+  },
+  {
+    "name": "office-03",
+    "image": "office-03.png",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium Indian home office with a broad dark walnut executive desk, camel leather chair, deep navy wall of cabinetry, brass task lighting, stone table accessories and soft city window light. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "title": "Executive Calm",
+    "type": "Office",
+    "style": "Luxury",
+    "description": "Premium Indian home office with a broad dark walnut executive desk, camel leather chair, deep navy wall of cabinetry, brass task lighting, stone table accessories and soft city window light.",
+    "origin": "AI design concept"
+  },
+  {
+    "name": "office-04",
+    "image": "office-04.png",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium Indian creative home office with pale oak desk, clay upholstered chair, cream curved shelves, copper lamp, garden window and warm sun patches on a textured ivory rug. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "title": "Sunlit Studio",
+    "type": "Office",
+    "style": "Warm Minimal",
+    "description": "Premium Indian creative home office with pale oak desk, clay upholstered chair, cream curved shelves, copper lamp, garden window and warm sun patches on a textured ivory rug.",
+    "origin": "AI design concept"
+  },
+  {
+    "name": "office-05",
+    "image": "office-05.png",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium Indian home library and office, wall-to-wall teak shelves with unlabeled books, teal leather reading chair, refined walnut writing desk, brass library lights and warm cream curtains. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "title": "Library Lounge",
+    "type": "Office",
+    "style": "Modern Indian",
+    "description": "Premium Indian home library and office, wall-to-wall teak shelves with unlabeled books, teal leather reading chair, refined walnut writing desk, brass library lights and warm cream curtains.",
+    "origin": "AI design concept"
+  },
+  {
+    "name": "office-06",
+    "image": "office-06.png",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium Indian shared home workspace with a long built-in oak desk for two, muted teal drawers, two navy ergonomic chairs, integrated brass lighting, practical closed cabinets and bright side window. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "title": "Two in Focus",
+    "type": "Office",
+    "style": "Contemporary",
+    "description": "Premium Indian shared home workspace with a long built-in oak desk for two, muted teal drawers, two navy ergonomic chairs, integrated brass lighting, practical closed cabinets and bright side window.",
+    "origin": "AI design concept"
+  },
+  {
+    "name": "pooja-03",
+    "image": "pooja-03.png",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium contemporary Indian home pooja niche with white marble altar, small brass Ganesha idol, elegant lotus-shaped stone backdrop without writing, teak lower drawers, tiny oil lamps and warm backlighting. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "title": "Lotus Alcove",
+    "type": "Pooja",
+    "style": "Contemporary",
+    "description": "Premium contemporary Indian home pooja niche with white marble altar, small brass Ganesha idol, elegant lotus-shaped stone backdrop without writing, teak lower drawers, tiny oil lamps and warm backlighting.",
+    "origin": "AI design concept"
+  },
+  {
+    "name": "pooja-04",
+    "image": "pooja-04.png",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium minimalist Indian pooja room, warm cream stone platform, modest small Ganesha statue, pair of brass oil lamps, clay plaster wall, soft skylight, clean oak screen and a simple woven sitting mat. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "title": "Quiet Devotion",
+    "type": "Pooja",
+    "style": "Minimal",
+    "description": "Premium minimalist Indian pooja room, warm cream stone platform, modest small Ganesha statue, pair of brass oil lamps, clay plaster wall, soft skylight, clean oak screen and a simple woven sitting mat.",
+    "origin": "AI design concept"
+  },
+  {
+    "name": "pooja-05",
+    "image": "pooja-05.png",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium traditional Indian home pooja room with finely carved dark teak altar, small brass Ganesha idol, brass hanging bells, floral offerings, ivory marble flooring and warm amber light. Reverent restraint. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "title": "Heritage Shrine",
+    "type": "Pooja",
+    "style": "Traditional",
+    "description": "Premium traditional Indian home pooja room with finely carved dark teak altar, small brass Ganesha idol, brass hanging bells, floral offerings, ivory marble flooring and warm amber light. Reverent restraint.",
+    "origin": "AI design concept"
+  },
+  {
+    "name": "pooja-06",
+    "image": "pooja-06.png",
+    "prompt": "Use case: photorealistic-natural. Original Vsn Interiors architecture concept gallery photo. Premium Indian home pooja room with a white stone altar, small Ganesha statue, delicate brass hanging lamps, vertical teak slatted screen, teal framed doorway and serene early morning light. Convincing high-end architectural editorial photography, tactile natural materials, restrained expensive detailing, perspective corrected verticals, 24mm lens, warm natural and practical lighting. Landscape 3:2 photograph, one single complete distinct room, no people, no logos, no writing, no watermarks, no collage.",
+    "title": "Light & Prayer",
+    "type": "Pooja",
+    "style": "Modern Indian",
+    "description": "Premium Indian home pooja room with a white stone altar, small Ganesha statue, delicate brass hanging lamps, vertical teak slatted screen, teal framed doorway and serene early morning light.",
+    "origin": "AI design concept"
+  }
+]
