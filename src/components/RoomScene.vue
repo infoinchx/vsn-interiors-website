@@ -204,7 +204,7 @@ onMounted(() => {
       scene.add(mesh);
       return mesh;
     }
-    // Architectural shell, open on two sides for a dollhouse view.
+    
     box(8, 0.22, 6.7, 0, -0.16, 0, oak, 0.06);
     for (let i = 0; i < 20; i++)
       box(
@@ -220,10 +220,10 @@ onMounted(() => {
     box(0.14, 3.9, 6.7, -4, 1.86, 0, wallMaterial);
     box(7.9, 0.09, 0.07, 0, 0.065, -3.17, cream);
     box(0.07, 0.09, 6.5, -3.88, 0.065, 0, cream);
-    // Slatted feature wall.
+    
     for (let i = 0; i < 28; i++)
       box(0.065, 3.65, 0.1, -3.72 + i * 0.105, 1.82, -3.17, oak);
-    // Tall window at the left with daylight glass and bronze mullions.
+    
     const glass = new THREE.MeshStandardMaterial({
       color: 0xc4d4cf,
       roughness: 0.25,
@@ -235,14 +235,14 @@ onMounted(() => {
       box(0.07, 2.9, 0.055, -3.84, 2, -1.85 + i * 1.2, dark);
     box(0.08, 0.06, 3.7, -3.83, 3.42, 0, dark);
     box(0.08, 0.06, 3.7, -3.83, 0.58, 0, dark);
-    // Soft curtain folds.
+    
     for (let j = 0; j < 9; j++)
       cyl(0.075, 0.075, 3.4, -3.7, 1.74, 1.9 + j * 0.08, cream);
-    // Wool rug with thin woven borders.
+    
     box(5.6, 0.035, 3.7, 0.1, 0.015, 0.3, mat(0xcec5ae), 0.03);
     for (let i = 0; i < 6; i++)
       box(5.2, 0.003, 0.018, 0.1, 0.035, -1.28 + i * 0.065, mat(0xa89e86));
-    // Modular sofa, real volumes and rounded upholstery.
+    
     box(4.3, 0.36, 1.36, -0.1, 0.47, -1.92, sofaMaterial, 0.12);
     box(4.3, 0.8, 0.32, -0.1, 1, -2.5, sofaMaterial, 0.12);
     for (let i = 0; i < 3; i++)
@@ -255,7 +255,7 @@ onMounted(() => {
     cushion1.rotation.z = 0.16;
     const cushion2 = box(0.62, 0.56, 0.22, 1.2, 1.02, -2.17, clay, 0.1);
     cushion2.rotation.z = -0.2;
-    // Round nesting coffee tables, ceramic styling and books.
+    
     cyl(0.87, 0.87, 0.1, 0.2, 0.63, 0.17, cream);
     cyl(0.43, 0.48, 0.56, 0.2, 0.32, 0.17, oak);
     cyl(0.53, 0.53, 0.07, 1.17, 0.43, 0.65, oak);
@@ -264,7 +264,7 @@ onMounted(() => {
     box(0.37, 0.035, 0.28, -0.02, 0.765, 0.2, cream);
     cyl(0.12, 0.1, 0.3, 0.54, 0.84, -0.04, clay);
     cyl(0.2, 0.17, 0.04, 0.57, 0.7, 0.35, dark);
-    // Lounge chair.
+    
     const chair = mat(0xbe774e);
     box(1.05, 0.26, 1.1, 2.65, 0.55, 1.5, chair, 0.15);
     box(1.05, 0.82, 0.22, 2.65, 0.99, 1.95, chair, 0.12);
@@ -273,18 +273,18 @@ onMounted(() => {
       box(0.1, 0.6, 0.1, x, 0.3, 1.88, oak);
       box(0.1, 0.6, 0.1, x, 0.3, 1.1, oak);
     }
-    // Low media cabinet on right.
+    
     box(1.45, 0.56, 0.55, 2.93, 0.35, -2.76, oak, 0.03);
     for (let i = 0; i < 10; i++)
       box(0.08, 0.42, 0.018, 2.29 + i * 0.14, 0.36, -2.47, dark);
-    // Original abstract physical wall composition.
+    
     box(1.8, 1.65, 0.07, 0.56, 2.53, -3.15, gold);
     box(1.69, 1.54, 0.035, 0.56, 2.53, -3.1, cream);
     const art = new THREE.Mesh(new THREE.CircleGeometry(0.49, 48), clay);
     art.position.set(0.4, 2.68, -3.07);
     scene.add(art);
     box(0.6, 0.61, 0.013, 0.94, 2.16, -3.05, sofaMaterial);
-    // Sculptural pendant lighting.
+    
     for (const [x, y] of [
       [-0.35, 2.7],
       [0.35, 3.03],
@@ -309,7 +309,7 @@ onMounted(() => {
     const lamp = new THREE.PointLight(0xffc579, 18, 7, 2);
     lamp.position.set(0.3, 2.65, 0);
     scene.add(lamp);
-    // Indoor tree in a textured terracotta pot.
+    
     cyl(0.36, 0.26, 0.66, -2.95, 0.34, 1.35, clay);
     cyl(0.045, 0.07, 1.65, -2.95, 1.2, 1.35, oak);
     for (let i = 0; i < 17; i++) {
@@ -327,7 +327,7 @@ onMounted(() => {
       l.rotation.z = Math.cos(a) * 0.6;
       l.rotation.y = a;
     }
-    // A connected Indian dining, kitchen and pooja wing, with actual modelled details.
+    
     const stone = mat(0xe8dfc9, 0.4),
       cabinetry = mat(0x677563),
       blackStone = mat(0x292c2a, 0.25),
@@ -355,7 +355,7 @@ onMounted(() => {
     box(13.3, 0.045, 0.045, 2.75, 3.65, -3.02, glow);
     box(0.22, 0.16, 6.6, -3.86, 3.78, 0, cream);
     box(0.04, 0.045, 6.4, -3.7, 3.65, 0, glow);
-    // Wall-mounted television, shelving and finer living-room styling.
+    
     box(1.45, 0.9, 0.055, 2.93, 1.65, -3.1, dark, 0.025);
     box(1.35, 0.79, 0.015, 2.93, 1.66, -3.062, mat(0x344645, 0.2));
     box(0.34, 0.08, 0.09, 2.93, 1.1, -3.0, gold);
@@ -371,7 +371,7 @@ onMounted(() => {
         i % 2 ? cream : clay,
       );
     cyl(0.09, 0.1, 0.23, 3.27, 2.65, -3.0, clay);
-    // Richly framed pooja niche, drawer cabinet, brass lamps and a raised platform.
+    
     box(1.45, 0.75, 0.55, 4.35, 0.4, -2.93, oak, 0.03);
     box(1.48, 0.08, 0.6, 4.35, 0.82, -2.93, stone);
     box(1.46, 2.65, 0.16, 4.35, 2.05, -3.08, oak);
@@ -397,7 +397,7 @@ onMounted(() => {
       cyl(0.055, 0.075, 0.1, 3.98 + i * 0.24, 2.83, -2.69, gold);
     }
     box(0.58, 0.12, 0.35, 4.35, 0.96, -2.83, stone, 0.02);
-    // Kitchen cabinetry with separate shutters, worktop, backsplash, gas hob and chimney.
+    
     box(4.0, 0.82, 0.75, 7.37, 0.42, -2.84, cabinetry);
     box(4.08, 0.08, 0.85, 7.37, 0.9, -2.8, blackStone, 0.02);
     box(4.0, 0.72, 0.045, 7.37, 1.3, -3.19, stone);
@@ -435,7 +435,7 @@ onMounted(() => {
     box(0.77, 2.55, 0.74, 9.15, 1.3, -2.79, mat(0xb2b7ae, 0.35, 0.4), 0.035);
     box(0.67, 0.017, 0.025, 9.15, 1.67, -2.4, dark);
     box(0.025, 0.36, 0.04, 8.91, 1.96, -2.37, dark);
-    // Kitchen island, bar stools, bowls and small countertop accessories.
+    
     box(2.05, 0.92, 0.86, 7.43, 0.47, -0.88, oak, 0.04);
     box(2.2, 0.09, 1.03, 7.43, 0.98, -0.87, stone, 0.045);
     for (let i = 0; i < 12; i++)
@@ -459,7 +459,7 @@ onMounted(() => {
         -3.04,
         i % 2 ? cream : clay,
       );
-    // Dining suite with six upholstered chairs and a crockery console.
+    
     box(2.65, 0.13, 1.2, 6.3, 0.87, 2.02, oak, 0.1);
     for (const x of [5.33, 7.27])
       for (const z of [1.62, 2.4]) box(0.12, 0.82, 0.12, x, 0.4, z, oak, 0.025);
@@ -506,7 +506,7 @@ onMounted(() => {
     }
     cyl(0.23, 0.2, 0.035, 9.04, 0.975, 1.15, brass);
     cyl(0.12, 0.07, 0.3, 9.04, 1.12, 1.89, clay);
-    // Jaali divider, pendant chandelier, framed textile geometry and a ceiling fan.
+    
     for (let i = 0; i < 8; i++)
       box(0.075, 2.8, 0.075, 3.77, 1.4, -0.4 + i * 0.18, oak);
     for (let i = 0; i < 5; i++)
@@ -541,7 +541,7 @@ onMounted(() => {
     const fillLight = new THREE.PointLight(0xffdfaa, 12, 9, 2);
     fillLight.position.set(7, 3, 0);
     scene.add(fillLight);
-    // Room plinth and floor beneath.
+    
     box(200, 0.1, 200, 0, -0.55, 0, mat(0xd9d9cc));
     observer = new ResizeObserver(() => {
       if (!host.value) return;

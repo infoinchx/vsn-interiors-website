@@ -1526,14 +1526,14 @@ export const pageImages = {
   ],
   contact: {
     id: "contact-cover",
-    title: "Come, let us plan your space",
+    title: "Room for your ideas",
     type: "Office",
     style: "Indian contemporary",
     description:
-      "Inviting interior design consultation studio in Vizianagaram, round walnut meeting table with four upholstered olive chairs, material sample shelves, rolled plans, terracotta accessories and filtered daylight, no people.",
+      "Contemporary Indian dining concept with a cobalt alcove, cane seating, a pale oak table and courtyard daylight.",
     origin: "AI design concept",
-    image: "indian/contact-cover.webp",
-    thumbnail: "indian/contact-cover-thumb.webp",
+    image: "studio/contact-salon.webp",
+    thumbnail: "studio/contact-salon.webp",
   },
   services: {
     id: "services-cover",

@@ -334,7 +334,6 @@ h1:focus {
   margin-top: 27px;
   line-height: 1.7;
 }
-/* Home: eight distinct compositions. */
 .home-cover {
   height: min(820px, calc(100svh - 92px));
   min-height: 640px;
@@ -888,7 +887,6 @@ h1:focus {
   font-size: 0.65rem;
   letter-spacing: 0.11em;
 }
-/* About: editorial collage and founder narrative. */
 .about-cover {
   padding-top: 66px;
   padding-bottom: 60px;
@@ -1108,7 +1106,6 @@ h1:focus {
   margin-bottom: 30px;
   font-size: clamp(2.9rem, 5vw, 5rem);
 }
-/* Services: oversized typography, panorama and an expandable directory. */
 .services-cover {
   padding-top: 54px;
   padding-bottom: 35px;
@@ -1338,7 +1335,6 @@ h1:focus {
 .service-footnote .text-link {
   white-space: nowrap;
 }
-/* Gallery: dark visual archive, optional 3D exhibition. */
 .gallery-page {
   background: #142e2a;
   color: #f3f0de;
@@ -1605,7 +1601,6 @@ h1:focus {
   align-items: center;
   gap: 25px;
 }
-/* Contact: typographic greeting, considered form and practical guidance. */
 .contact-cover {
   padding: 42px 6% 50px;
   background: #d9b593;
@@ -1780,7 +1775,6 @@ h1:focus {
   gap: 15px;
   font-size: 0.875rem;
 }
-/* Shared forms, dialogs and footer. */
 .form-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1947,7 +1941,6 @@ footer > p {
   white-space: nowrap;
   border: 0;
 }
-/* Responsive layout. */
 @media (min-width: 1700px) {
   .section,
   .home-services,
