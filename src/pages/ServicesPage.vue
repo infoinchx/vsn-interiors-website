@@ -32,8 +32,8 @@ const shown = computed(() =>
       </div>
       <div class="services-panorama">
         <img
-          :src="'images/edition3/service-villa.webp'"
-          alt="Premium villa architecture concept"
+          :src="'images/indian/services-cover.webp'"
+          alt="Contemporary Indian home with a thoughtfully detailed living and dining area"
           width="1536"
           height="1024"
         />

@@ -9,6 +9,8 @@ import {
   ChevronRight,
 } from "lucide-vue-next";
 import BrandLogo from "./components/BrandLogo.vue";
+import SiteFooter from "./components/SiteFooter.vue";
+import WhatsAppButton from "./components/WhatsAppButton.vue";
 import ServicesPage from "./pages/ServicesPage.vue";
 import InquiryForm from "./components/InquiryForm.vue";
 import HomePage from "./pages/HomePage.vue";
@@ -165,7 +167,7 @@ onBeforeUnmount(() => {
       >
     </nav>
     <button class="button header-cta" @click="consult">
-      Let’s talk <ArrowUpRight :size="17" /></button
+      Let us talk <ArrowUpRight :size="17" /></button
     ><button
       class="menu-toggle icon-button"
       @click="mobileMenu = !mobileMenu"
@@ -195,23 +197,8 @@ onBeforeUnmount(() => {
         </section></div
     ></Transition>
   </main>
-  <footer>
-    <a class="brand" href="#/" @click="navClicked('home')"><BrandLogo /></a>
-    <p>Spaces with soul. Designed around you.</p>
-    <nav aria-label="Footer navigation" class="footer-nav">
-      <a
-        v-for="link in links"
-        :key="link.id"
-        :href="link.href"
-        @click="navClicked(link.id)"
-        >{{ link.label }}</a
-      >
-    </nav>
-    <div class="footer-bottom">
-      <span>© {{ new Date().getFullYear() }} Vsn Interiors</span
-      ><span>DESIGN · DETAIL · EVERYDAY LIVING</span>
-    </div>
-  </footer>
+  <SiteFooter />
+  <WhatsAppButton />
   <dialog
     ref="galleryDialog"
     class="gallery-dialog"

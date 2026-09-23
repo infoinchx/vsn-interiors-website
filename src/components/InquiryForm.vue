@@ -1,9 +1,10 @@
 <script setup>
 import { ref, watch } from "vue";
-import { Download, ArrowUpRight } from "lucide-vue-next";
+import { Download, ArrowUpRight, MessageCircle, Mail } from "lucide-vue-next";
 import { business } from "../config";
 import { serviceCatalog } from "../data/serviceCatalog";
 const services = serviceCatalog;
+const channel = ref(business.whatsapp ? "whatsapp" : "email");
 const props = defineProps({
   space: { type: String, default: "Complete home" },
 });
@@ -43,6 +44,22 @@ async function submit() {
       if (!response.ok)
         throw Error("We could not send your enquiry. Please try again.");
       formStatus.value = "Thank you. Your enquiry has been sent.";
+    } else if (channel.value === "whatsapp" && business.whatsapp) {
+      const message =
+        "Hello VSN Interiors, I would like to discuss my project.\n\n" +
+        Object.entries(form.value)
+          .map(([k, v]) => k.charAt(0).toUpperCase() + k.slice(1) + ": " + v)
+          .join("\n");
+      window.open(
+        "https://wa.me/" +
+          business.whatsapp +
+          "?text=" +
+          encodeURIComponent(message),
+        "_blank",
+        "noopener,noreferrer",
+      );
+      formStatus.value =
+        "Your brief opens in WhatsApp. Press Send there to share it with our studio.";
     } else if (business.email) {
       window.location.href = `mailto:${business.email}?subject=${encodeURIComponent("Interior design enquiry from " + form.value.name)}&body=${encodeURIComponent(
         Object.entries(form.value)
@@ -129,23 +146,48 @@ async function submit() {
     </label>
     <p
       class="preview-notice"
-      v-if="!business.inquiryEndpoint && !business.email"
+      v-if="!business.inquiryEndpoint && !business.email && !business.whatsapp"
     >
       Preview mode: save your brief as a text file. No information is sent or
       stored by this website.
     </p>
-    <p class="preview-notice" v-else>
-      Your details will be used to respond to this design enquiry.
+    <fieldset
+      class="send-options"
+      v-if="!business.inquiryEndpoint && (business.whatsapp || business.email)"
+    >
+      <legend>How would you like to share your brief?</legend>
+      <label v-if="business.whatsapp"
+        ><input type="radio" v-model="channel" value="whatsapp" /><MessageCircle
+          :size="17"
+        />WhatsApp</label
+      ><label v-if="business.email"
+        ><input type="radio" v-model="channel" value="email" /><Mail
+          :size="17"
+        />Email</label
+      >
+    </fieldset>
+    <p
+      class="preview-notice"
+      v-if="!business.inquiryEndpoint && (business.whatsapp || business.email)"
+    >
+      Your chosen app opens with your brief ready. You press Send to share it
+      with VSN Interiors.
     </p>
     <button class="button submit-button" :disabled="sending">
       {{
         sending
           ? "Sending…"
-          : !business.inquiryEndpoint && !business.email
-            ? "Download my design brief"
-            : "Send my enquiry"
+          : business.inquiryEndpoint
+            ? "Send enquiry"
+            : !business.email && !business.whatsapp
+              ? "Download my design brief"
+              : channel === "whatsapp"
+                ? "Continue to WhatsApp"
+                : "Open email draft"
       }}<Download
-        v-if="!business.inquiryEndpoint && !business.email"
+        v-if="
+          !business.inquiryEndpoint && !business.email && !business.whatsapp
+        "
         :size="18"
       /><ArrowUpRight v-else :size="18" />
     </button>

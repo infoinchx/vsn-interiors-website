@@ -1,145 +1,148 @@
 <script setup>
-import { ArrowUpRight, Plus } from "lucide-vue-next";
-defineEmits(["consult"]);
+import {
+  ArrowUpRight,
+  Ruler,
+  Layers,
+  Sun,
+  ShieldCheck,
+  Palette,
+  Handshake,
+} from "lucide-vue-next";
+import { business } from "../config";
+const principles = [
+  {
+    icon: Ruler,
+    title: "Plan for real life",
+    text: "Easy movement, practical storage and comfortable furniture positions come first. Each layout starts with how you use your home.",
+  },
+  {
+    icon: Layers,
+    title: "Make every corner useful",
+    text: "From loft storage to a compact pooja unit, we look for ways to give everyday essentials a considered place.",
+  },
+  {
+    icon: Palette,
+    title: "Choose a connected palette",
+    text: "Wood, colour, stone and fabric should work together. We balance Indian warmth with clean contemporary detailing.",
+  },
+  {
+    icon: Sun,
+    title: "Work with light",
+    text: "Natural daylight, task lighting and softer evening light each have a role. We plan them alongside the room itself.",
+  },
+  {
+    icon: ShieldCheck,
+    title: "Think beyond the photograph",
+    text: "Material choices need to suit the space, its use and its upkeep. We discuss finishes and maintenance while planning.",
+  },
+  {
+    icon: Handshake,
+    title: "Keep decisions clear",
+    text: "Layouts, materials, drawings and scope are discussed together, so you understand the design before execution begins.",
+  },
+];
 </script>
 <template>
   <div class="about-page">
-    <section class="about-cover section">
-      <p class="eyebrow copper">THE STUDIO / VSN INTERIORS</p>
-      <h1 tabindex="-1">
-        Good spaces start<br />with <span>real connection.</span>
-      </h1>
-      <div class="about-cover-bottom">
-        <p>Thoughtful interiors, shaped around the people who live in them.</p>
-        <span>DESIGN WITH INTENTION.<br />DETAIL WITH CARE.</span>
+    <section class="founder-intro section">
+      <div class="founder-intro-top">
+        <p class="eyebrow copper">ABOUT VSN INTERIORS</p>
+        <span>ROOTED IN VIZIANAGARAM</span>
       </div>
-      <div class="about-collage">
-        <figure>
+      <div class="real-founder-layout">
+        <div class="real-founder-photo">
           <img
-            :src="'images/generated/living-courtyard.webp'"
-            alt="Sunlit courtyard living room concept"
-            width="1536"
-            height="1024"
+            :src="'images/' + business.founder.image"
+            :alt="business.founder.name + ', founder of VSN Interiors'"
+            width="1920"
+            height="1280"
+            fetchpriority="high"
           />
-          <figcaption>THE WAY WE LIVE.</figcaption>
-        </figure>
-        <figure>
-          <img
-            :src="'images/edition3/service-panels.webp'"
-            alt="Natural wall materials and careful interior detailing"
-            width="1536"
-            height="1024"
-            loading="lazy"
-          />
-          <figcaption>THE DETAILS WE NOTICE.</figcaption>
-        </figure>
-        <span class="collage-note">A personal<br />point of view.</span>
-      </div>
-    </section>
-    <section class="section founder-section" id="founder">
-      <div class="founder-portrait reveal">
-        <img
-          :src="'images/edition3/founder-ganesh.webp'"
-          alt="AI-generated portrait illustrating the fictional founder Ganesh"
-          width="1024"
-          height="1536"
-          loading="lazy"
-        /><span>GANESH / DEMO FOUNDER PROFILE</span>
-      </div>
-      <div class="founder-story reveal">
-        <p class="eyebrow copper">MEET THE FOUNDER</p>
-        <h2>Ganesh.</h2>
-        <p class="founder-role">
-          Founder & Creative Lead <span>Demo profile</span>
-        </p>
-        <blockquote>
-          “A beautiful home should feel like the people who live in it.”
-        </blockquote>
-        <p>
-          Ganesh’s sample founder story centres on a simple idea: thoughtful
-          design begins with listening. The way a family gathers, works, cooks
-          and unwinds gives every home its own starting point.
-        </p>
-        <p>
-          In this demonstration profile, his role brings together the creative
-          direction, material choices and attention to detail behind VSN
-          Interiors.
-        </p>
-        <div class="founder-signoff">
-          <span>DESIGN THAT FEELS PERSONAL.</span
-          ><Plus :size="25" :stroke-width="1" />
+          <div>
+            <span>{{ business.founder.name }}</span
+            ><small>{{ business.founder.role }}</small>
+          </div>
         </div>
-        <p class="demo-note">
-          Fictional biography, illustrative quote and AI-generated portrait,
-          included as requested for the website demo. Replace with verified
-          founder details before launch.
-        </p>
-      </div>
-    </section>
-    <section class="about-manifesto">
-      <p class="eyebrow">OUR POINT OF VIEW</p>
-      <h2>
-        Not just a room<br />you look at.<br /><span>A space you live in.</span>
-      </h2>
-      <div>
-        <p>
-          We bring function and feeling into the same conversation. Storage
-          belongs beside style. Lighting belongs beside colour. The details work
-          best when they work together.
-        </p>
-        <a class="text-link" href="#/services"
-          >How we approach your space <ArrowUpRight :size="20"
-        /></a>
-      </div>
-    </section>
-    <section class="section principles">
-      <div class="section-heading reveal">
-        <div>
-          <p class="eyebrow copper">THE THINGS WE COME BACK TO</p>
-          <h2>Our design<br /><span>principles.</span></h2>
+        <div class="real-founder-copy">
+          <p class="eyebrow copper">MEET THE FOUNDER</p>
+          <h1 tabindex="-1">
+            A personal eye.<br /><span>A practical approach.</span>
+          </h1>
+          <h2>{{ business.founder.name }}</h2>
+          <p>
+            VSN Interiors brings interior design, 3D visualisation and execution
+            together, with our studio based in Dasannapeta, Vizianagaram.
+          </p>
+          <p>
+            From an individual room to a complete home or commercial space, the
+            conversation begins with your needs, your ideas and the way you want
+            the space to work.
+          </p>
+          <a class="text-link" href="#/contact"
+            >Meet us at the studio <ArrowUpRight :size="20"
+          /></a>
+          <div class="founder-facts">
+            <div><small>OUR BASE</small><strong>Vizianagaram</strong></div>
+            <div>
+              <small>OUR FOCUS</small><strong>Design & execution</strong>
+            </div>
+          </div>
         </div>
       </div>
-      <article
-        v-for="(p, i) in [
-          {
-            title: 'Personal before anything else.',
-            text: 'Your routines, tastes and priorities guide the brief. A design feels right when it makes sense for you.',
-          },
-          {
-            title: 'Practical can be beautiful.',
-            text: 'Useful storage, clear circulation and comfortable proportions form the foundation of a well-designed room.',
-          },
-          {
-            title: 'Details make the difference.',
-            text: 'Colour, materials and lighting should tell a coherent story, from the largest surface to the smallest finish.',
-          },
-          {
-            title: 'Clarity creates confidence.',
-            text: 'A shared understanding of the design, scope and specifications keeps the next steps clear.',
-          },
-        ]"
-        :key="p.title"
-        class="principle-row reveal"
-      >
-        <span>0{{ i + 1 }}</span>
-        <h3>{{ p.title }}</h3>
-        <p>{{ p.text }}</p>
-      </article>
     </section>
-    <section class="about-invite">
+    <section
+      v-if="business.coFounder.name && business.coFounder.image"
+      class="section cofounder-section"
+    >
       <img
-        :src="'images/generated/office-walnut.webp'"
-        alt="Warm design studio inspiration"
+        :src="'images/' + business.coFounder.image"
+        :alt="business.coFounder.name"
         loading="lazy"
-        width="1536"
-        height="1024"
       />
       <div>
-        <p class="eyebrow">YOUR STORY COULD BE NEXT</p>
-        <h2>Let’s get<br />to know your space.</h2>
-        <a class="button button-white" href="#/contact"
-          >Start a conversation <ArrowUpRight :size="19"
-        /></a>
+        <p class="eyebrow copper">MEET THE TEAM</p>
+        <h2>{{ business.coFounder.name }}</h2>
+        <p>{{ business.coFounder.role }}</p>
+      </div>
+    </section>
+    <section class="section design-principles">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow copper">HOW WE THINK ABOUT YOUR SPACE</p>
+          <h2>Our design<br /><span>principles.</span></h2>
+        </div>
+        <p>Beautiful details work best when the whole room makes sense.</p>
+      </div>
+      <div class="principle-grid">
+        <article
+          v-for="(p, i) in principles"
+          :key="p.title"
+          class="principle-card reveal"
+        >
+          <div>
+            <component :is="p.icon" :size="27" :stroke-width="1.35" /><span
+              >0{{ i + 1 }}</span
+            >
+          </div>
+          <h3>{{ p.title }}</h3>
+          <p>{{ p.text }}</p>
+        </article>
+      </div>
+    </section>
+    <section class="studio-address-band">
+      <div>
+        <p class="eyebrow">VISIT OUR STUDIO</p>
+        <h2>Local roots.<br /><span>A wider perspective.</span></h2>
+      </div>
+      <div>
+        <p v-for="line in business.addressLines" :key="line">{{ line }}</p>
+        <a
+          :href="business.maps"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-link"
+          >Get directions <ArrowUpRight :size="20" /></a
+        ><small>{{ business.areas.join(" · ") }}</small>
       </div>
     </section>
   </div>

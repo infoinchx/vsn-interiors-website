@@ -12,17 +12,26 @@ import {
   Check,
 } from "lucide-vue-next";
 import RoomScene from "./RoomScene.vue";
-import AtelierScene from "./AtelierScene.vue";
-const props = defineProps({ variant: { type: String, default: "home" } });
-defineEmits(["open-project"]);
 const room = ref(null),
   palette = ref("teal"),
   night = ref(false),
   paused = ref(false),
   expanded = ref(false),
   stage = ref(null),
-  expandButton = ref(null);
+  expandButton = ref(null),
+  view = ref("overview");
+const views = [
+  ["overview", "Whole home"],
+  ["living", "Living"],
+  ["kitchen", "Kitchen"],
+  ["dining", "Dining"],
+  ["pooja", "Pooja"],
+];
 let previousOverflow = "";
+function setView(id) {
+  view.value = id;
+  room.value?.setView(id);
+}
 watch(expanded, async (value) => {
   if (value) {
     previousOverflow = document.body.style.overflow;
@@ -64,31 +73,19 @@ onBeforeUnmount(() => {
     :class="{ expanded }"
     :role="expanded ? 'dialog' : undefined"
     :aria-modal="expanded || undefined"
-    aria-label="Interactive interior concept"
+    aria-label="Interactive Indian home concept"
     @keydown="keys"
   >
     <div class="stage-canvas">
       <RoomScene
-        v-if="variant === 'home'"
         ref="room"
         :palette="palette"
         :night="night"
         :paused="paused"
-      /><AtelierScene
-        v-else
-        ref="room"
-        variant="gallery"
-        :palette="palette"
-        :night="night"
-        :paused="paused"
-        @select-project="$emit('open-project', $event)"
       />
     </div>
     <div class="stage-label">
-      <Move3d :size="17" />{{
-        variant === "home" ? "THE LIVING ROOM" : "THE EXHIBITION"
-      }}
-      · INTERACTIVE 3D
+      <Move3d :size="17" />THE INDIAN HOME / LIVE 3D
     </div>
     <button
       ref="expandButton"
@@ -98,8 +95,19 @@ onBeforeUnmount(() => {
     >
       <X v-if="expanded" :size="18" /><Expand v-else :size="18" />
     </button>
+    <div class="stage-views" role="group" aria-label="Explore room views">
+      <button
+        v-for="[id, label] in views"
+        :key="id"
+        @click="setView(id)"
+        :aria-pressed="view === id"
+        :class="{ active: view === id }"
+      >
+        {{ label }}
+      </button>
+    </div>
     <div class="stage-toolbar">
-      <p>Drag to rotate <span>· Pinch or scroll to zoom</span></p>
+      <p>Drag to explore <span>· Pinch to zoom</span></p>
       <div class="stage-swatches">
         <span>Upholstery</span
         ><button
@@ -120,7 +128,7 @@ onBeforeUnmount(() => {
       <div class="stage-actions">
         <button
           class="icon-button"
-          @click="room?.reset()"
+          @click="setView('overview')"
           aria-label="Reset camera"
         >
           <RotateCcw :size="17" /></button
