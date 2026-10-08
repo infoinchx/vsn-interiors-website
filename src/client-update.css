@@ -1,0 +1,296 @@
+.client-edition {
+  --edition-paper: #f7f5ef;
+  --edition-ink: #263e31;
+  --edition-accent: #526c52;
+  font-family: Arial, sans-serif;
+}
+.client-edition h2 {
+  font-size: clamp(27px, 3vw, 42px);
+  letter-spacing: -.045em;
+  line-height: 1.15;
+}
+.client-edition h3 { letter-spacing: -.025em; }
+.client-edition .section { padding-block: clamp(54px, 6vw, 90px); }
+.client-edition .section-heading .eyebrow { margin-bottom: 13px; }
+.vsn-container { width: min(89%, 1320px); margin-inline: auto; }
+.vsn-kicker { font-size: 10px; letter-spacing: .15em; font-weight: 700; line-height: 1.6; }
+.vsn-image-hero { --hero-ground: #f7f5ef; background: var(--hero-ground); color: #2c382e; padding: 18px 22px 0; }
+.vsn-hero-media { position: relative; max-width: 1720px; margin-inline: auto; }
+.vsn-reel { position: relative; isolation: isolate; overflow: hidden; background: #bbb6a6; width: 100%; height: 100%; }
+.vsn-reel-frame { position: absolute; inset: 0; opacity: 0; transition: opacity 1.25s ease-in-out; pointer-events: none; }
+.vsn-reel-active { opacity: 1; z-index: 1; }
+.vsn-reel-frame img { width: 100%; height: 100%; object-fit: cover; transform: scale(1.025); transition: transform 7s linear; }
+.vsn-reel-active img { transform: scale(1); }
+.vsn-reel-overlay { position: absolute; inset: 0; z-index: 2; color: #fffaf1; }
+.vsn-hero-media > .vsn-reel { height: clamp(430px, 43vw, 650px); border-radius: 24px; }
+.vsn-hero-media .vsn-reel-overlay { display: flex; flex-direction: column; justify-content: space-between; padding: 30px 3.8% 38px; background: linear-gradient(180deg, #101b1230 0%, transparent 26%, transparent 52%, #101b1299 100%); }
+.vsn-hero-eyebrow { display: inline-flex; align-items: center; gap: 9px; align-self: flex-start; border: 1px solid #ffffff55; padding: 9px 13px; border-radius: 30px; background: #15271c6b; backdrop-filter: blur(8px); font-size: 10px; letter-spacing: .12em; line-height: 1.5; }
+.vsn-status-dot { width: 5px; height: 5px; border-radius: 50%; background: #e3e6c6; flex-shrink: 0; }
+.client-edition .vsn-hero-title h1 { font-size: clamp(29px, 3.3vw, 48px); font-weight: 500; line-height: 1.12; letter-spacing: -.045em; color: #fffdf7; max-width: 650px; text-shadow: 0 2px 16px #0004; }
+.vsn-hero-title { max-width: calc(100% - 245px); }
+.vsn-hero-title p { font-size: 13px; line-height: 1.6; margin-top: 10px; color: #fff5e8; }
+.vsn-hero-cutout { position: absolute; right: -1px; bottom: -1px; display: flex; align-items: center; gap: 22px; padding: 18px 10px 0 24px; border-top-left-radius: 25px; background: var(--hero-ground); z-index: 3; }
+.vsn-hero-cutout::before, .vsn-hero-cutout::after { content: ""; position: absolute; width: 24px; height: 24px; background: transparent; border-bottom-right-radius: 24px; box-shadow: 7px 7px 0 6px var(--hero-ground); }
+.vsn-hero-cutout::before { left: -24px; bottom: 0; }
+.vsn-hero-cutout::after { right: 0; top: -24px; }
+.vsn-hero-cutout > span:first-child { font-size: 9px; letter-spacing: .14em; font-weight: 600; }
+.vsn-cutout-mark { border: 1px solid #cad0c5; border-radius: 50%; width: 43px; height: 43px; display: grid; place-items: center; font-size: 24px; }
+.vsn-hero-below { max-width: 1320px; width: 94%; margin-inline: auto; display: grid; grid-template-columns: 1.15fr 1fr auto; align-items: center; gap: 42px; padding: 35px 0 42px; }
+.vsn-hero-below .vsn-kicker { color: #62745c; margin-bottom: 9px; }
+.client-edition .vsn-hero-below h2 { font-size: clamp(23px, 2.2vw, 31px); max-width: 440px; font-weight: 500; }
+.vsn-hero-description { color: #62685c; font-size: 13px; line-height: 1.85; max-width: 49ch; }
+.vsn-pill-link { display: inline-flex; align-items: center; justify-content: center; gap: 20px; padding: 15px 22px; min-height: 50px; width: fit-content; background: #2f4939; color: #fffdf7; border: 1px solid #2f4939; border-radius: 30px; white-space: nowrap; font-size: 12px; line-height: 1.5; transition: background .2s, transform .2s; }
+.vsn-pill-link:hover { background: #44614b; transform: translateY(-2px); }
+.vsn-image-hero-about { --hero-ground: #f6f1e8; }
+.vsn-image-hero-about .vsn-hero-media > .vsn-reel { border-radius: 4px 80px 4px 4px; height: clamp(420px, 40vw, 610px); }
+.vsn-image-hero-about .vsn-pill-link { background: #66323b; border-color: #66323b; }
+.vsn-image-hero-about .vsn-hero-below .vsn-kicker { color: #814b4b; }
+.vsn-image-hero-about .vsn-hero-cutout { border-top-left-radius: 0; }
+.vsn-image-hero-services { --hero-ground: #eeeee5; }
+.vsn-image-hero-services .vsn-hero-media > .vsn-reel { border-radius: 5px; height: clamp(425px, 42vw, 620px); }
+.vsn-image-hero-services .vsn-hero-cutout { display: none; }
+.vsn-image-hero-services .vsn-hero-title { max-width: 80%; }
+.vsn-image-hero-gallery { --hero-ground: #163d32; color: #f3f0de; }
+.vsn-image-hero-gallery .vsn-hero-below .vsn-kicker, .vsn-image-hero-gallery .vsn-hero-description { color: #c6d3ba; }
+.vsn-image-hero-gallery .vsn-hero-media > .vsn-reel { border-radius: 80px 4px 4px 4px; }
+.vsn-image-hero-gallery .vsn-pill-link { background: #eee9d6; border-color: #eee9d6; color: #173d32; }
+.vsn-image-hero-contact { --hero-ground: #f5f5eb; }
+.vsn-image-hero-contact .vsn-hero-media > .vsn-reel { border-radius: 28px 100px 28px 28px; height: clamp(420px, 40vw, 600px); }
+.vsn-image-hero-contact .vsn-hero-title { max-width: 570px; }
+.vsn-image-hero-contact .vsn-hero-cutout { background: #f5f5eb; }
+.vsn-home-edit { width: min(94%, 1560px); margin: 0 auto; background: #eeeee3; border-radius: 22px; overflow: hidden; }
+.vsn-home-banner { height: clamp(330px, 36vw, 520px); }
+.vsn-home-banner .vsn-reel-overlay { display: flex; align-items: flex-end; padding: 36px 4%; background: linear-gradient(transparent 50%, #112d24a6); }
+.vsn-banner-caption > span { font-size: 10px; letter-spacing: .17em; }
+.client-edition .vsn-banner-caption h2 { font-size: clamp(25px, 2.6vw, 36px); font-weight: 500; margin-top: 9px; }
+.vsn-home-edit-content { display: grid; grid-template-columns: .85fr 1.15fr; padding: 52px 5%; gap: 9%; }
+.vsn-home-edit-intro .vsn-kicker { color: #68815c; margin-bottom: 15px; }
+.vsn-home-edit-intro .vsn-pill-link { margin-top: 28px; }
+.vsn-service-rail { display: grid; grid-template-columns: 25px 1fr 20px; gap: 15px; padding: 23px 0; border-top: 1px solid #c9d0bd; }
+.vsn-service-rail > span { font-size: 11px; padding-top: 4px; color: #6a765f; }
+.vsn-service-rail h3 { font-size: 18px; font-weight: 500; }
+.vsn-service-rail p { font-size: 12px; color: #67715f; margin-top: 6px; line-height: 1.8; }
+.vsn-service-rail > svg { margin-top: 3px; transition: transform .2s; }
+.vsn-service-rail:hover > svg { transform: translate(3px, -3px); }
+.client-edition .room-tile > div { border-radius: 12px; }
+.client-edition .room-tile h3 { font-size: 17px; }
+.client-edition .sa-principles-layout { grid-template-columns: minmax(0,1fr) minmax(0,1.1fr); gap: 8%; }
+.client-edition .vsn-principles-photos { height: clamp(280px, 30vw, 430px); border-radius: 8px 60px 8px 8px; margin-bottom: 30px; }
+.client-edition .sa-principles-intro > .studio-kicker { margin-bottom: 12px; }
+.client-edition .sa-principles-intro h2 { font-size: clamp(25px, 2.9vw, 37px); max-width: 430px; }
+.client-edition .sa-principles-intro > p:last-of-type { max-width: 37ch; margin-top: 14px; font-size: 13px; }
+.client-edition .sa-principle-list { padding-top: 4px; }
+.client-edition .sa-founder-copy h2 { font-size: clamp(28px, 3vw, 39px); }
+.client-edition .sa-founder-copy > p:not(.studio-kicker) { font-size: 14px; }
+.client-edition .sa-material-heading { gap: 35px; }
+.client-edition .sa-journey-grid h3 { font-size: 21px; }
+.vsn-service-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 35px 24px; }
+.vsn-service-card { min-width: 0; background: #fffefa; border-radius: 12px; border: 1px solid #dedfd2; overflow: hidden; display: flex; flex-direction: column; }
+.vsn-service-photo { position: relative; overflow: hidden; aspect-ratio: 3/2; }
+.vsn-service-photo img { width: 100%; height: 100%; transition: transform .55s; }
+.vsn-service-card:hover .vsn-service-photo img { transform: scale(1.035); }
+.vsn-service-photo > span { position: absolute; left: 15px; top: 15px; border-radius: 50%; width: 35px; height: 35px; display: grid; place-items: center; background: #ffffffe3; color: #2b4132; font-size: 11px; }
+.vsn-service-body { padding: 24px; display: flex; flex-direction: column; flex: 1; }
+.vsn-service-body > .vsn-kicker { color: #7b856a; font-size: 9px; margin-bottom: 9px; }
+.vsn-service-body h3 { font-size: 22px; font-weight: 500; margin-bottom: 12px; }
+.vsn-service-body > p:not(.vsn-kicker) { font-size: 13px; line-height: 1.85; color: #677060; margin-bottom: 21px; }
+.vsn-service-includes { margin-top: auto; border-top: 1px solid #e3e5d9; }
+.vsn-service-includes summary { display: flex; justify-content: space-between; align-items: center; padding-block: 15px; cursor: pointer; list-style: none; font-size: 12px; }
+.vsn-service-includes summary::-webkit-details-marker { display: none; }
+.vsn-service-includes[open] summary > svg { transform: rotate(45deg); }
+.vsn-service-includes ul { list-style: none; padding: 0; margin: 0 0 18px; }
+.vsn-service-includes li { display: flex; align-items: flex-start; gap: 10px; font-size: 12px; line-height: 1.7; margin-bottom: 7px; }
+.vsn-service-includes li svg { margin-top: 2px; }
+.vsn-service-discuss { display: flex; align-items: center; justify-content: space-between; background: #eef0e4; width: 100%; padding: 12px 15px; min-height: 45px; border-radius: 6px; font-size: 12px; transition: background .2s; }
+.vsn-service-discuss:hover { background: #dfe5d2; }
+.vsn-contact { background: #f5f5eb; color: #2e4534; overflow: clip; }
+.vsn-contact-direct { display: grid; grid-template-columns: 1fr 1fr 1.15fr; gap: 16px; padding-top: 8px; }
+.vsn-contact-direct > a { display: grid; grid-template-columns: 35px 1fr 16px; align-items: start; gap: 13px; padding: 27px 20px; border: 1px solid #d6dfcb; border-radius: 13px; background: #eef1e5; transition: background .2s, transform .2s; min-width: 0; }
+.vsn-contact-direct > a:nth-child(2) { background: #e4ebda; }
+.vsn-contact-direct > a:nth-child(3) { background: #efe8dc; border-color: #e0d8ca; }
+.vsn-contact-direct > a:hover { background: #dce6d0; transform: translateY(-3px); }
+.vsn-contact-icon { padding-top: 4px; }
+.vsn-contact-direct > a > div { min-width: 0; }
+.vsn-contact-direct > a > svg { width: 16px; margin-top: 2px; }
+.vsn-contact-direct div > span { font-size: 9px; letter-spacing: .13em; }
+.vsn-contact-direct h3 { font-size: clamp(13px, 1.25vw, 17px); font-weight: 500; margin-block: 10px 7px; line-height: 1.45; overflow-wrap: anywhere; }
+.vsn-contact-direct p { font-size: 11px; color: #6a765f; line-height: 1.7; }
+.vsn-contact-enquiry { display: grid; grid-template-columns: 1fr 1.07fr; gap: 30px; align-items: start; padding-block: 72px; scroll-margin-top: 105px; }
+.vsn-visit-column { min-width: 0; }
+.vsn-consult-photo { overflow: hidden; border-radius: 18px 70px 18px 18px; position: relative; }
+.vsn-consult-photo img { width: 100%; height: auto; aspect-ratio: 3/2; }
+.vsn-consult-photo figcaption { position: absolute; bottom: 0; inset-inline: 0; padding: 55px 25px 20px; color: white; background: linear-gradient(transparent, #1a301ab3); font-size: 13px; line-height: 1.6; }
+.vsn-consult-photo figcaption span { display: block; font-size: 9px; letter-spacing: .1em; opacity: .8; margin-top: 4px; }
+.vsn-visit-card { padding: 35px 28px 28px; margin-top: 20px; border-radius: 16px; background: #e8ecdd; scroll-margin-top: 110px; }
+.vsn-visit-card .vsn-kicker { display: flex; gap: 7px; align-items: center; color: #617655; margin-bottom: 15px; }
+.client-edition .vsn-visit-card h2 { font-size: clamp(25px, 2.4vw, 34px); font-weight: 500; margin-bottom: 24px; }
+.vsn-visit-card address { font-style: normal; font-size: 13px; line-height: 1.9; color: #53634e; }
+.vsn-visit-card address span { display: block; }
+.vsn-visit-card > p:not(.vsn-kicker) { margin-top: 12px; font-size: 11px; color: #727a69; }
+.vsn-visit-card .vsn-pill-link { margin-top: 23px; border-radius: 7px; background: transparent; border-color: #bcc7ac; color: #2e4934; font-size: 12px; padding: 12px 19px; }
+.vsn-service-areas { padding-top: 25px; margin-top: 28px; border-top: 1px solid #cbd5bd; }
+.vsn-service-areas > span { font-size: 9px; letter-spacing: .13em; color: #627358; }
+.vsn-service-areas p { margin-top: 6px; font-size: 11px; }
+.vsn-enquiry-form { background: #fffef8; border: 1px solid #e1e4d5; border-radius: 20px; padding: clamp(25px, 3.1vw, 44px); min-width: 0; box-shadow: 0 15px 45px #364d3610; }
+.vsn-enquiry-form > .vsn-kicker { color: #7c855f; margin-bottom: 14px; }
+.client-edition .vsn-enquiry-form h2 { font-size: clamp(27px, 2.6vw, 36px); font-weight: 500; }
+.vsn-form-intro { font-size: 13px; color: #77806d; margin-block: 14px 29px; }
+.vsn-form-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 22px 17px; }
+.vsn-form-grid > label { display: block; font-size: 11px; font-weight: 600; line-height: 1.6; }
+.vsn-form-grid > label > span { color: #a46b48; margin-left: 3px; }
+.vsn-form-grid > label > .vsn-optional { color: #899080; font-size: 10px; font-weight: 400; margin-left: 7px; }
+.vsn-form-grid input, .vsn-form-grid select, .vsn-form-grid textarea { display: block; width: 100%; min-width: 0; max-width: 100%; margin-top: 8px; border: 1px solid #d7ddcb; border-radius: 7px; padding: 13px 12px; font-size: 13px; font-weight: 400; min-height: 47px; background: #fdfdf7; color: #344c39; box-shadow: none; }
+.vsn-form-grid select { padding-right: 23px; }
+.vsn-form-grid textarea { resize: vertical; min-height: 100px; line-height: 1.7; }
+.vsn-form-grid input::placeholder, .vsn-form-grid textarea::placeholder { color: #8a8e80; opacity: 1; }
+.vsn-form-grid [aria-invalid="true"] { border-color: #b4533e; }
+.vsn-form-grid .vsn-form-wide { grid-column: 1/-1; }
+.vsn-channel { border: 0; padding: 0; margin: 24px 0; display: flex; flex-wrap: wrap; gap: 13px; }
+.vsn-channel legend { padding: 0; margin-bottom: 12px; font-size: 11px; }
+.vsn-channel label { display: inline-flex; gap: 8px; align-items: center; border: 1px solid #d7ddcb; padding: 11px 13px; min-height: 44px; border-radius: 7px; cursor: pointer; font-size: 12px; }
+.vsn-channel label:has(input:checked) { background: #e9efdf; border-color: #8c9d79; }
+.vsn-channel input { accent-color: #3e5e40; width: 14px; height: 14px; margin: 0; }
+.vsn-submit { display: flex; width: 100%; min-height: 52px; padding: 14px 20px; background: #3f5e43; color: #fff; justify-content: space-between; align-items: center; gap: 15px; border-radius: 7px; font-size: 13px; margin-top: 23px; transition: background .2s; }
+.vsn-submit:hover { background: #2d4b32; }
+.vsn-form-note { font-size: 10px; line-height: 1.7; color: #7a806f; margin-top: 12px; }
+.vsn-field-error { display: block; font-size: 11px; line-height: 1.5; color: #a13e2e; margin-top: 6px; font-weight: 400; }
+.vsn-form-feedback { display: flex; align-items: flex-start; gap: 10px; background: #ecf2e2; border-radius: 8px; padding: 15px; margin-top: 20px; font-size: 12px; }
+.vsn-form-feedback p { font-size: 12px; line-height: 1.7; }
+.vsn-form-feedback a { display: inline-flex; align-items: center; gap: 8px; text-decoration: underline; font-size: 12px; margin-top: 8px; }
+.vsn-contact-faq { padding-block: 0 80px; display: grid; grid-template-columns: .9fr 1.2fr; gap: 10%; }
+.vsn-contact-faq > div:first-child > .vsn-kicker { color: #738261; margin-bottom: 16px; }
+.client-edition .vsn-contact-faq h2 { font-size: clamp(27px, 2.8vw, 38px); font-weight: 500; }
+.vsn-contact-faq > div:first-child > p:not(.vsn-kicker) { font-size: 13px; color: #6b7961; margin-top: 18px; }
+.vsn-text-link { display: inline-flex; align-items: center; gap: 15px; font-size: 12px; min-height: 44px; border-bottom: 1px solid #9ba98c; margin-top: 13px; }
+.vsn-faq-list { border-top: 1px solid #d1dac5; }
+.vsn-faq-list details { border-bottom: 1px solid #d1dac5; }
+.vsn-faq-list summary { display: grid; grid-template-columns: 22px 1fr 20px; gap: 14px; align-items: center; padding: 23px 0; list-style: none; cursor: pointer; }
+.vsn-faq-list summary::-webkit-details-marker { display: none; }
+.vsn-faq-list summary > span { font-size: 10px; color: #839071; }
+.vsn-faq-list h3 { font-size: 15px; line-height: 1.6; font-weight: 500; }
+.vsn-faq-list details > p { font-size: 13px; line-height: 1.85; margin: 0 30px 24px 36px; color: #6a755e; }
+.vsn-faq-list details[open] summary > svg { transform: rotate(45deg); }
+.vsn-contact-social { background: #dedfc8; padding-block: 45px; }
+.vsn-contact-social > .vsn-container { display: flex; justify-content: space-between; gap: 32px; align-items: center; }
+.vsn-contact-social .vsn-kicker { color: #68734d; margin-bottom: 9px; }
+.client-edition .vsn-contact-social h2 { font-size: clamp(23px, 2.4vw, 32px); font-weight: 500; }
+.vsn-contact-social > div > div:last-child { display: flex; gap: 17px; }
+.vsn-contact-social a { display: inline-flex; align-items: center; gap: 13px; border: 1px solid #b9c1a3; border-radius: 30px; padding: 14px 20px; font-size: 12px; }
+.vsn-contact-social a:hover { background: #eef0e0; }
+@media (min-width: 1700px) {
+  .vsn-image-hero { padding-top: 25px; }
+}
+@media (max-width: 1100px) {
+  .vsn-hero-below { grid-template-columns: 1fr 1fr; gap: 20px 30px; padding-bottom: 32px; }
+  .vsn-hero-below .vsn-pill-link { grid-column: 1/-1; padding: 12px 19px; min-height: 44px; }
+  .vsn-hero-media > .vsn-reel { height: 480px; }
+  .vsn-contact-direct { gap: 10px; }
+  .vsn-contact-direct > a { grid-template-columns: 1fr 16px; gap: 8px; padding: 21px 16px; }
+  .vsn-contact-icon { grid-column: 1; margin-bottom: 7px; }
+  .vsn-contact-direct > a > div { grid-column: 1/-1; grid-row: 2; }
+  .vsn-contact-direct > a > svg { grid-row: 1; grid-column: 2; }
+  .vsn-contact-direct h3 { font-size: 14px; }
+  .vsn-contact-enquiry { gap: 22px; }
+  .vsn-enquiry-form { padding: 25px; }
+  .vsn-service-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .vsn-service-body { padding: 23px; }
+  .client-edition .sa-principles-layout { gap: 5%; }
+}
+@media (max-width: 760px) {
+  .vsn-image-hero { padding: 12px 12px 0; }
+  .vsn-hero-media > .vsn-reel, .vsn-image-hero-about .vsn-hero-media > .vsn-reel, .vsn-image-hero-services .vsn-hero-media > .vsn-reel, .vsn-image-hero-contact .vsn-hero-media > .vsn-reel { height: clamp(360px, 65vw, 460px); }
+  .vsn-hero-media .vsn-reel-overlay { padding: 22px 24px 42px; }
+  .client-edition .vsn-hero-title h1 { font-size: 34px; max-width: 420px; }
+  .vsn-hero-title { max-width: 100%; }
+  .vsn-hero-title p { font-size: 12px; max-width: calc(100% - 70px); }
+  .vsn-hero-cutout { padding: 12px 4px 0 14px; border-top-left-radius: 20px; }
+  .vsn-hero-cutout > span:first-child { display: none; }
+  .vsn-cutout-mark { width: 36px; height: 36px; font-size: 20px; }
+  .vsn-hero-eyebrow { font-size: 8px; padding: 8px 11px; }
+  .vsn-image-hero-about .vsn-hero-media > .vsn-reel { border-radius: 4px 55px 4px 4px; }
+  .vsn-image-hero-gallery .vsn-hero-media > .vsn-reel { border-top-left-radius: 55px; }
+  .vsn-image-hero-contact .vsn-hero-media > .vsn-reel { border-radius: 20px 65px 20px 20px; }
+  .vsn-hero-below { padding-block: 26px 33px; width: 92%; gap: 16px 22px; }
+  .vsn-hero-description { font-size: 12px; }
+  .vsn-home-edit-content { gap: 26px; grid-template-columns: 1fr; padding: 33px 6%; }
+  .vsn-home-edit-intro .vsn-pill-link { margin-top: 19px; }
+  .vsn-home-banner { height: 360px; }
+  .vsn-home-banner .vsn-reel-overlay { padding: 25px 7%; }
+  .vsn-service-rail { padding-block: 19px; }
+  .vsn-container { width: 90%; }
+  .vsn-contact-direct { padding-top: 0; }
+  .vsn-contact-direct h3 { font-size: 12px; }
+  .vsn-contact-direct p { font-size: 10px; }
+  .vsn-contact-enquiry { grid-template-columns: 1fr; padding-block: 45px 54px; gap: 25px; }
+  .vsn-visit-column { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: stretch; }
+  .vsn-consult-photo img { height: 100%; }
+  .vsn-consult-photo figcaption { padding-inline: 16px; font-size: 12px; }
+  .vsn-visit-card { margin-top: 0; padding: 24px 20px; }
+  .vsn-visit-card address { font-size: 11px; }
+  .vsn-visit-card .vsn-kicker { font-size: 8px; }
+  .client-edition .vsn-visit-card h2 { font-size: 23px; }
+  .vsn-enquiry-form { padding: 30px; }
+  .vsn-contact-faq { grid-template-columns: 1fr; gap: 30px; padding-bottom: 52px; }
+  .vsn-contact-social > .vsn-container { align-items: flex-start; flex-direction: column; gap: 23px; }
+  .client-edition .sa-principles-layout { grid-template-columns: 1fr; gap: 32px; }
+  .client-edition .vsn-principles-photos { height: 380px; margin-bottom: 25px; }
+  .client-edition .sa-principles-intro > p:last-of-type { max-width: none; }
+}
+@media (max-width: 520px) {
+  .vsn-image-hero { padding: 8px 8px 0; }
+  .vsn-hero-media > .vsn-reel, .vsn-image-hero-about .vsn-hero-media > .vsn-reel, .vsn-image-hero-services .vsn-hero-media > .vsn-reel, .vsn-image-hero-contact .vsn-hero-media > .vsn-reel { height: clamp(350px, 98vw, 425px); }
+  .vsn-hero-media .vsn-reel-overlay { padding: 18px 18px 40px; }
+  .client-edition .vsn-hero-title h1 { font-size: clamp(28px, 7.5vw, 34px); max-width: 315px; }
+  .vsn-hero-title p { font-size: 11px; max-width: 250px; }
+  .vsn-hero-eyebrow { max-width: 95%; font-size: 7px; letter-spacing: .1em; }
+  .vsn-hero-below { display: flex; align-items: flex-start; flex-direction: column; width: 90%; padding-block: 25px 30px; gap: 16px; }
+  .client-edition .vsn-hero-below h2 { font-size: 25px; max-width: 340px; }
+  .vsn-hero-below .vsn-kicker { font-size: 8px; }
+  .vsn-hero-description { font-size: 12px; line-height: 1.85; max-width: 100%; }
+  .vsn-hero-below .vsn-pill-link { padding: 12px 17px; font-size: 11px; gap: 17px; }
+  .vsn-image-hero-services .vsn-hero-title { max-width: 100%; }
+  .client-edition .section { padding-block: 45px; }
+  .client-edition h2 { font-size: 29px; }
+  .vsn-home-edit { width: 94%; border-radius: 14px; }
+  .vsn-home-banner { height: 335px; }
+  .vsn-home-edit-content { padding: 30px 6%; }
+  .client-edition .vsn-banner-caption h2 { font-size: 27px; }
+  .vsn-service-grid { grid-template-columns: 1fr; gap: 23px; }
+  .vsn-service-body h3 { font-size: 22px; }
+  .vsn-service-body > p:not(.vsn-kicker) { font-size: 12px; }
+  .vsn-contact-direct { grid-template-columns: 1fr; gap: 10px; }
+  .vsn-contact-direct > a { grid-template-columns: 28px 1fr 17px; gap: 15px; padding: 20px; align-items: center; }
+  .vsn-contact-direct > a > div { grid-column: 2; grid-row: 1; }
+  .vsn-contact-direct > a > svg { grid-column: 3; }
+  .vsn-contact-icon { margin: 0; }
+  .vsn-contact-direct h3 { font-size: 15px; margin-block: 5px 4px; }
+  .vsn-contact-direct p { font-size: 11px; }
+  .vsn-visit-column { grid-template-columns: 1fr; gap: 17px; }
+  .vsn-consult-photo { border-radius: 15px 60px 15px 15px; }
+  .vsn-consult-photo img { height: auto; aspect-ratio: 4/3; }
+  .vsn-visit-card { padding: 29px 24px; }
+  .client-edition .vsn-visit-card h2 { font-size: 27px; }
+  .vsn-visit-card address { font-size: 12px; }
+  .vsn-enquiry-form { padding: 29px 22px; }
+  .client-edition .vsn-enquiry-form h2 { font-size: 29px; }
+  .vsn-form-grid { grid-template-columns: 1fr; gap: 18px; }
+  .vsn-form-grid input, .vsn-form-grid select, .vsn-form-grid textarea { font-size: 16px; padding: 13px 11px; }
+  .vsn-form-grid > label { font-size: 11px; }
+  .vsn-channel { gap: 9px; }
+  .vsn-channel label { font-size: 11px; padding: 10px; gap: 6px; }
+  .vsn-submit { font-size: 12px; padding-inline: 15px; }
+  .vsn-faq-list h3 { font-size: 14px; }
+  .vsn-faq-list summary { gap: 10px; grid-template-columns: 19px 1fr 19px; padding-block: 20px; }
+  .vsn-faq-list details > p { margin-left: 29px; font-size: 12px; }
+  .vsn-contact-social { padding-block: 34px; }
+  .vsn-contact-social > div > div:last-child { gap: 10px; width: 100%; }
+  .vsn-contact-social a { gap: 9px; padding: 12px 13px; font-size: 11px; }
+  .vsn-contact-social a > svg { width: 17px; }
+  .client-edition .vsn-principles-photos { height: 315px; border-top-right-radius: 50px; }
+  .client-edition .sa-principles-intro h2 { font-size: 29px; }
+  .client-edition .room-tile h3 { font-size: 14px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .vsn-reel-frame, .vsn-reel-frame img { transition: none; transform: none; }
+  .vsn-pill-link:hover, .vsn-contact-direct > a:hover, .vsn-service-card:hover .vsn-service-photo img { transform: none; }
+}

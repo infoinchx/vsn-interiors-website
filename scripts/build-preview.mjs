@@ -35,7 +35,7 @@ const file = await open(pending, "w");
 try {
   await file.writeFile(
     `<!doctype html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#171a17"><title>VSN Interiors | Vizianagaram</title><link rel="icon" href="public/images/brand/vsn-official.webp"><style>${css}</style></head><body><div id="app"></div><script>${script}</script></body></html>`,
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#171a17"><title>VSN Interiors | Vizianagaram</title><link rel="icon" href="public/images/brand/vsn-share-square-v5.png"><style>${css}</style></head><body><div id="app"></div><script>${script}</script></body></html>`,
   );
   await file.sync();
 } finally {

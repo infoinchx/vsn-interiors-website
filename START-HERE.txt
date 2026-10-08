@@ -1,0 +1,16 @@
+VSN INTERIORS — COMPLETE WEBSITE
+8 October 2026
+
+Extract the complete ZIP into a new folder on D:\.
+Open the vsn-interiors folder, then double-click OPEN-PREVIEW.html.
+Keep the public folder next to OPEN-PREVIEW.html.
+
+To put the update on your domain:
+Upload everything INSIDE dist to your hosting website folder.
+Include index.html and the assets and images folders.
+
+To edit the website:
+Install Node.js, then double-click EDIT-WINDOWS.bat.
+After editing, run npm run build.
+
+Read README.md for the updated pages and setup details.

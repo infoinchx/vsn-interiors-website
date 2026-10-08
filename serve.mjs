@@ -1,4 +1,3 @@
-// Dependency-free local preview of the included production build.
 import http from "node:http";
 import { readFile, stat } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
@@ -11,6 +10,7 @@ const types = {
   ".css": "text/css; charset=utf-8",
   ".jpg": "image/jpeg",
   ".png": "image/png",
+  ".webp": "image/webp",
   ".svg": "image/svg+xml",
   ".woff2": "font/woff2",
   ".ttf": "font/ttf",

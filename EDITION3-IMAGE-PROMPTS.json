@@ -1,32 +1,5 @@
 [
   {
-    "description": "Interlocking architectural planes forming an abstract V, teal and copper, transparent background.",
-    "name": "logo-symbol",
-    "prompt": "Use case: logo-brand. Create a premium symbol-only PNG raster logo for an Indian luxury interior architecture studio. A striking compact architectural monogram without letters: two interlocking planes and a doorway opening suggest an abstract V, beautiful precision, confident restrained composition, recognizable at small sizes. Flat deep teal #103f3b main planes and a single copper #b56844 plane. Crisp clean edges, balanced negative space. Centered square composition. Genuinely transparent background with alpha. No text, no typography, no wordmark, no border, no gradients, no shadows, no presentation mockup. This will be paired with live website typography.",
-    "style": "Premium geometric raster brand mark",
-    "title": "VSN architectural symbol",
-    "type": "logo",
-    "width": 1254,
-    "height": 1254,
-    "format": "PNG",
-    "generationMode": "built-in image_gen",
-    "synthetic": true
-  },
-  {
-    "description": "Fictional Indian male founder in a warm interior studio; intended for an explicitly labeled demo profile.",
-    "name": "founder-ganesh",
-    "prompt": "Use case: photorealistic-natural. Create a fictional Indian male interior studio founder around 37 years old, warm approachable confident expression, neatly styled short black hair and trimmed beard, wearing relaxed professional olive linen shirt, seated casually in a premium interior design studio. Vertical 2:3 portrait from waist up, natural candid editorial photography. Cream plaster wall, teak shelves with material samples and restrained ceramics, soft greenery, architectural plans softly blurred behind him. Soft side daylight, natural skin texture, believable proportions and hands, sophisticated warm copper and deep teal accents. No text, no logos, no watermark. This is a synthetic illustrative portrait for an explicitly labeled demo profile, not a depiction of a real person.",
-    "style": "Natural editorial portrait",
-    "title": "Ganesh \u2014 illustrative founder portrait",
-    "type": "portrait",
-    "width": 1024,
-    "height": 1536,
-    "format": "PNG",
-    "generationMode": "built-in image_gen",
-    "synthetic": true,
-    "disclosure": "Fictional demonstration profile; AI-generated portrait, not a real person."
-  },
-  {
     "description": "A spacious contemporary Indian villa bathroom, sculptural cream freestanding bathtub beside full height greenery-facing window, deep teal handmade glazed tile wet wall, double floating teak vanity, warm copper taps, natural limestone floor, pristine luxurious spa calm.",
     "name": "service-bathroom",
     "prompt": "A spacious contemporary Indian villa bathroom, sculptural cream freestanding bathtub beside full height greenery-facing window, deep teal handmade glazed tile wet wall, double floating teak vanity, warm copper taps, natural limestone floor, pristine luxurious spa calm. Use case: photorealistic-natural. Asset type: premium interior design website editorial photograph. Wide landscape 3:2 framing, polished professional architectural photography with straight verticals, rich natural materials and refined modern Indian design, daylight balanced with warm practical lighting. Strong inviting composition, believable construction detail, natural textures, no people, no text, no logos, no watermarks, no collage, no borders. Palette deep teal, copper, cream and warm wood with scene-appropriate color.",

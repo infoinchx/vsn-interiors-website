@@ -1,0 +1,912 @@
+[
+  {
+    "image": "client-2026/home-hall.webp",
+    "placement": "home",
+    "thumbnail": null
+  },
+  {
+    "image": "client-2026/home-kitchen.webp",
+    "placement": "home",
+    "thumbnail": null
+  },
+  {
+    "image": "client-2026/home-bedroom.webp",
+    "placement": "home",
+    "thumbnail": null
+  },
+  {
+    "image": "studio/contact-salon.webp",
+    "placement": "homeBanner",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/contact-cover.webp",
+    "placement": "homeBanner",
+    "thumbnail": null
+  },
+  {
+    "image": "client-2026/about-dining.webp",
+    "placement": "about",
+    "thumbnail": null
+  },
+  {
+    "image": "studio/about-courtyard.webp",
+    "placement": "about",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/home-hero-01.webp",
+    "placement": "principles",
+    "thumbnail": "indian/home-hero-01-thumb.webp"
+  },
+  {
+    "image": "indian/home-hero-02.webp",
+    "placement": "principles",
+    "thumbnail": "indian/home-hero-02-thumb.webp"
+  },
+  {
+    "image": "indian/home-hero-03.webp",
+    "placement": "principles",
+    "thumbnail": "indian/home-hero-03-thumb.webp"
+  },
+  {
+    "image": "client-2026/services-living.webp",
+    "placement": "services",
+    "thumbnail": null
+  },
+  {
+    "image": "client-2026/services-bedroom.webp",
+    "placement": "services",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/services-cover.webp",
+    "placement": "services",
+    "thumbnail": "indian/services-cover-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-hero-01.webp",
+    "placement": "gallery",
+    "thumbnail": "indian/gallery-hero-01-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-hero-02.webp",
+    "placement": "gallery",
+    "thumbnail": "indian/gallery-hero-02-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-hero-03.webp",
+    "placement": "gallery",
+    "thumbnail": "indian/gallery-hero-03-thumb.webp"
+  },
+  {
+    "image": "client-2026/contact-lounge.webp",
+    "placement": "contact",
+    "thumbnail": null
+  },
+  {
+    "image": "client-2026/contact-dining.webp",
+    "placement": "contact",
+    "thumbnail": null
+  },
+  {
+    "image": "client-2026/contact-entry.webp",
+    "placement": "contact",
+    "thumbnail": null
+  },
+  {
+    "image": "client-2026/contact-materials.webp",
+    "placement": "contactMaterials",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/home-room-01.webp",
+    "placement": "Home / room links",
+    "thumbnail": "indian/home-room-01-thumb.webp"
+  },
+  {
+    "image": "indian/home-room-02.webp",
+    "placement": "Home / room links",
+    "thumbnail": "indian/home-room-02-thumb.webp"
+  },
+  {
+    "image": "indian/home-room-03.webp",
+    "placement": "Home / room links",
+    "thumbnail": "indian/home-room-03-thumb.webp"
+  },
+  {
+    "image": "indian/home-room-04.webp",
+    "placement": "Home / room links",
+    "thumbnail": "indian/home-room-04-thumb.webp"
+  },
+  {
+    "image": "indian/home-room-05.webp",
+    "placement": "Home / room links",
+    "thumbnail": "indian/home-room-05-thumb.webp"
+  },
+  {
+    "image": "indian/home-room-06.webp",
+    "placement": "Home / room links",
+    "thumbnail": "indian/home-room-06-thumb.webp"
+  },
+  {
+    "image": "indian/room-fallback.webp",
+    "placement": "Home / 3D fallback",
+    "thumbnail": "indian/room-fallback-thumb.webp"
+  },
+  {
+    "image": "studio/about-materials.webp",
+    "placement": "About / material study",
+    "thumbnail": null
+  },
+  {
+    "image": "generated/living-teal.webp",
+    "placement": "Gallery / Living",
+    "thumbnail": "generated/living-teal-thumb.webp"
+  },
+  {
+    "image": "generated/living-courtyard.webp",
+    "placement": "Gallery / Living",
+    "thumbnail": "generated/living-courtyard-thumb.webp"
+  },
+  {
+    "image": "generated/living-03.webp",
+    "placement": "Gallery / Living",
+    "thumbnail": "generated/living-03-thumb.webp"
+  },
+  {
+    "image": "generated/living-04.webp",
+    "placement": "Gallery / Living",
+    "thumbnail": "generated/living-04-thumb.webp"
+  },
+  {
+    "image": "generated/living-05.webp",
+    "placement": "Gallery / Living",
+    "thumbnail": "generated/living-05-thumb.webp"
+  },
+  {
+    "image": "generated/living-06.webp",
+    "placement": "Gallery / Living",
+    "thumbnail": "generated/living-06-thumb.webp"
+  },
+  {
+    "image": "generated/living-07.webp",
+    "placement": "Gallery / Living",
+    "thumbnail": "generated/living-07-thumb.webp"
+  },
+  {
+    "image": "generated/living-08.webp",
+    "placement": "Gallery / Living",
+    "thumbnail": "generated/living-08-thumb.webp"
+  },
+  {
+    "image": "generated/living-09.webp",
+    "placement": "Gallery / Living",
+    "thumbnail": "generated/living-09-thumb.webp"
+  },
+  {
+    "image": "generated/living-10.webp",
+    "placement": "Gallery / Living",
+    "thumbnail": "generated/living-10-thumb.webp"
+  },
+  {
+    "image": "generated/kitchen-teal.webp",
+    "placement": "Gallery / Kitchen",
+    "thumbnail": "generated/kitchen-teal-thumb.webp"
+  },
+  {
+    "image": "generated/kitchen-clay.webp",
+    "placement": "Gallery / Kitchen",
+    "thumbnail": "generated/kitchen-clay-thumb.webp"
+  },
+  {
+    "image": "generated/kitchen-03.webp",
+    "placement": "Gallery / Kitchen",
+    "thumbnail": "generated/kitchen-03-thumb.webp"
+  },
+  {
+    "image": "generated/kitchen-04.webp",
+    "placement": "Gallery / Kitchen",
+    "thumbnail": "generated/kitchen-04-thumb.webp"
+  },
+  {
+    "image": "generated/kitchen-05.webp",
+    "placement": "Gallery / Kitchen",
+    "thumbnail": "generated/kitchen-05-thumb.webp"
+  },
+  {
+    "image": "generated/kitchen-06.webp",
+    "placement": "Gallery / Kitchen",
+    "thumbnail": "generated/kitchen-06-thumb.webp"
+  },
+  {
+    "image": "generated/kitchen-07.webp",
+    "placement": "Gallery / Kitchen",
+    "thumbnail": "generated/kitchen-07-thumb.webp"
+  },
+  {
+    "image": "generated/kitchen-08.webp",
+    "placement": "Gallery / Kitchen",
+    "thumbnail": "generated/kitchen-08-thumb.webp"
+  },
+  {
+    "image": "generated/kitchen-09.webp",
+    "placement": "Gallery / Kitchen",
+    "thumbnail": "generated/kitchen-09-thumb.webp"
+  },
+  {
+    "image": "generated/kitchen-10.webp",
+    "placement": "Gallery / Kitchen",
+    "thumbnail": "generated/kitchen-10-thumb.webp"
+  },
+  {
+    "image": "generated/bedroom-navy.webp",
+    "placement": "Gallery / Bedroom",
+    "thumbnail": "generated/bedroom-navy-thumb.webp"
+  },
+  {
+    "image": "generated/bedroom-earth.webp",
+    "placement": "Gallery / Bedroom",
+    "thumbnail": "generated/bedroom-earth-thumb.webp"
+  },
+  {
+    "image": "generated/bedroom-03.webp",
+    "placement": "Gallery / Bedroom",
+    "thumbnail": "generated/bedroom-03-thumb.webp"
+  },
+  {
+    "image": "generated/bedroom-04.webp",
+    "placement": "Gallery / Bedroom",
+    "thumbnail": "generated/bedroom-04-thumb.webp"
+  },
+  {
+    "image": "generated/bedroom-05.webp",
+    "placement": "Gallery / Bedroom",
+    "thumbnail": "generated/bedroom-05-thumb.webp"
+  },
+  {
+    "image": "generated/bedroom-06.webp",
+    "placement": "Gallery / Bedroom",
+    "thumbnail": "generated/bedroom-06-thumb.webp"
+  },
+  {
+    "image": "generated/bedroom-07.webp",
+    "placement": "Gallery / Bedroom",
+    "thumbnail": "generated/bedroom-07-thumb.webp"
+  },
+  {
+    "image": "generated/bedroom-08.webp",
+    "placement": "Gallery / Bedroom",
+    "thumbnail": "generated/bedroom-08-thumb.webp"
+  },
+  {
+    "image": "generated/bedroom-09.webp",
+    "placement": "Gallery / Bedroom",
+    "thumbnail": "generated/bedroom-09-thumb.webp"
+  },
+  {
+    "image": "generated/bedroom-10.webp",
+    "placement": "Gallery / Bedroom",
+    "thumbnail": "generated/bedroom-10-thumb.webp"
+  },
+  {
+    "image": "generated/dining-brass.webp",
+    "placement": "Gallery / Dining",
+    "thumbnail": "generated/dining-brass-thumb.webp"
+  },
+  {
+    "image": "generated/dining-courtyard.webp",
+    "placement": "Gallery / Dining",
+    "thumbnail": "generated/dining-courtyard-thumb.webp"
+  },
+  {
+    "image": "generated/dining-03.webp",
+    "placement": "Gallery / Dining",
+    "thumbnail": "generated/dining-03-thumb.webp"
+  },
+  {
+    "image": "generated/dining-04.webp",
+    "placement": "Gallery / Dining",
+    "thumbnail": "generated/dining-04-thumb.webp"
+  },
+  {
+    "image": "generated/dining-05.webp",
+    "placement": "Gallery / Dining",
+    "thumbnail": "generated/dining-05-thumb.webp"
+  },
+  {
+    "image": "generated/dining-06.webp",
+    "placement": "Gallery / Dining",
+    "thumbnail": "generated/dining-06-thumb.webp"
+  },
+  {
+    "image": "generated/dining-07.webp",
+    "placement": "Gallery / Dining",
+    "thumbnail": "generated/dining-07-thumb.webp"
+  },
+  {
+    "image": "generated/dining-08.webp",
+    "placement": "Gallery / Dining",
+    "thumbnail": "generated/dining-08-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-dining-01.webp",
+    "placement": "Gallery / Dining",
+    "thumbnail": "indian/gallery-dining-01-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-dining-02.webp",
+    "placement": "Gallery / Dining",
+    "thumbnail": "indian/gallery-dining-02-thumb.webp"
+  },
+  {
+    "image": "generated/office-walnut.webp",
+    "placement": "Gallery / Office",
+    "thumbnail": "generated/office-walnut-thumb.webp"
+  },
+  {
+    "image": "generated/office-creative.webp",
+    "placement": "Gallery / Office",
+    "thumbnail": "generated/office-creative-thumb.webp"
+  },
+  {
+    "image": "generated/office-03.webp",
+    "placement": "Gallery / Office",
+    "thumbnail": "generated/office-03-thumb.webp"
+  },
+  {
+    "image": "generated/office-04.webp",
+    "placement": "Gallery / Office",
+    "thumbnail": "generated/office-04-thumb.webp"
+  },
+  {
+    "image": "generated/office-05.webp",
+    "placement": "Gallery / Office",
+    "thumbnail": "generated/office-05-thumb.webp"
+  },
+  {
+    "image": "generated/office-06.webp",
+    "placement": "Gallery / Office",
+    "thumbnail": "generated/office-06-thumb.webp"
+  },
+  {
+    "image": "edition3/service-office.webp",
+    "placement": "Gallery / Office",
+    "thumbnail": "edition3/service-office-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-office-01.webp",
+    "placement": "Gallery / Office",
+    "thumbnail": "indian/gallery-office-01-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-office-02.webp",
+    "placement": "Gallery / Office",
+    "thumbnail": "indian/gallery-office-02-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-office-03.webp",
+    "placement": "Gallery / Office",
+    "thumbnail": "indian/gallery-office-03-thumb.webp"
+  },
+  {
+    "image": "generated/pooja-marble.webp",
+    "placement": "Gallery / Pooja",
+    "thumbnail": "generated/pooja-marble-thumb.webp"
+  },
+  {
+    "image": "generated/pooja-teak.webp",
+    "placement": "Gallery / Pooja",
+    "thumbnail": "generated/pooja-teak-thumb.webp"
+  },
+  {
+    "image": "generated/pooja-03.webp",
+    "placement": "Gallery / Pooja",
+    "thumbnail": "generated/pooja-03-thumb.webp"
+  },
+  {
+    "image": "generated/pooja-04.webp",
+    "placement": "Gallery / Pooja",
+    "thumbnail": "generated/pooja-04-thumb.webp"
+  },
+  {
+    "image": "generated/pooja-05.webp",
+    "placement": "Gallery / Pooja",
+    "thumbnail": "generated/pooja-05-thumb.webp"
+  },
+  {
+    "image": "generated/pooja-06.webp",
+    "placement": "Gallery / Pooja",
+    "thumbnail": "generated/pooja-06-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-pooja-01.webp",
+    "placement": "Gallery / Pooja",
+    "thumbnail": "indian/gallery-pooja-01-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-pooja-02.webp",
+    "placement": "Gallery / Pooja",
+    "thumbnail": "indian/gallery-pooja-02-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-pooja-03.webp",
+    "placement": "Gallery / Pooja",
+    "thumbnail": "indian/gallery-pooja-03-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-pooja-04.webp",
+    "placement": "Gallery / Pooja",
+    "thumbnail": "indian/gallery-pooja-04-thumb.webp"
+  },
+  {
+    "image": "edition3/service-bathroom.webp",
+    "placement": "Gallery / Bathroom",
+    "thumbnail": "edition3/service-bathroom-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-bathroom-01.webp",
+    "placement": "Gallery / Bathroom",
+    "thumbnail": "indian/gallery-bathroom-01-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-bathroom-02.webp",
+    "placement": "Gallery / Bathroom",
+    "thumbnail": "indian/gallery-bathroom-02-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-bathroom-03.webp",
+    "placement": "Gallery / Bathroom",
+    "thumbnail": "indian/gallery-bathroom-03-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-bathroom-04.webp",
+    "placement": "Gallery / Bathroom",
+    "thumbnail": "indian/gallery-bathroom-04-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-bathroom-05.webp",
+    "placement": "Gallery / Bathroom",
+    "thumbnail": "indian/gallery-bathroom-05-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-bathroom-06.webp",
+    "placement": "Gallery / Bathroom",
+    "thumbnail": "indian/gallery-bathroom-06-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-bathroom-07.webp",
+    "placement": "Gallery / Bathroom",
+    "thumbnail": "indian/gallery-bathroom-07-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-bathroom-08.webp",
+    "placement": "Gallery / Bathroom",
+    "thumbnail": "indian/gallery-bathroom-08-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-bathroom-09.webp",
+    "placement": "Gallery / Bathroom",
+    "thumbnail": "indian/gallery-bathroom-09-thumb.webp"
+  },
+  {
+    "image": "edition3/service-wardrobe.webp",
+    "placement": "Gallery / Wardrobe",
+    "thumbnail": "edition3/service-wardrobe-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-wardrobe-01.webp",
+    "placement": "Gallery / Wardrobe",
+    "thumbnail": "indian/gallery-wardrobe-01-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-wardrobe-02.webp",
+    "placement": "Gallery / Wardrobe",
+    "thumbnail": "indian/gallery-wardrobe-02-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-wardrobe-03.webp",
+    "placement": "Gallery / Wardrobe",
+    "thumbnail": "indian/gallery-wardrobe-03-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-wardrobe-04.webp",
+    "placement": "Gallery / Wardrobe",
+    "thumbnail": "indian/gallery-wardrobe-04-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-wardrobe-05.webp",
+    "placement": "Gallery / Wardrobe",
+    "thumbnail": "indian/gallery-wardrobe-05-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-wardrobe-06.webp",
+    "placement": "Gallery / Wardrobe",
+    "thumbnail": "indian/gallery-wardrobe-06-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-wardrobe-07.webp",
+    "placement": "Gallery / Wardrobe",
+    "thumbnail": "indian/gallery-wardrobe-07-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-wardrobe-08.webp",
+    "placement": "Gallery / Wardrobe",
+    "thumbnail": "indian/gallery-wardrobe-08-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-wardrobe-09.webp",
+    "placement": "Gallery / Wardrobe",
+    "thumbnail": "indian/gallery-wardrobe-09-thumb.webp"
+  },
+  {
+    "image": "edition3/service-kids.webp",
+    "placement": "Gallery / Kids",
+    "thumbnail": "edition3/service-kids-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-kids-01.webp",
+    "placement": "Gallery / Kids",
+    "thumbnail": "indian/gallery-kids-01-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-kids-02.webp",
+    "placement": "Gallery / Kids",
+    "thumbnail": "indian/gallery-kids-02-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-kids-03.webp",
+    "placement": "Gallery / Kids",
+    "thumbnail": "indian/gallery-kids-03-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-kids-04.webp",
+    "placement": "Gallery / Kids",
+    "thumbnail": "indian/gallery-kids-04-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-kids-05.webp",
+    "placement": "Gallery / Kids",
+    "thumbnail": "indian/gallery-kids-05-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-kids-06.webp",
+    "placement": "Gallery / Kids",
+    "thumbnail": "indian/gallery-kids-06-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-kids-07.webp",
+    "placement": "Gallery / Kids",
+    "thumbnail": "indian/gallery-kids-07-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-kids-08.webp",
+    "placement": "Gallery / Kids",
+    "thumbnail": "indian/gallery-kids-08-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-kids-09.webp",
+    "placement": "Gallery / Kids",
+    "thumbnail": "indian/gallery-kids-09-thumb.webp"
+  },
+  {
+    "image": "edition3/service-balcony.webp",
+    "placement": "Gallery / Balcony",
+    "thumbnail": "edition3/service-balcony-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-balcony-01.webp",
+    "placement": "Gallery / Balcony",
+    "thumbnail": "indian/gallery-balcony-01-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-balcony-02.webp",
+    "placement": "Gallery / Balcony",
+    "thumbnail": "indian/gallery-balcony-02-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-balcony-03.webp",
+    "placement": "Gallery / Balcony",
+    "thumbnail": "indian/gallery-balcony-03-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-balcony-04.webp",
+    "placement": "Gallery / Balcony",
+    "thumbnail": "indian/gallery-balcony-04-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-balcony-05.webp",
+    "placement": "Gallery / Balcony",
+    "thumbnail": "indian/gallery-balcony-05-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-balcony-06.webp",
+    "placement": "Gallery / Balcony",
+    "thumbnail": "indian/gallery-balcony-06-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-balcony-07.webp",
+    "placement": "Gallery / Balcony",
+    "thumbnail": "indian/gallery-balcony-07-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-balcony-08.webp",
+    "placement": "Gallery / Balcony",
+    "thumbnail": "indian/gallery-balcony-08-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-balcony-09.webp",
+    "placement": "Gallery / Balcony",
+    "thumbnail": "indian/gallery-balcony-09-thumb.webp"
+  },
+  {
+    "image": "edition3/service-retail.webp",
+    "placement": "Gallery / Commercial",
+    "thumbnail": "edition3/service-retail-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-commercial-01.webp",
+    "placement": "Gallery / Commercial",
+    "thumbnail": "indian/gallery-commercial-01-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-commercial-02.webp",
+    "placement": "Gallery / Commercial",
+    "thumbnail": "indian/gallery-commercial-02-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-commercial-03.webp",
+    "placement": "Gallery / Commercial",
+    "thumbnail": "indian/gallery-commercial-03-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-commercial-04.webp",
+    "placement": "Gallery / Commercial",
+    "thumbnail": "indian/gallery-commercial-04-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-commercial-05.webp",
+    "placement": "Gallery / Commercial",
+    "thumbnail": "indian/gallery-commercial-05-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-commercial-06.webp",
+    "placement": "Gallery / Commercial",
+    "thumbnail": "indian/gallery-commercial-06-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-commercial-07.webp",
+    "placement": "Gallery / Commercial",
+    "thumbnail": "indian/gallery-commercial-07-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-commercial-08.webp",
+    "placement": "Gallery / Commercial",
+    "thumbnail": "indian/gallery-commercial-08-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-commercial-09.webp",
+    "placement": "Gallery / Commercial",
+    "thumbnail": "indian/gallery-commercial-09-thumb.webp"
+  },
+  {
+    "image": "edition3/service-ceiling.webp",
+    "placement": "Gallery / Details",
+    "thumbnail": "edition3/service-ceiling-thumb.webp"
+  },
+  {
+    "image": "edition3/service-panels.webp",
+    "placement": "Gallery / Details",
+    "thumbnail": "edition3/service-panels-thumb.webp"
+  },
+  {
+    "image": "edition3/service-foyer.webp",
+    "placement": "Gallery / Details",
+    "thumbnail": "edition3/service-foyer-thumb.webp"
+  },
+  {
+    "image": "edition3/service-lighting.webp",
+    "placement": "Gallery / Details",
+    "thumbnail": "edition3/service-lighting-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-details-01.webp",
+    "placement": "Gallery / Details",
+    "thumbnail": "indian/gallery-details-01-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-details-02.webp",
+    "placement": "Gallery / Details",
+    "thumbnail": "indian/gallery-details-02-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-details-03.webp",
+    "placement": "Gallery / Details",
+    "thumbnail": "indian/gallery-details-03-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-details-04.webp",
+    "placement": "Gallery / Details",
+    "thumbnail": "indian/gallery-details-04-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-details-05.webp",
+    "placement": "Gallery / Details",
+    "thumbnail": "indian/gallery-details-05-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-details-06.webp",
+    "placement": "Gallery / Details",
+    "thumbnail": "indian/gallery-details-06-thumb.webp"
+  },
+  {
+    "image": "edition3/service-villa.webp",
+    "placement": "Gallery / Exterior",
+    "thumbnail": "edition3/service-villa-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-exterior-01.webp",
+    "placement": "Gallery / Exterior",
+    "thumbnail": "indian/gallery-exterior-01-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-exterior-02.webp",
+    "placement": "Gallery / Exterior",
+    "thumbnail": "indian/gallery-exterior-02-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-exterior-03.webp",
+    "placement": "Gallery / Exterior",
+    "thumbnail": "indian/gallery-exterior-03-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-exterior-04.webp",
+    "placement": "Gallery / Exterior",
+    "thumbnail": "indian/gallery-exterior-04-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-exterior-05.webp",
+    "placement": "Gallery / Exterior",
+    "thumbnail": "indian/gallery-exterior-05-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-exterior-06.webp",
+    "placement": "Gallery / Exterior",
+    "thumbnail": "indian/gallery-exterior-06-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-exterior-07.webp",
+    "placement": "Gallery / Exterior",
+    "thumbnail": "indian/gallery-exterior-07-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-exterior-08.webp",
+    "placement": "Gallery / Exterior",
+    "thumbnail": "indian/gallery-exterior-08-thumb.webp"
+  },
+  {
+    "image": "indian/gallery-exterior-09.webp",
+    "placement": "Gallery / Exterior",
+    "thumbnail": "indian/gallery-exterior-09-thumb.webp"
+  },
+  {
+    "image": "indian/service-01.webp",
+    "placement": "Services / Space planning & layouts",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/service-02.webp",
+    "placement": "Services / 3D design & visualisation",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/service-03.webp",
+    "placement": "Services / Modular kitchens",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/service-04.webp",
+    "placement": "Services / Wardrobes & walk-in closets",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/service-05.webp",
+    "placement": "Services / Living rooms & TV units",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/service-06.webp",
+    "placement": "Services / Bedrooms & dressing areas",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/service-07.webp",
+    "placement": "Services / Kids rooms & study spaces",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/service-08.webp",
+    "placement": "Services / Dining rooms & crockery units",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/service-09.webp",
+    "placement": "Services / Pooja rooms & mandirs",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/service-10.webp",
+    "placement": "Services / Bathrooms & vanity units",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/service-11.webp",
+    "placement": "Services / Balconies & utility areas",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/service-12.webp",
+    "placement": "Services / Home offices & libraries",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/service-13.webp",
+    "placement": "Services / False ceilings & lighting",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/service-14.webp",
+    "placement": "Services / Wall panels, paint & wallpaper",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/service-15.webp",
+    "placement": "Services / Flooring & surface finishes",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/service-16.webp",
+    "placement": "Services / Custom furniture & upholstery",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/service-17.webp",
+    "placement": "Services / Curtains, decor & styling",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/service-18.webp",
+    "placement": "Services / Glass, metal & partitions",
+    "thumbnail": null
+  },
+  {
+    "image": "edition3/service-theatre.webp",
+    "placement": "Services / Home theatres & entertainment",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/service-20.webp",
+    "placement": "Services / Office & workspace interiors",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/service-21.webp",
+    "placement": "Services / Retail & showroom interiors",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/service-22.webp",
+    "placement": "Services / Hospitality & reception spaces",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/service-23.webp",
+    "placement": "Services / Renovation & civil-work coordination",
+    "thumbnail": null
+  },
+  {
+    "image": "indian/service-24.webp",
+    "placement": "Services / Turnkey execution & handover",
+    "thumbnail": null
+  }
+]

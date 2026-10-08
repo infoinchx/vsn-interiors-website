@@ -252,13 +252,11 @@ onMounted(() => {
     box(9, 4.3, 0.16, 0, 2.08, -3.5, white);
     box(0.16, 4.3, 7, -4.5, 2.08, 0, white);
     box(160, 0.1, 160, 0, -0.48, 0, material(scene.background));
-    // Light-filled side window, brass mullions and a clean architectural plinth.
     box(0.06, 3.2, 3.1, -4.39, 2.15, 0.4, glass);
     for (let i = 0; i < 4; i++)
       box(0.08, 3.3, 0.045, -4.32, 2.15, -1.15 + i * 1.04, copper);
     box(8.85, 0.07, 0.08, 0, 0.08, -3.37, oak);
     if (props.variant === "about") {
-      // Design atelier: material library, shared drawing table and pin-up boards.
       for (let i = 0; i < 13; i++)
         box(0.07, 4, 0.09, -4.2 + i * 0.11, 2, -3.36, oak);
       box(3.6, 0.16, 1.6, -0.1, 1.13, 0.2, oak, 0.035);
@@ -306,7 +304,6 @@ onMounted(() => {
       for (const x of [-1.1, 1.1])
         cylinder(0.012, 0.012, 1, x, 3.78, 0.2, copper);
     } else if (props.variant === "gallery") {
-      // Walkable-scale miniature exhibition of real collection textures.
       for (let i = 0; i < 3; i++) {
         framePicture(
           -2.8 + i * 2.65,
@@ -346,7 +343,6 @@ onMounted(() => {
       );
       tree(3.5, -2);
     } else {
-      // Consultation lounge: round table, paired armchairs, display wall and greenery.
       box(5.6, 0.028, 3.8, 0, 0.04, 0.3, material(0xc9c6ae), 0.02);
       cylinder(1.05, 1.05, 0.12, 0, 0.84, 0, oak);
       cylinder(0.45, 0.6, 0.75, 0, 0.4, 0, ivory);

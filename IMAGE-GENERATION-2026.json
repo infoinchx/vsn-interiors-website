@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-08",
+  "generator": "OpenAI image generation",
+  "type": "AI-generated interior concepts, not completed projects",
+  "assets": [
+    {
+      "key": "home-hall",
+      "prompt": "A generous contemporary Andhra Pradesh villa living room seen from a low front corner. A sculptural warm ivory sofa, one rust accent armchair, a long walnut TV cabinet, curved lime plaster wall, finely detailed teak jaali partition, brass lamp, Indian handwoven textiles and an open tropical courtyard. Golden morning light. Composition centered on the room, beautifully layered architectural depth.",
+      "file": "public/images/client-2026/home-hall.webp"
+    },
+    {
+      "key": "home-kitchen",
+      "prompt": "A refined contemporary Indian apartment kitchen, practical L shape plus a breakfast peninsula, muted deep blue lower cabinets, warm teak tall pantry, ivory quartz worktop, gas hob and slim chimney, fluted glass crockery storage, brass handles, woven counter chairs, one copper pot. Wide diagonal room view in bright natural morning light, precise joinery and realistic proportions.",
+      "file": "public/images/client-2026/home-kitchen.webp"
+    },
+    {
+      "key": "home-bedroom",
+      "prompt": "An elegant modern Indian master bedroom with a broad walnut and upholstered sage headboard, cream cotton bedding, restrained indigo block print throw, integrated bedside lamps, full height ivory wardrobe with walnut handles, rattan bench, shaded balcony greenery and a simple ceiling fan. Wide architectural front corner view, naturally bright, restful and spacious.",
+      "file": "public/images/client-2026/home-bedroom.webp"
+    },
+    {
+      "key": "about-dining",
+      "prompt": "A beautiful contemporary Telugu family dining hall in a sunlit courtyard home, a six seat dark teak table, cane back chairs with warm terracotta upholstery, arched cream plaster niche, antique Indian brass vessel, calm botanical courtyard beyond a generous doorway, understated handwoven dhurrie. Warm natural texture, wide architectural composition, no people.",
+      "file": "public/images/client-2026/about-dining.webp"
+    },
+    {
+      "key": "services-living",
+      "prompt": "An upscale but achievable Indian home interior showing connected living and dining spaces with smart custom joinery. Muted olive sectional, ivory fluted TV wall, full height walnut cabinets, marble-topped oval coffee table, simple brass ceiling lights, teak slatted divider and comfortable dining behind. Soft daylight, complete room visible in a wide architecture photograph.",
+      "file": "public/images/client-2026/services-living.webp"
+    },
+    {
+      "key": "services-bedroom",
+      "prompt": "A carefully planned compact Indian urban master suite with practical floor to ceiling wardrobe, rounded pale oak bed, clay fabric headboard, built-in window seat with drawers, dressing mirror, pale stone floor, ivory walls and two hanging brass reading lights. Exact realistic cabinet lines and spatial flow, editorial wide room photograph with soft sunlight.",
+      "file": "public/images/client-2026/services-bedroom.webp"
+    },
+    {
+      "key": "contact-lounge",
+      "prompt": "A light inviting contemporary Indian living room for an interior design website contact banner. Sage green sofa, natural oak console, warm ivory lime plaster, soft terracotta armchair, elegant arched opening to a garden, small brass vase and handwoven Indian rug. Broad full room composition with generous breathing space, morning light, clean but comfortable, no people.",
+      "file": "public/images/client-2026/contact-lounge.webp"
+    },
+    {
+      "key": "contact-dining",
+      "prompt": "An inviting Andhra home dining corner with a rounded travertine table, six warm caramel cane chairs, sculptural linen pendant, pale sage built-in crockery cabinet, terrazzo floor and a sun-filled garden window framed in teak. Wide interior architecture photograph, fresh sage cream and honey wood palette, welcoming natural daylight, no people.",
+      "file": "public/images/client-2026/contact-dining.webp"
+    },
+    {
+      "key": "contact-entry",
+      "prompt": "An exquisite modern Indian entrance foyer with a carved teak door, pale stone bench, curved warm cream wall, slim wood console, brass urli with a few marigolds, handwoven runner, deep sage niche and a glimpse into a beautifully furnished room. Wide photograph with deep layered perspective, quiet afternoon light, realistic contemporary Indian apartment.",
+      "file": "public/images/client-2026/contact-entry.webp"
+    },
+    {
+      "key": "contact-materials",
+      "prompt": "A sunny Indian interior designer's consultation space, broad oak table with a neatly arranged floor plan without readable lettering, sage and terracotta textile samples, wood and stone swatches, two comfortable cane chairs, orderly wall-mounted material shelves and an arched garden window. Human-scale welcoming room, no people, wide architectural editorial photography.",
+      "file": "public/images/client-2026/contact-materials.webp"
+    },
+    {
+      "key": "home-dining-banner",
+      "file": "public/images/studio/contact-salon.webp",
+      "prompt": "A sunlit contemporary Indian dining room with a cobalt blue arched niche, teak dining table, cane chairs, brass pendant lights and open garden courtyard. Premium realistic architectural photograph, no people or text. Replaces an empty inherited banner asset."
+    }
+  ]
+}

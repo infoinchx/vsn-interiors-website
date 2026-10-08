@@ -1,119 +1,118 @@
-# VSN Interiors, the distinct-page edition
+# VSN Interiors — client update, 8 October 2026
 
-A complete Vue 3 + Three.js website with five distinct pages, original interior concept images and a prebuilt Windows-ready version.
+Complete Vue 3 + Three.js website with five pages, local images, a production build and a double-click preview. All interface text uses Arial. The supplied official logo, founder photograph and business details are retained.
 
-## Open it on Windows
+## Open on Windows
 
-1. Extract the ZIP into D:\ so the launcher is at D:\vsn-interiors\START-WINDOWS.bat.
-2. Install Node.js 22 LTS or newer from https://nodejs.org/ if needed.
-3. Double-click START-WINDOWS.bat.
-4. The website opens at http://localhost:4173. Keep the terminal window open while using it.
+1. Download the complete ZIP before extracting it.
+2. Extract into a new folder on `D:\`, such as `D:\vsn-interiors`.
+3. Open `OPEN-PREVIEW.html` inside the extracted project folder. Keep `public` beside it.
+4. Alternatively, double-click `START-WINDOWS.bat` to view the production build at `http://localhost:4173`. This option requires Node.js. Keep its terminal open.
 
-No npm downloads are needed to view the included production build. Images and JavaScript are local. Typography uses the system Arial font. Do not open index.html by double-clicking it, as JavaScript modules need a web server. If another preview already uses port 4173, close its terminal and try again.
+Do not open the source `index.html` directly. Preserve your old project folder as a backup.
 
-When replacing an earlier version, extract this ZIP into a clean folder first. Copy any personal changes from your old src/config.js before rebuilding. Keep your old folder until you have checked the new version.
+## Client changes
 
-## Pages and navigation
+| Page | Updated design |
+| --- | --- |
+| Home | Three-image automatic hero, compact heading over the photograph, supporting content underneath, room links, another two-image banner, service overview, furnished 3D home and review highlights. |
+| About Us | Two-image automatic opening, founder profile, automatically changing photos on the left of the design principles, material palettes and process. The final “Let’s make it feel like you” section is removed. |
+| Services | Three-image opening with small overlay text. All 24 services now show their own photograph first, with details below. Category filters and service enquiries remain. |
+| Gallery | Three-image automatic opening followed by 130 concepts, search, room filters and an enlarged image viewer. Exactly 10 designs in each of 13 categories. |
+| Contact Us | New sage green and warm cream theme, three-image hero, call/WhatsApp/email cards, consultation photograph, studio address and directions, a simple enquiry form, FAQs and social links. |
 
-Home opens first. The five pages use distinct layouts and Arial throughout:
+The photo slideshows advance automatically with no arrows, pause buttons, dots or numbered controls. Hovering and focusing do not stop them. They suspend off screen or in a hidden tab and resume when visible. Reduced-motion settings remove the zoom and dissolve effects. The separate interactive 3D model retains its useful viewing controls.
 
-| Page | Route | Design |
-| --- | --- | --- |
-| Home | #/ | Eight unique sections, full-width photography and interactive living room |
-| About Us | #/about | Editorial collage, Ganesh demo founder profile, manifesto and principles |
-| Services | #/services | Panorama and filterable directory of 24 interior service areas |
-| Gallery | #/gallery | Dark photographic collection, masonry cards and optional 3D exhibition |
-| Contact Us | #/contact | Large Hello introduction, design brief, contact card and FAQs |
+There are seven photo slideshow locations. Main heroes use a 5.2-second interval, the About principles use 5.6 seconds, and the additional Home banner uses 6.1 seconds.
 
-Home sections: photographic cover, room finder, selected projects, service preview, interactive 3D studio, material palettes, design process and consultation invitation.
+## Complete image collection
 
-Hash routes support direct links, refresh and Back/Forward without server rewrite rules. Room-finder links preselect the Gallery category. Unknown routes offer a return to Home.
+This package includes **182 distinct active design visuals**:
 
-The Home living room and optional Gallery exhibition support rotation, zoom, colour, day/evening lighting, pause, reset and expanded view. Escape exits expanded view. These are original procedural 3D concepts, not measured architectural models or filmed walkthroughs. Reduced-motion and WebGL-unavailable fallbacks are included.
+- 130 Gallery concepts across 13 categories.
+- 24 service photographs, one for each service.
+- 28 photographs for page heroes, additional banners, Home room links, About material study, Contact consultation image and the 3D fallback.
 
-## Image collection and identity
+Eleven images were generated for this update, including a replacement for an empty banner in the earlier package. All 355 bundled raster image files were decoded successfully. No full design image is assigned to more than one site section. Thumbnails and their enlarged Gallery views intentionally represent the same design. Branding is reused consistently.
 
-- 70 gallery designs: 62 original AI interior concepts and 8 curated stock images.
-- 12 new concepts cover bathrooms, wardrobes, kids rooms, balconies, commercial spaces and architectural details.
-- Full-resolution local WebP files plus compact thumbnails; 12 cards initially, with progressive loading.
-- Category filters, search, empty state and previous/next image viewer.
-- GENERATED-IMAGE-PROMPTS.json and EDITION3-IMAGE-PROMPTS.json document generated imagery.
-- Ganesh is an explicitly labelled fictional demo founder with an AI-generated portrait. Replace this profile before presenting it as a real business biography.
-- New teal/copper architectural logo symbol: public/images/logo-symbol.png. The website pairs it with exact live Arial text. public/images/vsn-interiors-logo.svg exports the lockup with an embedded raster symbol and Arial text; it is not a fully vectorised logo.
-- IMAGE-CREDITS.json and ASSET-NOTES.md document stock photography. No portfolio completion claims are made.
+All photographs are local WebP files, with no external image hotlinks. The interior visuals are AI-generated design concepts, not photographs of completed VSN projects. `IMAGE-PLACEMENTS.json` records every active assignment. `IMAGE-GENERATION-2026.json` records this update's prompts; the earlier prompt records are also included.
 
-## Edit and develop
+## Business details
 
-Double-click EDIT-WINDOWS.bat, or use CMD:
+Edit `src/config.js` to change contact details, the founder, service areas or the optional enquiry endpoint.
+
+- VSN Interiors, PJR Residency, Ayya Koneru, Dasannapeta, beside Gayathri Hospital, Vizianagaram, Andhra Pradesh 535002.
+- Phone and WhatsApp: +91 97039 55686.
+- Email: vsninterior55686@gmail.com.
+- Instagram: https://www.instagram.com/v_s_n_interiors/
+- Facebook: https://www.facebook.com/share/1De4CWwbMb/
+- Google Maps: https://maps.app.goo.gl/wkB9M8cWYB8uzYCL8
+
+The supplied founder photograph and existing Mahesh K profile are preserved. To add a co-founder, put their photograph in `public/images/brand` and fill in `business.coFounder.name`, `role` and `image`. The profile stays hidden until the name and image are supplied.
+
+The footer includes the address, telephone, email, service areas and social links. The floating WhatsApp link is available across the website.
+
+## Enquiries
+
+The Contact form validates the visitor's name, phone number and project location. It opens a populated WhatsApp or email draft. The visitor reviews the message and presses Send in that app. The website does not claim a draft has been sent. No enquiry is stored locally.
+
+`business.inquiryEndpoint` is blank by default. If configured, the forms send JSON to that endpoint and handle unsuccessful responses. A server must supply validation, delivery and any needed cross-origin configuration. This package does not include a backend or inbox.
+
+The existing enquiry dialog from “Let us talk” and the service cards is retained.
+
+## 3D home and reviews
+
+The original furnished Three.js home includes living, dining, kitchen and pooja areas, custom joinery, lighting, appliances and an animated ceiling fan. Visitors can select viewpoints, rotate, zoom, choose colours and change the lighting. A dedicated image appears if WebGL is unavailable.
+
+The supplied project's 15 review summaries and their source links are retained. Their displayed verification date is 23 September 2026. They are a dated selection, not a live review feed; this update did not refresh the Google listing.
+
+## Edit and build
+
+From the extracted project folder:
 
 ```cmd
-cd /d D:\vsn-interiors
 npm ci
 npm run dev
 ```
 
-Open the local address Vite prints, normally http://localhost:5173.
+`EDIT-WINDOWS.bat` performs these steps and opens the development website.
 
-To check the site on your phone, run npm run dev and open the Network URL printed by Vite on a phone connected to the same Wi-Fi.
-
-After changing source code or business details:
+To rebuild the production site and standalone preview:
 
 ```cmd
 npm run build
 ```
 
-START-WINDOWS.bat then serves the rebuilt version from dist. Use Ctrl+F5 if an old version remains cached.
+This creates `dist` and `OPEN-PREVIEW.html`. Dependencies are locked in `package-lock.json`. The ZIP excludes `node_modules`.
 
-## Add your business details
+## Upload to your hosting
 
-Edit src/config.js before publishing:
+Upload the **contents of `dist`** to your website's public hosting folder. Replace the matching old build files. Upload the included `images` and `assets` folders as well as `index.html`.
 
-- email: displayed on Contact Us and connects the enquiry form to the visitor's email application.
-- phone: displayed as a click-to-call link.
-- whatsapp: digits only, including country code. Displays a WhatsApp link on Contact Us.
-- address: displayed as studio address text.
-- inquiryEndpoint: optional HTTPS backend URL accepting a JSON POST. It must validate inputs, limit abuse and return a successful 2xx status. Configure CORS for your domain when needed.
+Do not upload the ZIP, the source folder or `OPEN-PREVIEW.html` as your public homepage. The site uses hash routes such as `#/contact`, so the five pages do not need separate server routing rules. This delivery does not modify the live domain.
 
-An endpoint takes priority over email. Email mode opens a draft in the visitor's email application, where they must send it themselves. With neither configured, the form explicitly stays in Preview mode and downloads a text design brief. No visitor information is silently stored or sent. Add your actual privacy notice when activating enquiries.
+## Main edit locations
 
-Contact information remains blank until configured. The requested Ganesh biography and portrait are clearly marked as demo content.
+| File | Purpose |
+| --- | --- |
+| `src/pages` | Home, About, Services, Gallery and Contact content |
+| `src/components/ImageHero.vue` | Image-first hero with compact overlay heading and content underneath |
+| `src/components/VisualCarousel.vue` | Automatic, preloaded photo slideshows |
+| `src/components/StudioEnquiry.vue` | New Contact enquiry form |
+| `src/client-update.css` | New hero, Contact, service card and responsive styles |
+| `src/data/clientVisuals.js` | New slideshow photo assignments |
+| `src/config.js` | Business and enquiry settings |
+| `src/data/serviceCatalog.js` | Service information and individual photos |
+| `src/data/imageLibrary.js` | Gallery, room and fallback image data |
+| `src/components/RoomScene.vue` | Procedural 3D home |
+| `src/components/SiteFooter.vue` | Footer details |
+| `index.html` | Search and sharing metadata |
+| `scripts/build-preview.mjs` | Standalone preview generation |
 
-## Project structure
+## Verification
 
-- src/App.vue: shared navigation, hash routing, transitions, footer and dialogs.
-- src/pages/HomePage.vue: featured spaces, studio introduction, services and process.
-- src/pages/AboutPage.vue: philosophy, design values, services and approach.
-- src/pages/GalleryPage.vue: searchable collection and progressive loading.
-- src/pages/ContactPage.vue: contact methods and embedded enquiry form.
-- src/components/DesignStage.vue: independent interactive 3D section and controls.
-- src/components/BrandLogo.vue: new symbol and Arial wordmark.
-- src/pages/ServicesPage.vue: 24-service filterable directory.
-- src/data/serviceCatalog.js: service descriptions and scope.
-- src/data/edition3.js: 12 new gallery concepts.
-- src/components/RoomScene.vue: original Home living room.
-- src/components/AtelierScene.vue: About, Gallery and Contact world geometries.
-- src/components/InquiryForm.vue: shared validated form and download/email/backend modes.
-- src/data/content.js: services, retained images and combined gallery data.
-- src/data/generated.js: 50 original concept records.
-- src/config.js: real business information.
-- src/style.css: responsive design system and animations.
-- public: local image assets and retained legacy font licenses. Legacy font files are unused; all website typography is Arial.
-- dist: production build, ready for a static host.
-- serve.mjs: dependency-free localhost server.
+Production and offline bundles compile successfully. Checks cover all five page openings, automatic slideshow progression without clicks, photo paths, unique photo assignments, Gallery counts and filters, service filtering and enquiries, About accordion changes, and valid/invalid Contact form behaviour. WhatsApp draft contents were inspected without sending a message.
 
-## Hosting
+Responsive stylesheet rules were checked at 320, 390, 768 and 1440 pixels in a DOM environment. The test used the same unminified source styles because that environment misinterprets some compact media-query syntax; it does not implement a real layout engine. A real-browser visual pass, physical phone testing and GPU-specific 3D rendering were not performed here. Please check those on your devices before publishing.
 
-Build command: npm run build
-Output directory: dist
-
-Upload the contents of dist to a static host. Never upload node_modules. Hash routing does not require a catch-all server rewrite. The Vite base is relative, so the compiled site can also be served beneath a directory path.
-
-## Accessibility and performance
-
-The site includes semantic navigation, active-page labels, skip navigation, keyboard-accessible image dialogs, visible focus styles, reduced-motion support and WebGL photo fallbacks. Animations pause when scenes are off screen or the tab is hidden. GPU resources are disposed when navigating between pages. Image thumbnails and lazy loading reduce transfer size on phones.
-
-Responsive layouts cover desktop, tablet and mobile. The mobile navigation opens at 980px; gallery cards become one column at 420px. Build and DOM-based interaction checks were run. Actual WebGL rendering, touch interactions and device-specific layout still need a real-browser review before public launch.
-
-## References
-
-The original brief supplied Lagom, Livspace, InchX Interio, DesignCafe, Homzinterio and D'LIFE as design references. This edition preserves the accepted Vsn palette and adds the requested Home, About Us, Services, Gallery and Contact Us navigation. InchX's public homepage returned only its JavaScript shell through the research tool; no full visual inspection is claimed.
+The archive is verified by CRC and an extraction comparison. Authored source code contains no comments. Required third-party notices are retained in `THIRD-PARTY-LICENSES.txt`.

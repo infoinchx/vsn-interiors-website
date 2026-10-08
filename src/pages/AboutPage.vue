@@ -2,13 +2,14 @@
 import { computed, ref } from "vue";
 import {
   ArrowUpRight,
-  ArrowDown,
   Plus,
-  MapPin,
   MoveUpRight,
   Check,
 } from "lucide-vue-next";
 import { business } from "../config";
+import ImageHero from "../components/ImageHero.vue";
+import VisualCarousel from "../components/VisualCarousel.vue";
+import { clientVisuals } from "../data/clientVisuals";
 
 const openPrinciple = ref(0);
 const selectedPalette = ref(0);
@@ -87,46 +88,11 @@ const journey = [
 
 <template>
   <div class="studio-about">
-    <section class="sa-opening">
-      <div class="studio-container">
-        <div class="sa-topline">
-          <p class="studio-kicker">THE VSN STORY</p>
-          <span><MapPin :size="14" /> VIZIANAGARAM, INDIA</span>
-        </div>
-        <div class="sa-masthead">
-          <h1 tabindex="-1">
-            Thoughtful spaces.<br /><em>Personal stories.</em>
-          </h1>
-          <div class="sa-introduction">
-            <p>
-              We bring design, materials and everyday life together. For homes
-              that feel familiar, and distinctly yours.
-            </p>
-            <a href="#/about#people" class="studio-text-link"
-              >Get to know us <ArrowDown :size="18"
-            /></a>
-          </div>
-        </div>
-        <figure class="sa-hero-figure">
-          <img
-            :src="'images/studio/about-courtyard.webp'"
-            alt="Warm Indian courtyard living concept with teak, terracotta and a shaded garden"
-            width="1659"
-            height="948"
-            fetchpriority="high"
-          />
-          <div class="sa-image-caption">
-            <span>ROOTED IN THE WAY WE LIVE</span
-            ><span>Indian warmth. Contemporary thinking.</span>
-          </div>
-          <figcaption class="studio-image-note">AI interior concept</figcaption>
-        </figure>
-        <div class="sa-disciplines">
-          <span>INTERIOR DESIGN</span><i></i><span>3D VISUALISATION</span><i></i
-          ><span>COMPLETE EXECUTION</span>
-        </div>
-      </div>
-    </section>
+    <ImageHero :slides="clientVisuals.about" page="about" eyebrow="THE VSN STORY"
+      title="Rooted in the way we live." subtitle="Personal spaces. Thoughtful people."
+      description="Based in Vizianagaram, we bring design, materials and everyday life together. Your routines and your ideas are where we begin."
+      link="#/about#people" action="Meet the founder" note="Indian warmth. Contemporary thinking."
+    />
 
     <section id="people" class="sa-people studio-section studio-container">
       <div class="sa-founder-image reveal">
@@ -185,12 +151,10 @@ const journey = [
     <section class="sa-principles studio-section">
       <div class="studio-container sa-principles-layout">
         <div class="sa-principles-intro reveal">
+          <VisualCarousel :slides="clientVisuals.principles" label="Our design principles in pictures" :interval="5600" class="vsn-principles-photos" />
           <p class="studio-kicker">OUR DESIGN PRINCIPLES</p>
-          <h2>Considered.<br />Connected.<br /><em>Yours.</em></h2>
+          <h2>Considered. Connected. <em>Yours.</em></h2>
           <p>Six ideas that guide the decisions behind every space.</p>
-          <div class="sa-line-art" aria-hidden="true">
-            <span></span><span></span><span></span><span></span>
-          </div>
         </div>
         <div class="sa-principle-list">
           <article
@@ -326,21 +290,6 @@ const journey = [
       </div>
     </section>
 
-    <section class="sa-invitation">
-      <div class="studio-container">
-        <p class="studio-kicker">YOUR HOME. YOUR NEXT CHAPTER.</p>
-        <h2>Let’s make it<br /><em>feel like you.</em></h2>
-        <a class="sa-invitation-link" href="#/contact"
-          >Start a conversation <ArrowUpRight :size="28"
-        /></a>
-        <div class="sa-invitation-bottom">
-          <span>BASED IN VIZIANAGARAM</span
-          ><span>{{ business.areas.join(" · ") }}</span>
-        </div>
-      </div>
-      <div class="sa-invitation-arches" aria-hidden="true">
-        <span></span><span></span><span></span>
-      </div>
-    </section>
+
   </div>
 </template>

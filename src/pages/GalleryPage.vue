@@ -2,8 +2,8 @@
 import { ref, computed, watch, onMounted, onBeforeUnmount } from "vue";
 import { ArrowUpRight, Search } from "lucide-vue-next";
 import { projects, categories } from "../data/content";
-import { pageImages } from "../data/imageLibrary";
-import PhotoSlideshow from "../components/PhotoSlideshow.vue";
+import { clientVisuals } from "../data/clientVisuals";
+import ImageHero from "../components/ImageHero.vue";
 const emit = defineEmits(["open-project"]);
 function routeFilter() {
   const v = new URLSearchParams(
@@ -33,21 +33,11 @@ onBeforeUnmount(() => window.removeEventListener("hashchange", syncFilter));
 </script>
 <template>
   <div class="gallery-page">
-    <section class="gallery-slideshow-cover">
-      <PhotoSlideshow
-        :slides="pageImages.galleryHero"
-        label="Indian interior design gallery"
-        :interval="6500"
-        ><p class="eyebrow">INDIAN HOMES / DISTINCT POSSIBILITIES</p>
-        <h1 tabindex="-1">The space <span>edit.</span></h1>
-        <p>
-          Find your colours. Discover your details.<br />Imagine a space that
-          feels like you.
-        </p>
-        <a href="#/gallery#collection" class="button button-white"
-          >Explore 130 designs <ArrowUpRight :size="19" /></a
-      ></PhotoSlideshow>
-    </section>
+    <ImageHero :slides="clientVisuals.gallery" page="gallery" eyebrow="THE INTERIOR EDIT"
+      title="Find your kind of home." subtitle="130 designs. A world of ideas."
+      description="Ten different concepts for every room category. Find the colours, materials and small details that speak to you."
+      link="#/gallery#collection" action="Browse the collection" note="Distinct spaces. Endless possibilities."
+    />
     <section class="section gallery-collection" id="collection">
       <div class="gallery-title">
         <div>

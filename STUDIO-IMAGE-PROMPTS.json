@@ -1,0 +1,17 @@
+[
+  {
+    "file": "studio/about-courtyard.webp",
+    "tool": "Built-in ImageGen",
+    "prompt": "Photorealistic contemporary coastal Andhra courtyard living space with warm ivory limewash, teak, terracotta, cane, a plum chair and filtered morning light. No people, writing or logos."
+  },
+  {
+    "file": "studio/about-materials.webp",
+    "tool": "Built-in ImageGen",
+    "prompt": "Photorealistic Indian interior materials study with teak veneer, limestone, terracotta tile, cream handwoven textile, brass and a burgundy sample under warm directional daylight. No text, people or logos."
+  },
+  {
+    "file": "studio/contact-salon.webp",
+    "tool": "Built-in ImageGen",
+    "prompt": "Photorealistic contemporary Indian dining and reading area with a cobalt curved alcove, pale oak table, cane chairs, cream plaster, a brass pendant and a sunlit courtyard. No people, text or logos."
+  }
+]

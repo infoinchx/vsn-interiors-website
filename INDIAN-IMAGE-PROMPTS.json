@@ -1,0 +1,755 @@
+{
+  "method": "Built-in image_gen",
+  "date": "2026-09-23",
+  "assets": [
+    {
+      "id": "home-hero-01",
+      "type": "Living",
+      "title": "A home, entirely yours",
+      "placement": "home.hero",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Coastal Andhra villa living room with olive sofa, teak jaali partition, brass urli and a lush internal courtyard. A generous atmospheric wide composition."
+    },
+    {
+      "id": "home-hero-02",
+      "type": "Kitchen",
+      "title": "Made for everyday living",
+      "placement": "home.hero",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Warm contemporary Indian parallel kitchen with saffron lower cabinetry, pale quartz counter, practical stainless sink, gas hob and chimney, tall pantry and breakfast table visible beyond. Morning sunshine. Wide composition."
+    },
+    {
+      "id": "home-hero-03",
+      "type": "Bedroom",
+      "title": "Your quiet place",
+      "placement": "home.hero",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Elegant Telugu family bedroom, blue-grey upholstered headboard, teak wardrobe with brass details, cream bed linen with indigo block-print throw, dressing nook, ceiling fan and soft patterned blinds. Wide editorial composition."
+    },
+    {
+      "id": "home-room-01",
+      "type": "Living",
+      "title": "A place to gather",
+      "placement": "home.rooms",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian apartment living room with a warm rust sectional, timber TV console, ivory walls and Kalamkari cushion accents, diagonal angle."
+    },
+    {
+      "id": "home-room-02",
+      "type": "Kitchen",
+      "title": "Everyday rituals",
+      "placement": "home.rooms",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Practical sage-green L-shaped Indian modular kitchen with granite counter, gas hob chimney and pull-out pantry, compact south Indian apartment."
+    },
+    {
+      "id": "home-room-03",
+      "type": "Bedroom",
+      "title": "Space to unwind",
+      "placement": "home.rooms",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Modern Indian bedroom with caramel fluted bed-back wall, white cotton bedding, rosewood bedside tables and a subtle brass reading lamp."
+    },
+    {
+      "id": "home-room-04",
+      "type": "Dining",
+      "title": "Together, at home",
+      "placement": "home.rooms",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian dining space with six-seat rosewood table, woven cane chairs, copper pendant and crockery cabinet, polished pale stone floor."
+    },
+    {
+      "id": "home-room-05",
+      "type": "Office",
+      "title": "Room to focus",
+      "placement": "home.rooms",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian apartment home office with a built-in teak desk in a window alcove, indigo chair, closed document storage and a small plant."
+    },
+    {
+      "id": "home-room-06",
+      "type": "Pooja",
+      "title": "A moment of calm",
+      "placement": "home.rooms",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Traditional Andhra pooja nook with carved wooden mandir, brass bells, symmetrical small oil lamps, white marble platform and a discreet drawer."
+    },
+    {
+      "id": "gallery-hero-01",
+      "type": "Living",
+      "title": "Indian homes, beautifully imagined",
+      "placement": "gallery.hero",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Distinctive contemporary Indian bungalow living hall with peacock-blue sofa, curved ivory ceiling, chequered stone border floor, carved teak arch and brass details. Spacious wide room view."
+    },
+    {
+      "id": "gallery-hero-02",
+      "type": "Dining",
+      "title": "Details worth coming home to",
+      "placement": "gallery.hero",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian villa dining hall with long live-edge dark wood table, rust chairs, green courtyard and a lattice wall, warm copper pendants, restrained rangoli-inspired rug. Wide architectural view."
+    },
+    {
+      "id": "gallery-hero-03",
+      "type": "Kitchen",
+      "title": "Ideas for the way you live",
+      "placement": "gallery.hero",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Contemporary Indian U-shaped modular kitchen in ivory and aubergine, rose gold handles, appliance tower, black granite gas cooking area, patterned backsplash, breakfast window. Wide architectural view."
+    },
+    {
+      "id": "services-cover",
+      "type": "Exterior",
+      "title": "Designed from the outside in",
+      "placement": "services.cover",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Beautiful contemporary two-storey Indian villa facade in Andhra Pradesh, white plaster, warm wood louvers, deep verandah, simple compound wall and black entry gate, flowering tropical landscaping, golden hour. No western suburban styling."
+    },
+    {
+      "id": "contact-cover",
+      "type": "Office",
+      "title": "Come, let us plan your space",
+      "placement": "contact.cover",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Inviting interior design consultation studio in Vizianagaram, round walnut meeting table with four upholstered olive chairs, material sample shelves, rolled plans, terracotta accessories and filtered daylight, no people."
+    },
+    {
+      "id": "room-fallback",
+      "type": "Living",
+      "title": "The Indian home studio",
+      "placement": "home.fallback",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Isometric three-quarter view of a beautifully detailed contemporary Indian open plan living dining kitchen, sage sofa, teak jaali, ceiling cornice, gold pendant lights, TV unit, pooja nook, terracotta tiles and indoor plants. Photorealistic architectural visualisation on warm ivory background."
+    },
+    {
+      "id": "service-01",
+      "type": "Service",
+      "title": "Space planning & layouts",
+      "placement": "services.item",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. A beautiful Indian design studio table with a scaled timber model of a home, unlettered floor plan sheets, pencil, material swatches and measuring tape, naturally lit close architectural still life."
+    },
+    {
+      "id": "service-02",
+      "type": "Service",
+      "title": "3D design & visualisation",
+      "placement": "services.item",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. An ultra polished 3D architectural visualisation of an Indian apartment open plan interior with terracotta sofa, matte beige cabinets and carved timber accents, lifelike lighting, elevated wide corner perspective."
+    },
+    {
+      "id": "service-03",
+      "type": "Service",
+      "title": "Modular kitchens",
+      "placement": "services.item",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Deep forest-green Indian modular kitchen, L-shaped black granite working counter, gas hob and chimney, brass handles, tall overhead cabinets and warm wood breakfast shelf."
+    },
+    {
+      "id": "service-04",
+      "type": "Service",
+      "title": "Wardrobes & walk-in closets",
+      "placement": "services.item",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian bedroom wardrobe wall with ivory shutters, oak open shelves, a full-height bronze mirror and central compact dressing table, warm LED shelf lighting, no bed in frame."
+    },
+    {
+      "id": "service-05",
+      "type": "Service",
+      "title": "Living rooms & TV units",
+      "placement": "services.item",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Modern Indian TV feature wall in cream stone with walnut fluted side panels, long floating closed-storage console, brass details and pair of upholstered ottomans, viewed from living seating."
+    },
+    {
+      "id": "service-06",
+      "type": "Service",
+      "title": "Bedrooms & dressing areas",
+      "placement": "services.item",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Airy Indian master bedroom in sage and cream with tufted headboard, oak dressing console and ceiling fan, neatly layered cotton bed linen, afternoon daylight."
+    },
+    {
+      "id": "service-07",
+      "type": "Service",
+      "title": "Kids rooms & study spaces",
+      "placement": "services.item",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian child bedroom with mustard and dusty blue palette, single bed, rounded white desk, closed toy storage, elephant illustration with no lettering, practical safe layout."
+    },
+    {
+      "id": "service-08",
+      "type": "Service",
+      "title": "Dining rooms & crockery units",
+      "placement": "services.item",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian dining area focused on a bespoke walnut crockery cabinet with fluted glass shutters, brass knobs, six-seat stone-top table and rust upholstered chairs."
+    },
+    {
+      "id": "service-09",
+      "type": "Service",
+      "title": "Pooja rooms & mandirs",
+      "placement": "services.item",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Compact South Indian home pooja unit with carved teak shutters, brass bells, backlit white stone niche, low storage drawers and a traditional brass lamp."
+    },
+    {
+      "id": "service-10",
+      "type": "Service",
+      "title": "Bathrooms & vanity units",
+      "placement": "services.item",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Practical Indian apartment bathroom with separated glass shower, terracotta vertical tiles, beige antiskid floor, floating teak vanity and round bronze mirror."
+    },
+    {
+      "id": "service-11",
+      "type": "Service",
+      "title": "Balconies & utility areas",
+      "placement": "services.item",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Compact Indian apartment balcony with cane swing seat, terracotta planters, patterned floor tile and an enclosed laundry cabinet, afternoon tropical greenery."
+    },
+    {
+      "id": "service-12",
+      "type": "Service",
+      "title": "Home offices & libraries",
+      "placement": "services.item",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Teak book-lined Indian study with blue ergonomic chair, wide writing desk, warm brass lamp and a cushioned reading window seat."
+    },
+    {
+      "id": "service-13",
+      "type": "Service",
+      "title": "False ceilings & lighting",
+      "placement": "services.item",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Detailed Indian living room ceiling view with layered gypsum coves, warm indirect LEDs, recessed spotlights, elegant brass chandelier and a dark ceiling fan, cream and walnut room edges below."
+    },
+    {
+      "id": "service-14",
+      "type": "Service",
+      "title": "Wall panels, paint & wallpaper",
+      "placement": "services.item",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian home feature wall with textured sage plaster, carved teak wall panels, patterned Kalamkari artwork without text and a slim brass-console table."
+    },
+    {
+      "id": "service-15",
+      "type": "Service",
+      "title": "Flooring & surface finishes",
+      "placement": "services.item",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Wide foyer view focusing on Indian polished Kota stone and ivory tile floor with terracotta inlay border, sculptural teak bench, simple carved entrance door and indirect wall lighting."
+    },
+    {
+      "id": "service-16",
+      "type": "Service",
+      "title": "Custom furniture & upholstery",
+      "placement": "services.item",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Bespoke curved olive sofa and cane-back teak armchair in an Indian family lounge, handwoven cushion texture, low rosewood coffee table and woven jute rug."
+    },
+    {
+      "id": "service-17",
+      "type": "Service",
+      "title": "Curtains, decor & styling",
+      "placement": "services.item",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Sunlit Indian home window corner with layered cream sheers and indigo block-print curtains, carved wooden sideboard, brass urli and ceramic styling, editorial still life."
+    },
+    {
+      "id": "service-18",
+      "type": "Service",
+      "title": "Glass, metal & partitions",
+      "placement": "services.item",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Contemporary Indian apartment partition of fluted glass, slim bronze frames and teak open shelves, dining space softly visible beyond, sophisticated airy composition."
+    },
+    {
+      "id": "service-20",
+      "type": "Service",
+      "title": "Office & workspace interiors",
+      "placement": "services.item",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian boutique professional office with walnut workstations, jade green lounge, meeting room behind fluted glass and carefully integrated planters, modern realistic commercial layout."
+    },
+    {
+      "id": "service-21",
+      "type": "Service",
+      "title": "Retail & showroom interiors",
+      "placement": "services.item",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Premium Indian jewellery showroom with warm illuminated gold and ivory display cases, comfortable customer stools, security-friendly entry layout and polished stone flooring. No signage."
+    },
+    {
+      "id": "service-22",
+      "type": "Service",
+      "title": "Hospitality & reception spaces",
+      "placement": "services.item",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Boutique hotel reception in coastal Andhra, sculpted terracotta desk, carved wooden screen, cream walls, cane lounge chairs and a large brass pendant, no staff or signage."
+    },
+    {
+      "id": "service-23",
+      "type": "Service",
+      "title": "Renovation & civil-work coordination",
+      "placement": "services.item",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Thoughtfully renovated Indian home with preserved old carved timber doorway beside new cream plaster, pale stone floor, contemporary green seating and subtle joinery, no before-after collage."
+    },
+    {
+      "id": "service-24",
+      "type": "Service",
+      "title": "Turnkey execution & handover",
+      "placement": "services.item",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Completely finished contemporary Indian family apartment seen from entry, coordinated ivory walnut and muted rose living dining furniture, practical shoe cabinet, pooja niche, ceiling fan and layered lighting."
+    },
+    {
+      "id": "gallery-dining-01",
+      "type": "Dining",
+      "title": "Teak & Terracotta",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. South Indian dining room with terracotta walls, eight-seat teak table, cane chairs and a courtyard opening."
+    },
+    {
+      "id": "gallery-dining-02",
+      "type": "Dining",
+      "title": "Everyday Celebration",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Compact Andhra apartment dining nook with circular white stone table, teal banquette, brass pendant and crockery shelf."
+    },
+    {
+      "id": "gallery-office-01",
+      "type": "Office",
+      "title": "The Indigo Desk",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian home workspace with indigo wall, walnut desk, pinboard without words, brass lamp and linen blinds."
+    },
+    {
+      "id": "gallery-office-02",
+      "type": "Office",
+      "title": "Courtyard Workspace",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Home studio beside a Tamil courtyard, teak desk facing lush green plants, cane swivel chair, clay floor and filtered sunlight."
+    },
+    {
+      "id": "gallery-office-03",
+      "type": "Office",
+      "title": "Quiet Ambition",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Contemporary Andhra office cabin with ivory storage, warm timber desk, leather tan guest chairs and carved jaali screen."
+    },
+    {
+      "id": "gallery-pooja-01",
+      "type": "Pooja",
+      "title": "Brass & Devotion",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. South Indian pooja room with black granite platform, carved wood arch, brass hanging lamps and white jasmines."
+    },
+    {
+      "id": "gallery-pooja-02",
+      "type": "Pooja",
+      "title": "The Marble Niche",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Compact Indian marble pooja wall niche with brass Om motif, concealed storage and simple lattice shutters."
+    },
+    {
+      "id": "gallery-pooja-03",
+      "type": "Pooja",
+      "title": "Sacred Courtyard",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Traditional Indian home temple alcove beside a small green courtyard, teak columns, stone floor and symmetrical brass lamps."
+    },
+    {
+      "id": "gallery-pooja-04",
+      "type": "Pooja",
+      "title": "A Quiet Ritual",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Modern cream and sage Indian pooja cabinet with carved doors, marble shelf and warm cove light in a practical apartment corner."
+    },
+    {
+      "id": "gallery-bathroom-01",
+      "type": "Bathroom",
+      "title": "Sage Sanctuary",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian bathroom with sage glazed tiles, ivory stone floor, teak vanity and clear glass wet zone."
+    },
+    {
+      "id": "gallery-bathroom-02",
+      "type": "Bathroom",
+      "title": "Stone & Rain",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Contemporary Indian bathroom with warm grey stone, rain shower, walnut cabinet and black fittings."
+    },
+    {
+      "id": "gallery-bathroom-03",
+      "type": "Bathroom",
+      "title": "Jaipur Blush",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian bathroom with blush plaster, small Jaipur patterned tile inset, brass taps and white ceramic basin."
+    },
+    {
+      "id": "gallery-bathroom-04",
+      "type": "Bathroom",
+      "title": "Compact Comfort",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Small well planned Indian apartment bathroom with beige wall tiles, blue vanity, shower screen and ventilation window."
+    },
+    {
+      "id": "gallery-bathroom-05",
+      "type": "Bathroom",
+      "title": "Walnut Wash",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Premium Indian family bathroom with twin walnut vanities, large illuminated mirror and understated beige terrazzo."
+    },
+    {
+      "id": "gallery-bathroom-06",
+      "type": "Bathroom",
+      "title": "Green Courtyard Bath",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian villa bathroom beside a private tropical courtyard, stone tub, green wall tiles and carved wooden stool."
+    },
+    {
+      "id": "gallery-bathroom-07",
+      "type": "Bathroom",
+      "title": "Terracotta Ritual",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian bathroom with terracotta floor tiles, cream washbasin counter, bronze fittings and ribbed glass partition."
+    },
+    {
+      "id": "gallery-bathroom-08",
+      "type": "Bathroom",
+      "title": "Ivory & Bronze",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Elegant compact Indian guest bathroom with ivory fluted wall tiles, bronze round mirror and floating wood cabinet."
+    },
+    {
+      "id": "gallery-bathroom-09",
+      "type": "Bathroom",
+      "title": "Blue Mosaic",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Modern Indian bathroom with indigo handmade mosaic shower wall, light grey floor, oak vanity and frosted ventilation window."
+    },
+    {
+      "id": "gallery-wardrobe-01",
+      "type": "Wardrobe",
+      "title": "The Teak Wall",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Full wall floor-to-ceiling teak Indian bedroom wardrobe with slim brass handles and integrated central dressing niche."
+    },
+    {
+      "id": "gallery-wardrobe-02",
+      "type": "Wardrobe",
+      "title": "Ivory Storage",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Compact Indian apartment wardrobe with ivory laminate shutters, wood loft cabinets and recessed black pull handles."
+    },
+    {
+      "id": "gallery-wardrobe-03",
+      "type": "Wardrobe",
+      "title": "Soft Sage Dressing",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian walk-in wardrobe with sage cupboards, cane drawer fronts and a cushioned dressing stool."
+    },
+    {
+      "id": "gallery-wardrobe-04",
+      "type": "Wardrobe",
+      "title": "Mirror & Oak",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian bedroom sliding wardrobe in pale oak and mirrors with a side dressing mirror and compact vanity."
+    },
+    {
+      "id": "gallery-wardrobe-05",
+      "type": "Wardrobe",
+      "title": "Walnut Walk-in",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Narrow Indian walk-in closet with walnut cabinetry, warm illuminated shelves and neat folded textiles."
+    },
+    {
+      "id": "gallery-wardrobe-06",
+      "type": "Wardrobe",
+      "title": "Fluted Elegance",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Modern Indian storage wall with dusty rose fluted shutter fronts, brass knobs and warm wood dressing ledge."
+    },
+    {
+      "id": "gallery-wardrobe-07",
+      "type": "Wardrobe",
+      "title": "Cane & Cotton",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. South Indian bedroom wardrobe with teak frame and cane shutter panels, subtle linen curtain and handcrafted stool."
+    },
+    {
+      "id": "gallery-wardrobe-08",
+      "type": "Wardrobe",
+      "title": "The Dressing Alcove",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian dressing area with bronze-framed mirror, closed cream cabinets, jewellery drawers and a sage ottoman."
+    },
+    {
+      "id": "gallery-wardrobe-09",
+      "type": "Wardrobe",
+      "title": "Everyday Organisation",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Practical modern Indian wardrobe with open demonstration of drawers, hanging rails, suitcase lofts and tan finishes, no people."
+    },
+    {
+      "id": "gallery-kids-01",
+      "type": "Kids",
+      "title": "Little Explorer",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian child room with pale blue single bed, oak study desk, world-map art without letters and organised toy bins."
+    },
+    {
+      "id": "gallery-kids-02",
+      "type": "Kids",
+      "title": "Two Little Worlds",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Shared Indian kids bedroom with twin single beds, saffron and teal accent panels, long study desk beneath window."
+    },
+    {
+      "id": "gallery-kids-03",
+      "type": "Kids",
+      "title": "The Reading Nest",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian kids room with dusty pink canopy reading nook, cream bed, cane book rack and playful round rug."
+    },
+    {
+      "id": "gallery-kids-04",
+      "type": "Kids",
+      "title": "Grow & Dream",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Modern Indian teenage bedroom with navy study wall, light wood bed, ceiling fan and generous practical closed storage."
+    },
+    {
+      "id": "gallery-kids-05",
+      "type": "Kids",
+      "title": "Sunshine Study",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Compact Indian child bedroom with sunny yellow wardrobe, white desk, sage bedding and softened furniture corners."
+    },
+    {
+      "id": "gallery-kids-06",
+      "type": "Kids",
+      "title": "Peach Playroom",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian apartment child bedroom with peach walls, colourful modular storage and low bed, simple fabric toys, warm daylight."
+    },
+    {
+      "id": "gallery-kids-07",
+      "type": "Kids",
+      "title": "The Bunk Corner",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Practical Indian shared child room with built-in wood bunk beds, safe broad stairs with drawers and a dual homework desk."
+    },
+    {
+      "id": "gallery-kids-08",
+      "type": "Kids",
+      "title": "A Room to Create",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian teenager creative room with olive wall, unlettered pinboard, terracotta chair and a single oak bed."
+    },
+    {
+      "id": "gallery-kids-09",
+      "type": "Kids",
+      "title": "Blue Sky Room",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Refined Indian nursery and toddler room with pale blue arched wall, cane cot, closed wardrobe and cotton rug, no children."
+    },
+    {
+      "id": "gallery-balcony-01",
+      "type": "Balcony",
+      "title": "Monsoon Verandah",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian apartment balcony with teak bench, brass lanterns, patterned cement tiles and many tropical plants."
+    },
+    {
+      "id": "gallery-balcony-02",
+      "type": "Balcony",
+      "title": "The Swing Seat",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. South Indian covered balcony with a carved wooden swing hung from brass chains, bougainvillea and terracotta floor."
+    },
+    {
+      "id": "gallery-balcony-03",
+      "type": "Balcony",
+      "title": "City Green",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Compact Indian high-rise balcony with vertical garden, foldable teak table, two cane chairs and warm string lighting."
+    },
+    {
+      "id": "gallery-balcony-04",
+      "type": "Balcony",
+      "title": "Morning Chai",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian balcony morning tea corner with a blue bench, round brass tray, clay cups and jasmine creeper."
+    },
+    {
+      "id": "gallery-balcony-05",
+      "type": "Balcony",
+      "title": "The Urban Verandah",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian apartment long balcony with built-in cream storage bench, green cushions and decorative terracotta lattice."
+    },
+    {
+      "id": "gallery-balcony-06",
+      "type": "Balcony",
+      "title": "Terrace Garden",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Contemporary Indian terrace lounge with pergola, outdoor wicker sofa, planters and patterned tiled border, sunset."
+    },
+    {
+      "id": "gallery-balcony-07",
+      "type": "Balcony",
+      "title": "Quiet Outdoors",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Tiny Indian balcony with one cane egg chair, bamboo blinds, tulsi pot and sunlit sandstone floor."
+    },
+    {
+      "id": "gallery-balcony-08",
+      "type": "Balcony",
+      "title": "The Utility Corner",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Beautiful practical Indian utility balcony with closed grey washing-machine cabinet, sink, hanging planters and open ventilation."
+    },
+    {
+      "id": "gallery-balcony-09",
+      "type": "Balcony",
+      "title": "A Green Pause",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian villa verandah with teak daybed, patterned indigo cushions, tiled sloping roof edge and tropical garden."
+    },
+    {
+      "id": "gallery-commercial-01",
+      "type": "Commercial",
+      "title": "The Jewellery Gallery",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian jewellery showroom with fluted cream display counters, bronze details, warm lit vitrines and maroon seating."
+    },
+    {
+      "id": "gallery-commercial-02",
+      "type": "Commercial",
+      "title": "The Textile Studio",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian saree boutique with walnut textile shelving, a long display table and terracotta plaster walls, no written signs."
+    },
+    {
+      "id": "gallery-commercial-03",
+      "type": "Commercial",
+      "title": "Cafe Courtyard",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Modern Indian cafe with teal upholstered booths, cane lighting, Kota stone floor and a small indoor courtyard."
+    },
+    {
+      "id": "gallery-commercial-04",
+      "type": "Commercial",
+      "title": "Salon in Sage",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Contemporary Indian beauty salon with sage styling stations, arched brass mirrors and cream waiting seats, no people."
+    },
+    {
+      "id": "gallery-commercial-05",
+      "type": "Commercial",
+      "title": "The Welcome Desk",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian clinic reception with curved oak desk, pastel blue seating, discreet storage and clean tiled floor, no signage."
+    },
+    {
+      "id": "gallery-commercial-06",
+      "type": "Commercial",
+      "title": "The Design Office",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian co-working office with timber workstations, glass meeting pod, colourful chairs and tropical plants."
+    },
+    {
+      "id": "gallery-commercial-07",
+      "type": "Commercial",
+      "title": "Boutique Stay",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian boutique guesthouse lobby with carved teak screens, patterned Athangudi tiles and beige curved seating."
+    },
+    {
+      "id": "gallery-commercial-08",
+      "type": "Commercial",
+      "title": "The Display Edit",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian furniture showroom with staged living areas, walnut shelves, carefully separated lighting zones and pale floors."
+    },
+    {
+      "id": "gallery-commercial-09",
+      "type": "Commercial",
+      "title": "A Place to Meet",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian commercial meeting room with walnut conference table, teal acoustic wall panels, ergonomic chairs and a brass-framed glass door."
+    },
+    {
+      "id": "gallery-details-01",
+      "type": "Details",
+      "title": "The Jaali Screen",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Close architectural view of an intricate modern teak jaali partition in an Indian home with warm light revealing precise joinery."
+    },
+    {
+      "id": "gallery-details-02",
+      "type": "Details",
+      "title": "The TV Composition",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian contemporary TV wall with marble centre, long teak console, fluted beige panels and indirect warm LED lines."
+    },
+    {
+      "id": "gallery-details-03",
+      "type": "Details",
+      "title": "Ceiling in Layers",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian room ceiling with recessed gypsum coves, walnut strips, brass spotlights and an elegant ceiling fan, view includes top of living room."
+    },
+    {
+      "id": "gallery-details-04",
+      "type": "Details",
+      "title": "A Welcome in Wood",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian foyer shoe storage with cane shutters, walnut floating bench, brass hooks and round mirror."
+    },
+    {
+      "id": "gallery-details-05",
+      "type": "Details",
+      "title": "Soft Light",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian bedroom bedside detail with brushed brass reading light, handwoven textile headboard and warm teak floating nightstand."
+    },
+    {
+      "id": "gallery-details-06",
+      "type": "Details",
+      "title": "The Crockery Wall",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Elegant Indian dining crockery unit with reeded glass, brass frames, wooden drawers and softly illuminated ceramic display."
+    },
+    {
+      "id": "gallery-exterior-01",
+      "type": "Exterior",
+      "title": "Courtyard House",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Contemporary coastal Andhra two-storey villa exterior with white walls, teak screens, deep verandah and coconut palms."
+    },
+    {
+      "id": "gallery-exterior-02",
+      "type": "Exterior",
+      "title": "Urban Facade",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Modern Indian narrow urban house facade with terracotta brick screen, cream plaster, balcony planters and black metal gate."
+    },
+    {
+      "id": "gallery-exterior-03",
+      "type": "Exterior",
+      "title": "The Stone Residence",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian duplex exterior clad partly in warm sandstone, wood-look aluminium louvers, tiled driveway and a small garden."
+    },
+    {
+      "id": "gallery-exterior-04",
+      "type": "Exterior",
+      "title": "Tropical Home",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian tropical single-storey bungalow with Mangalore tile roof, teak columns, white walls and lush low garden."
+    },
+    {
+      "id": "gallery-exterior-05",
+      "type": "Exterior",
+      "title": "Evening Arrival",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Contemporary Indian villa entrance at dusk, warm recessed facade lighting, cream walls, bronze gate and fluted stone columns."
+    },
+    {
+      "id": "gallery-exterior-06",
+      "type": "Exterior",
+      "title": "A House in Green",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian urban duplex facade with sage accents, projecting white balconies, wood louvers and neat tropical plants."
+    },
+    {
+      "id": "gallery-exterior-07",
+      "type": "Exterior",
+      "title": "Terracotta Courtyard",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Contemporary Indian courtyard house exterior with exposed terracotta brick, rounded cream corner, veranda and a solid wooden front door."
+    },
+    {
+      "id": "gallery-exterior-08",
+      "type": "Exterior",
+      "title": "The Family Villa",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Indian three-storey family home with cream stone, brown balcony slats, simple boundary wall and tropical street planting."
+    },
+    {
+      "id": "gallery-exterior-09",
+      "type": "Exterior",
+      "title": "Modern Verandah",
+      "placement": "gallery",
+      "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 architectural interior photograph for an Indian interior design website. Believable contemporary Indian home or commercial space, elegant clean proportions, straight verticals, tactile finishes, natural daylight, expertly balanced warm lighting. Rich but restrained colours, teak or walnut joinery, thoughtful local craft details, realistic fittings and Indian room proportions. No people, text, logos, watermarks, collages, grids or split panels. One complete photograph. Architect-designed Andhra home facade with a shaded wide porch, grey stone plinth, warm teak door and cream cantilevered upper floor."
+    }
+  ]
+}

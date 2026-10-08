@@ -180,7 +180,7 @@ onBeforeUnmount(() => {
   </header>
   <main id="main" tabindex="-1">
     <Transition name="page" mode="out-in" @after-enter="pageReady"
-      ><div :key="page" class="page-shell">
+      ><div :key="page" class="page-shell client-edition">
         <component
           v-if="currentComponent"
           :is="currentComponent"

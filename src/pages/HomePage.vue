@@ -1,6 +1,8 @@
 <script setup>
-import { ArrowUpRight, ArrowRight } from "lucide-vue-next";
-import PhotoSlideshow from "../components/PhotoSlideshow.vue";
+import { ArrowUpRight } from "lucide-vue-next";
+import ImageHero from "../components/ImageHero.vue";
+import VisualCarousel from "../components/VisualCarousel.vue";
+import { clientVisuals } from "../data/clientVisuals";
 import DesignStage from "../components/DesignStage.vue";
 import ReviewsSection from "../components/ReviewsSection.vue";
 import { pageImages } from "../data/imageLibrary";
@@ -26,26 +28,12 @@ const rails = [
 </script>
 <template>
   <div class="home-page">
-    <section class="home-cover" data-home-section="hero">
-      <PhotoSlideshow
-        :slides="pageImages.homeHero"
-        label="Featured Indian interiors"
-      >
-        <p class="eyebrow">VSN INTERIORS / VIZIANAGARAM</p>
-        <h1 tabindex="-1">A home.<br />Entirely <span>yours.</span></h1>
-        <p>
-          Designed around your life.<br />Made with care, down to the last
-          detail.
-        </p>
-        <div class="cover-links">
-          <a class="button button-white" href="#/gallery"
-            >Discover the collection <ArrowUpRight :size="20" /></a
-          ><a class="quiet-link" href="#/about"
-            >Meet VSN <ArrowRight :size="18"
-          /></a>
-        </div>
-      </PhotoSlideshow>
-    </section>
+    <ImageHero
+      :slides="clientVisuals.home" page="home" eyebrow="WELCOME TO VSN INTERIORS"
+      title="A home. Entirely yours." subtitle="Beautiful spaces. Everyday living."
+      description="Indian warmth, thoughtful planning and details that feel personal. Discover a fresh perspective on your home."
+      link="#/gallery" action="Explore our designs" note="Designed for the way you live."
+    />
     <section class="section room-finder" data-home-section="rooms">
       <div class="section-heading reveal">
         <div>
@@ -75,27 +63,13 @@ const rails = [
         ></a>
       </div>
     </section>
-    <section class="home-services" data-home-section="services">
-      <div class="home-services-intro reveal">
-        <p class="eyebrow">DESIGN / DETAIL / EXECUTION</p>
-        <h2>One home.<br />Every detail<br /><span>considered.</span></h2>
-        <a class="button button-outline" href="#/services"
-          >Discover our services <ArrowUpRight :size="19"
-        /></a>
-      </div>
-      <div class="service-rails">
-        <a
-          v-for="(service, i) in rails"
-          :key="service.name"
-          href="#/services"
-          class="service-rail reveal"
-          ><span>0{{ i + 1 }}</span>
-          <div>
-            <h3>{{ service.name }}</h3>
-            <p>{{ service.text }}</p>
-          </div>
-          <ArrowUpRight :size="25"
-        /></a>
+    <section class="vsn-home-edit" data-home-section="services">
+      <VisualCarousel :slides="clientVisuals.homeBanner" label="Spaces for everyday living" :interval="6100" class="vsn-home-banner">
+        <template #default="{ current }"><div class="vsn-banner-caption"><span>THE EVERYDAY, REIMAGINED</span><h2>{{ current.title }}</h2></div></template>
+      </VisualCarousel>
+      <div class="vsn-home-edit-content">
+        <div class="vsn-home-edit-intro"><p class="vsn-kicker">DESIGN / DETAIL / EXECUTION</p><h2>One studio.<br />Every detail considered.</h2><a class="vsn-pill-link" href="#/services">Discover our services <ArrowUpRight :size="18" /></a></div>
+        <div class="vsn-service-rails"><a v-for="(service, i) in rails" :key="service.name" href="#/services" class="vsn-service-rail"><span>0{{ i + 1 }}</span><div><h3>{{ service.name }}</h3><p>{{ service.text }}</p></div><ArrowUpRight :size="20" /></a></div>
       </div>
     </section>
     <section class="section home-interactive" data-home-section="studio">
