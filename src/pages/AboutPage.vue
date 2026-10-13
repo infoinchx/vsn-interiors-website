@@ -89,7 +89,7 @@ const journey = [
 <template>
   <div class="studio-about">
     <section class="vsn-story-banner" aria-label="VSN Interiors leadership and studio introduction">
-      <div class="vsn-banner-person vsn-banner-left"><img src="images/brand/founder-mahesh.webp" alt="Mahesh K, founder of VSN Interiors" /></div>
+      <div class="vsn-banner-person vsn-banner-left"><img src="/images/brand/founder-mahesh.webp" alt="Mahesh K, founder of VSN Interiors" /></div>
       <div class="vsn-banner-center">
         <p class="vsn-banner-overline">DESIGNED FOR LIFE · CRAFTED WITH CARE</p>
         <span class="vsn-banner-line"></span>
@@ -99,7 +99,7 @@ const journey = [
         <p class="vsn-banner-description">Thoughtful interiors, personal attention and a shared belief that every space deserves a story.</p>
         <a class="vsn-banner-action" href="#/about#people">Meet our founders <ArrowUpRight :size="18" /></a>
       </div>
-      <div class="vsn-banner-person vsn-banner-right"><img src="images/brand/founder-ravi.webp" alt="Ravi Kishore, co-founder of VSN Interiors" /></div>
+      <div class="vsn-banner-person vsn-banner-right"><img src="/images/brand/founder-ravi.webp" alt="Ravi Kishore, co-founder of VSN Interiors" /></div>
     </section>
 
     <section class="vsn-story-highlights studio-container" aria-label="Why choose VSN Interiors">
