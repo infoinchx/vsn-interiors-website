@@ -25,7 +25,7 @@ const questions = [
     </section>
     <section id="enquiry" class="vsn-contact-enquiry vsn-container">
       <div class="vsn-visit-column">
-        <figure class="vsn-consult-photo"><img :src="'images/' + clientVisuals.contactMaterials.image" :alt="clientVisuals.contactMaterials.alt" width="1536" height="1024" loading="lazy" decoding="async" /><figcaption>A place to imagine what comes next.<span>Interior concept</span></figcaption></figure>
+        <div class="vsn-map-frame"><div class="vsn-map-title"><MapPin :size="18" /><span>VISIT OUR STUDIO</span></div><iframe title="Map showing VSN Interiors studio near Gayathri Hospital, Dasannapeta, Vizianagaram" src="https://maps.google.com/maps?q=PJR%20Residency%2C%20Ayya%20Koneru%2C%20Dasannapeta%2C%20Vizianagaram%2C%20Andhra%20Pradesh%20535002&t=&z=15&ie=UTF8&iwloc=&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe><a :href="business.maps" target="_blank" rel="noopener noreferrer">Open directions in Google Maps <ArrowUpRight :size="16" /></a></div>
         <div class="vsn-visit-card" id="visit"><p class="vsn-kicker"><MapPin :size="14" /> FIND US IN VIZIANAGARAM</p><h2>Come with ideas.<br />Leave with a direction.</h2><address><span v-for="line in business.addressLines" :key="line">{{ line }}</span></address><p>Call ahead to arrange a studio visit.</p><a :href="business.maps" target="_blank" rel="noopener noreferrer" class="vsn-pill-link">Get directions <Navigation :size="17" /></a><div class="vsn-service-areas"><span>WORKING ACROSS</span><p>{{ business.areas.join(" · ") }}</p></div></div>
       </div>
       <StudioEnquiry />

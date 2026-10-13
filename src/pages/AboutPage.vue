@@ -88,64 +88,36 @@ const journey = [
 
 <template>
   <div class="studio-about">
-    <ImageHero :slides="clientVisuals.about" page="about" eyebrow="THE VSN STORY"
-      title="Rooted in the way we live." subtitle="Personal spaces. Thoughtful people."
-      description="Based in Vizianagaram, we bring design, materials and everyday life together. Your routines and your ideas are where we begin."
-      link="#/about#people" action="Meet the founder" note="Indian warmth. Contemporary thinking."
-    />
-
-    <section id="people" class="sa-people studio-section studio-container">
-      <div class="sa-founder-image reveal">
-        <img
-          :src="'images/' + business.founder.image"
-          :alt="business.founder.name + ', founder of VSN Interiors'"
-          width="1920"
-          height="1280"
-          loading="lazy"
-        />
-        <div class="sa-founder-label">
-          <span>THE PERSON BEHIND THE PRACTICE</span><ArrowUpRight :size="28" />
-        </div>
+    <section class="vsn-story-banner" aria-label="VSN Interiors leadership and studio introduction">
+      <div class="vsn-banner-person vsn-banner-left"><img src="images/brand/founder-mahesh.webp" alt="Mahesh K, founder of VSN Interiors" /></div>
+      <div class="vsn-banner-center">
+        <p class="vsn-banner-overline">DESIGNED FOR LIFE · CRAFTED WITH CARE</p>
+        <span class="vsn-banner-line"></span>
+        <p class="vsn-banner-wordmark">VSN <em>INTERIORS</em></p>
+        <p class="vsn-banner-tag">Spaces that feel like you.</p>
+        <h1>The people behind<br/><em>beautiful spaces.</em></h1>
+        <p class="vsn-banner-description">Thoughtful interiors, personal attention and a shared belief that every space deserves a story.</p>
+        <a class="vsn-banner-action" href="#/about#people">Meet our founders <ArrowUpRight :size="18" /></a>
       </div>
-      <div class="sa-founder-copy reveal">
-        <p class="studio-kicker">A PERSONAL APPROACH</p>
-        <h2>Good design begins<br />with <em>understanding you.</em></h2>
-        <p>
-          Our studio in Dasannapeta, Vizianagaram brings interior design, 3D
-          visualisation and execution into one conversation.
-        </p>
-        <p>
-          Whether it is a single room, a complete home or a commercial space, we
-          start by understanding what you need from it. Your habits, your taste
-          and your priorities help shape the direction.
-        </p>
-        <div class="sa-founder-name">
-          <div>
-            <h3>{{ business.founder.name }}</h3>
-            <span>{{ business.founder.role }}, VSN Interiors</span>
-          </div>
-          <span class="sa-founder-mark" aria-hidden="true">VSN</span>
-        </div>
-        <a href="#/contact" class="studio-text-link"
-          >Meet the studio <ArrowUpRight :size="19"
-        /></a>
+      <div class="vsn-banner-person vsn-banner-right"><img src="images/brand/founder-ravi.webp" alt="Ravi Kishore, co-founder of VSN Interiors" /></div>
+    </section>
+
+    <section class="vsn-story-highlights studio-container" aria-label="Why choose VSN Interiors">
+      <div class="vsn-story-highlights-heading"><span>OUR STUDIO AT A GLANCE</span><h2>Designed with purpose.<br/><em>Made for real life.</em></h2></div>
+      <div class="vsn-story-highlights-grid">
+        <article><span>01 / LISTEN</span><h3>Your vision comes first</h3><p>We understand the way you live, your practical needs and the mood you want to create before designing a single detail.</p></article>
+        <article><span>02 / VISUALISE</span><h3>See the possibilities</h3><p>Clear space planning, thoughtful materials and 3D visualisations help turn your ideas into an informed design direction.</p></article>
+        <article><span>03 / DELIVER</span><h3>Care in every detail</h3><p>From early concepts to execution and finishing touches, we work to make the process coordinated, transparent and personal.</p></article>
       </div>
     </section>
 
-    <section
-      v-if="business.coFounder.name && business.coFounder.image"
-      class="sa-cofounder studio-container"
-    >
-      <img
-        :src="'images/' + business.coFounder.image"
-        :alt="business.coFounder.name"
-        loading="lazy"
-      />
-      <div>
-        <p class="studio-kicker">ALONGSIDE THE FOUNDER</p>
-        <h2>{{ business.coFounder.name }}</h2>
-        <p>{{ business.coFounder.role }}</p>
+    <section id="people" class="vsn-founders studio-container">
+      <div class="vsn-founders-heading"><p class="studio-kicker">MEET THE PEOPLE BEHIND VSN</p><h2>Two perspectives.<br/><em>One shared vision.</em></h2><p>Our approach blends thoughtful design, practical execution and personal attention to every project.</p></div>
+      <div class="vsn-founders-grid">
+        <article class="vsn-founder-profile"><div class="vsn-founder-portrait"><img :src="'images/' + business.founder.image" :alt="business.founder.name + ', founder of VSN Interiors'" loading="lazy" /></div><div class="vsn-founder-info"><span>FOUNDER · VSN INTERIORS</span><h3>{{ business.founder.name }}</h3><p>Helping shape spaces around the people who use them, with a focus on design clarity, materials and thoughtful details.</p></div></article>
+        <article class="vsn-founder-profile"><div class="vsn-founder-portrait"><img :src="'images/' + business.coFounder.image" :alt="business.coFounder.name + ', co-founder of VSN Interiors'" loading="lazy" /></div><div class="vsn-founder-info"><span>CO-FOUNDER · VSN INTERIORS</span><h3>{{ business.coFounder.name }}</h3><p>Bringing a collaborative, hands-on perspective to interior projects, from understanding client priorities to bringing the design together.</p></div></article>
       </div>
+      <a href="#/contact" class="vsn-founders-contact">Start a conversation with our team <ArrowUpRight :size="18" /></a>
     </section>
 
     <section class="sa-principles studio-section">
