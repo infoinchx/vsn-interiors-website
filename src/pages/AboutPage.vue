@@ -7,7 +7,6 @@ import {
   Check,
 } from "lucide-vue-next";
 import { business } from "../config";
-import ImageHero from "../components/ImageHero.vue";
 import VisualCarousel from "../components/VisualCarousel.vue";
 import { clientVisuals } from "../data/clientVisuals";
 
@@ -88,18 +87,13 @@ const journey = [
 
 <template>
   <div class="studio-about">
-    <section class="vsn-story-banner" aria-label="VSN Interiors leadership and studio introduction">
-      <div class="vsn-banner-person vsn-banner-left"><img src="/images/brand/founder-mahesh.webp" alt="Mahesh K, founder of VSN Interiors" /></div>
-      <div class="vsn-banner-center">
-        <p class="vsn-banner-overline">DESIGNED FOR LIFE · CRAFTED WITH CARE</p>
-        <span class="vsn-banner-line"></span>
-        <p class="vsn-banner-wordmark">VSN <em>INTERIORS</em></p>
-        <p class="vsn-banner-tag">Spaces that feel like you.</p>
-        <h1>The people behind<br/><em>beautiful spaces.</em></h1>
-        <p class="vsn-banner-description">Thoughtful interiors, personal attention and a shared belief that every space deserves a story.</p>
-        <a class="vsn-banner-action" href="#/about#people">Meet our founders <ArrowUpRight :size="18" /></a>
-      </div>
-      <div class="vsn-banner-person vsn-banner-right"><img src="/images/brand/founder-ravi.webp" alt="Ravi Kishore, co-founder of VSN Interiors" /></div>
+    <section class="vsn-about-hero" aria-label="VSN Interiors - Crafting Elegant Spaces">
+      <img
+        src="/images/brand/vsn-about-banner.png"
+        alt="VSN Interiors - Crafting Elegant Spaces for Modern Living"
+        class="vsn-about-hero-image"
+        fetchpriority="high"
+      />
     </section>
 
     <section class="vsn-story-highlights studio-container" aria-label="Why choose VSN Interiors">
@@ -265,3 +259,20 @@ const journey = [
 
   </div>
 </template>
+
+<style scoped>
+.vsn-about-hero {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #080705;
+}
+
+.vsn-about-hero-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+</style>
