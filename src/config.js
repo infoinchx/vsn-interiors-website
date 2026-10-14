@@ -18,9 +18,9 @@ export const business = {
   founder: {
     name: "Mahesh K",
     role: "Founder",
-    image: "brand/founder-mahesh.webp",
+    image: "brand/founder-mahesh.png",
   },
-  coFounder: { name: "Ravi Kishore", role: "Co-founder", image: "brand/founder-ravi.webp" },
+  coFounder: { name: "Ravi Kishore", role: "Co-founder", image: "brand/founder-ravi.png" },
   inquiryEndpoint: "",
 };
 export const whatsappUrl =
