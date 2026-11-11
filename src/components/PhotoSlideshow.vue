@@ -1,5 +1,6 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from "vue";
+const imageUrl = (item) => item?.bundled ? item.image : "images/" + item.image;
 const props = defineProps({
   slides: { type: Array, required: true },
   label: { type: String, default: "Interior inspiration" },
@@ -45,7 +46,7 @@ onBeforeUnmount(() => {
       :aria-label="item.title"
     >
       <img
-        :src="'images/' + item.image"
+        :src="imageUrl(item)"
         :alt="item.title"
         width="1536"
         height="1024"

@@ -87,13 +87,19 @@ const journey = [
 
 <template>
   <div class="studio-about">
-    <section class="vsn-about-hero" aria-label="VSN Interiors - Crafting Elegant Spaces">
-      <img
-        src="/images/brand/vsn-about-banner.png"
-        alt="VSN Interiors - Crafting Elegant Spaces for Modern Living"
-        class="vsn-about-hero-image"
-        fetchpriority="high"
+    <section class="vsn-about-hero" aria-label="VSN Interiors — Our design story">
+      <VisualCarousel
+        :slides="clientVisuals.about"
+        label="About VSN Interiors — modern interiors"
+        :interval="6200"
+        eager
+        class="vsn-about-hero-carousel"
       />
+      <div class="vsn-about-hero-copy">
+        <p class="studio-kicker">WELCOME TO VSN INTERIORS</p>
+        <h1 tabindex="-1">We design spaces<br /><em>around your life.</em></h1>
+        <p>Thoughtful interiors. Lasting everyday comfort.</p>
+      </div>
     </section>
 
     <section class="vsn-story-highlights studio-container" aria-label="Why choose VSN Interiors">

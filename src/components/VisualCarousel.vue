@@ -15,6 +15,8 @@ let observer;
 let disposed = false;
 let advancing = false;
 const ready = new Map();
+// New Vite-bundled images already have their final URL; legacy photos live in public/images.
+const imageUrl = (item) => item?.bundled ? item.image : "images/" + item.image;
 function preload(index) {
   const item = props.slides[index];
   if (!item) return Promise.resolve(false);
@@ -23,7 +25,7 @@ function preload(index) {
     const photo = new Image();
     photo.onload = () => resolve(true);
     photo.onerror = () => resolve(false);
-    photo.src = "images/" + item.image;
+    photo.src = imageUrl(item);
   });
   ready.set(item.image, promise);
   return promise;
@@ -56,7 +58,7 @@ onBeforeUnmount(() => { disposed = true; clearInterval(timer); observer?.disconn
 <template>
   <div ref="root" class="vsn-reel" role="region" aria-roledescription="carousel" :aria-label="label" aria-live="off" :style="{ '--reel-duration': interval + 'ms' }">
     <div v-for="(item, index) in slides" :key="item.image" class="vsn-reel-frame" :class="{ 'vsn-reel-active': active === index }" :aria-hidden="index !== active" role="group" aria-roledescription="slide" :aria-label="item.title">
-      <img :src="'images/' + item.image" :alt="item.alt || item.title" width="1536" height="1024" :fetchpriority="eager && index === 0 ? 'high' : 'auto'" :loading="eager && index === 0 ? 'eager' : 'lazy'" decoding="async" :style="{ objectPosition: item.position || 'center' }" />
+      <img :src="imageUrl(item)" :alt="item.alt || item.title" width="1536" height="1024" :fetchpriority="eager && index === 0 ? 'high' : 'auto'" :loading="eager && index === 0 ? 'eager' : 'lazy'" decoding="async" :style="{ objectPosition: item.position || 'center' }" />
     </div>
     <div v-if="$slots.default" class="vsn-reel-overlay"><slot :current="slides[active]" /></div>
   </div>

@@ -1,9 +1,14 @@
+<script setup>
+// Bundled user-provided VSN logo. Shared by the header and footer.
+import officialLogo from "../assets/brand/vsn-official.png";
+</script>
+
 <template>
   <img
     class="official-logo"
-    src="/images/brand/vsn-official.webp"
-    alt="VSN Interiors"
-    width="1662"
-    height="576"
+    :src="officialLogo"
+    alt="VSN Interiors — Style Your Space"
+    width="1648"
+    height="556"
   />
 </template>

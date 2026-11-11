@@ -306,3 +306,57 @@
 .vsn-map-frame{border-radius:18px;overflow:hidden;background:#171b19;color:#f6efe3;border:1px solid #3c493b}.vsn-map-title{display:flex;align-items:center;gap:11px;padding:18px 23px;color:#d7b786;letter-spacing:.16em;font-size:11px}.vsn-map-frame iframe{display:block;width:100%;height:380px;border:0;background:#e9ece6}.vsn-map-frame>a{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:17px 23px;color:#eddfcc;font-size:12px}.vsn-map-frame>a:hover{background:#2a302a}
 @media(max-width:850px){.studio-about .vsn-story-banner{grid-template-columns:1fr 1.5fr 1fr;min-height:490px}.vsn-banner-person{min-height:490px}.vsn-banner-center{padding:50px 5px}.vsn-banner-description{font-size:11px}.vsn-story-highlights-grid{gap:10px}.vsn-story-highlights-grid article{padding:23px 17px}}
 @media(max-width:650px){.studio-about .vsn-story-banner{grid-template-columns:1fr 1fr;grid-template-rows:280px auto}.vsn-banner-left,.vsn-banner-right{min-height:280px;grid-row:1}.vsn-banner-right{grid-column:2}.vsn-banner-left:after{background:linear-gradient(0deg,#10100f,transparent 65%)}.vsn-banner-right:after{background:linear-gradient(0deg,#10100f,transparent 65%)}.vsn-banner-center{grid-row:2;grid-column:1/-1;padding:30px 22px 55px}.vsn-banner-wordmark{font-size:47px}.vsn-banner-center h1{margin-top:24px}.vsn-story-highlights{padding-block:65px}.vsn-story-highlights-grid,.vsn-founders-grid{grid-template-columns:1fr}.vsn-story-highlights-grid article{min-height:0;padding:27px}.vsn-story-highlights-grid h3{margin-top:23px}.vsn-founders{padding-bottom:70px}.vsn-founder-portrait{height:370px}.vsn-map-frame iframe{height:315px}}
+
+/* 2026 image refresh — retain the About hero's original position while making
+   it a responsive two-image carousel with one preserved / one modern slide. */
+.studio-about .vsn-about-hero {
+  display: block;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  width: 100%;
+  min-height: clamp(350px, 46vw, 650px);
+  background: #192820;
+}
+.studio-about .vsn-about-hero-carousel {
+  height: clamp(350px, 46vw, 650px);
+  width: 100%;
+}
+.studio-about .vsn-about-hero::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(7, 20, 15, .78), rgba(7, 20, 15, .3) 48%, transparent 85%);
+}
+.studio-about .vsn-about-hero-copy {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: clamp(24px, 7vw, 110px);
+  color: #fffdf5;
+  pointer-events: none;
+}
+.studio-about .vsn-about-hero-copy .studio-kicker { color: #e4dfb0; }
+.studio-about .vsn-about-hero-copy h1 {
+  margin: 18px 0;
+  font-size: clamp(34px, 4.8vw, 79px);
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -.035em;
+  text-wrap: balance;
+}
+.studio-about .vsn-about-hero-copy h1 em { color: #dbe7b9; font-style: normal; }
+.studio-about .vsn-about-hero-copy > p:last-child { font-size: clamp(13px, 1.3vw, 17px); }
+@media (max-width: 700px) {
+  .studio-about .vsn-about-hero,
+  .studio-about .vsn-about-hero-carousel { min-height: 400px; height: 400px; }
+  .studio-about .vsn-about-hero::after { background: linear-gradient(90deg, rgba(7,20,15,.78), rgba(7,20,15,.18)); }
+  .studio-about .vsn-about-hero-copy { padding: 28px 6%; }
+  .studio-about .vsn-about-hero-copy h1 { font-size: clamp(30px, 8.5vw, 48px); }
+}
