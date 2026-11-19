@@ -17,7 +17,12 @@ defineProps({
 <template>
   <section class="vsn-image-hero" :class="'vsn-image-hero-' + page">
     <div class="vsn-hero-media">
-      <VisualCarousel :slides="slides" :label="eyebrow" eager>
+      <VisualCarousel
+        :slides="slides"
+        :label="eyebrow"
+        sizes="(max-width: 520px) calc(100vw - 16px), (max-width: 760px) calc(100vw - 24px), (min-width: 1764px) 1720px, calc(100vw - 44px)"
+        eager
+      >
         <div class="vsn-hero-eyebrow"><span class="vsn-status-dot"></span>{{ eyebrow }}</div>
         <div class="vsn-hero-title"><h1 tabindex="-1">{{ title }}</h1><p>{{ note }}</p></div>
       </VisualCarousel>

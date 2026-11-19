@@ -1,59 +1,51 @@
 import { pageImages } from "./imageLibrary";
 
-// These seven unique modern interior visuals are packaged in src/assets/modern.
-// Bundled URLs are resolved by Vite; existing images/ URLs still use your original public folder.
-import homeLiving from "../assets/modern/home-living.webp";
-import homeDining from "../assets/modern/home-dining.webp";
-import aboutHero from "../assets/modern/about-entry.webp";
-import aboutPrinciples from "../assets/modern/about-principles.webp";
-import servicesOffice from "../assets/modern/services-office.webp";
-import galleryBedroom from "../assets/modern/gallery-bedroom.webp";
-import contactLounge from "../assets/modern/contact-lounge.webp";
-
 const concept = (image, title, alt) => ({ image, title, alt, origin: "AI interior concept" });
-const modernConcept = (image, title, alt) => ({
-  image,
-  title,
-  alt,
-  origin: "AI interior concept",
-  bundled: true,
-});
 
-// Preserve the original image counts: a 3-image slideshow gets 1 new image;
-// a 2-image slideshow gets 1 new image. Each new photo appears only once.
+function modern(name, title, alt) {
+  const base = `modern-2026/${name}`;
+  return {
+    ...concept(`${base}-1672.webp`, title, alt),
+    srcset: [960, 1672, 3840].map((width) => `images/${base}-${width}.webp ${width}w`).join(", "),
+    width: 1672,
+    height: 941,
+  };
+}
+
 export const clientVisuals = {
   home: [
+    modern("home-stone-lounge", "Modern warmth, beautifully lived.", "Contemporary villa living room with biscuit linen seating, a limestone media wall and a planted courtyard"),
     concept("client-2026/home-hall.webp", "A home, entirely yours.", "Warm Andhra villa living room with an ivory sofa, teak jaali and tropical courtyard"),
-    modernConcept(homeLiving, "Modern warmth, beautifully lived.", "Modern open-plan luxury living and dining interior with warm wood, sage and terracotta details"),
-    concept("client-2026/home-bedroom.webp", "A softer place to land.", "Modern Indian bedroom with a sage headboard, walnut details and integrated storage"),
+    modern("home-soft-bedroom", "A softer landing.", "Modern bedroom with a soft gray headboard, walnut wardrobes and a garden view"),
+    concept("client-2026/home-bedroom.webp", "A softer place to land.", "Indian bedroom with a sage headboard, walnut details and integrated storage"),
   ],
   homeBanner: [
+    modern("home-ribbed-dining", "Spaces made to gather.", "Contemporary dining room with a smoked oak table, ribbed built-ins and an open courtyard"),
     concept("studio/contact-salon.webp", "Room for the everyday.", "Indian dining room with a blue alcove and cane seating"),
-    modernConcept(homeDining, "Spaces made to gather.", "Sunlit contemporary luxury dining room with sage upholstered chairs and walnut finishes"),
-  ],
-  about: [
-    concept("client-2026/about-dining.webp", "Rooted in the way we live.", "Teak dining table and terracotta cane chairs overlooking an Indian courtyard"),
-    modernConcept(aboutHero, "A fresh perspective on home.", "Modern interior with feature marble wall, warmly illuminated cabinetry and open living space"),
   ],
   principles: [
+    modern("about-light-stair", "Room to move.", "Light-filled modern foyer with an oak stair, slender railings and sandstone flooring"),
     pageImages.homeHero[0],
-    modernConcept(aboutPrinciples, "Beauty in the details.", "Contemporary interior living room with sage feature wall, walnut joinery and greenery"),
+    modern("about-joinery-lounge", "Beauty in the details.", "Contemporary family room with a curved sofa, custom oak shelves and integrated lighting"),
     pageImages.homeHero[2],
   ],
   services: [
+    modern("services-collaborative-office", "Spaces designed for ambition.", "Contemporary workplace with oak worktables, a glass meeting room and indoor planting"),
     concept("client-2026/services-living.webp", "Every space. Every detail.", "Connected Indian living and dining room with olive seating and bespoke joinery"),
-    modernConcept(servicesOffice, "Spaces designed for ambition.", "Contemporary commercial office with glass partitions, modern desks and natural plants"),
+    modern("services-modern-kitchen", "Thoughtfully planned kitchens.", "Contemporary modular kitchen with a gray-green island, handleless cabinets and limestone backsplash"),
     pageImages.services,
   ],
   gallery: [
+    modern("gallery-sculptural-lounge", "Modern forms, natural finishes.", "Contemporary lounge with curved plaster walls, generous seating and overhead daylight"),
     pageImages.galleryHero[0],
-    modernConcept(galleryBedroom, "Calm and contemporary.", "Modern luxury bedroom with wall panel detailing, walk-in wardrobe and soft natural light"),
+    modern("gallery-walnut-bedroom", "Calm and contemporary.", "Modern walnut bedroom with blue linens, a textured wall and soft daylight"),
     pageImages.galleryHero[2],
   ],
   contact: [
+    modern("contact-consultation-room", "Let’s design what comes next.", "Contemporary design studio lounge with olive seating and material samples on a walnut table"),
     concept("client-2026/contact-lounge.webp", "Your next chapter starts here.", "Inviting Indian living room with sage seating, a terracotta armchair and garden arch"),
-    modernConcept(contactLounge, "Let’s design what comes next.", "Sophisticated contemporary living room with a large cream sofa and dramatic lighting"),
-    concept("client-2026/contact-entry.webp", "Come home to your kind of space.", "Modern Indian entrance with a carved teak door, stone bench and brass urli"),
+    modern("contact-modern-entry", "Make yourself at home.", "Modern apartment entrance with a curved wall, floating timber console and upholstered bench"),
+    concept("client-2026/contact-entry.webp", "Come home to your kind of space.", "Indian entrance with a carved teak door, stone bench and brass urli"),
   ],
   contactMaterials: concept("client-2026/contact-materials.webp", "Bring your ideas. We’ll bring the possibilities.", "Interior design consultation concept with material samples, floor plans and cane chairs"),
 };

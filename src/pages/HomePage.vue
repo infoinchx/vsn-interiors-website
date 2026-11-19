@@ -64,7 +64,13 @@ const rails = [
       </div>
     </section>
     <section class="vsn-home-edit" data-home-section="services">
-      <VisualCarousel :slides="clientVisuals.homeBanner" label="Spaces for everyday living" :interval="6100" class="vsn-home-banner">
+      <VisualCarousel
+        :slides="clientVisuals.homeBanner"
+        label="Spaces for everyday living"
+        :interval="6100"
+        sizes="(min-width: 1660px) 1560px, 94vw"
+        class="vsn-home-banner"
+      >
         <template #default="{ current }"><div class="vsn-banner-caption"><span>THE EVERYDAY, REIMAGINED</span><h2>{{ current.title }}</h2></div></template>
       </VisualCarousel>
       <div class="vsn-home-edit-content">

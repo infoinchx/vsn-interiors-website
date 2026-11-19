@@ -21,13 +21,13 @@ const server = http.createServer(async (req, res) => {
     const pathname = decodeURIComponent(
       new URL(req.url, "http://localhost").pathname,
     );
-    let file = path.resolve(root, "." + pathname);
+    const requestPath = pathname.endsWith("/") ? pathname + "index.html" : pathname;
+    const file = path.resolve(root, "." + requestPath);
     if (!file.startsWith(root)) {
       res.writeHead(403);
       res.end("Forbidden");
       return;
     }
-    if (pathname.endsWith("/")) file = path.join(file, "index.html");
     const info = await stat(file);
     if (!info.isFile()) throw Error();
     const body = await readFile(file);

@@ -18,6 +18,8 @@ const result = await build({
   target: "es2020",
   minify: true,
   legalComments: "none",
+  define: { "import.meta.url": "previewAssetBase" },
+  banner: { js: 'const previewAssetBase = new URL("./dist/assets/", document.baseURI).href;' },
 });
 const script = result.outputFiles[0].text
   .replaceAll("images/", "public/images/")

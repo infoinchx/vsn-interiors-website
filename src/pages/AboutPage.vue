@@ -10,6 +10,7 @@ import { business } from "../config";
 import VisualCarousel from "../components/VisualCarousel.vue";
 import { clientVisuals } from "../data/clientVisuals";
 
+const aboutBanner = "images/brand/vsn-about-banner.png";
 const openPrinciple = ref(0);
 const selectedPalette = ref(0);
 const principles = [
@@ -88,18 +89,16 @@ const journey = [
 <template>
   <div class="studio-about">
     <section class="vsn-about-hero" aria-label="VSN Interiors — Our design story">
-      <VisualCarousel
-        :slides="clientVisuals.about"
-        label="About VSN Interiors — modern interiors"
-        :interval="6200"
-        eager
-        class="vsn-about-hero-carousel"
+      <h1 class="sr-only" tabindex="-1">About VSN Interiors</h1>
+      <img
+        class="vsn-about-hero-image"
+        :src="aboutBanner"
+        alt="VSN Interiors founders. Home interiors, commercial spaces, amusement parks, landscaping, facade design and elevation. Serving Andhra Pradesh, Telangana and Odisha since 2004."
+        width="1983"
+        height="793"
+        fetchpriority="high"
+        decoding="async"
       />
-      <div class="vsn-about-hero-copy">
-        <p class="studio-kicker">WELCOME TO VSN INTERIORS</p>
-        <h1 tabindex="-1">We design spaces<br /><em>around your life.</em></h1>
-        <p>Thoughtful interiors. Lasting everyday comfort.</p>
-      </div>
     </section>
 
     <section class="vsn-story-highlights studio-container" aria-label="Why choose VSN Interiors">
@@ -114,8 +113,8 @@ const journey = [
     <section id="people" class="vsn-founders studio-container">
       <div class="vsn-founders-heading"><p class="studio-kicker">MEET THE PEOPLE BEHIND VSN</p><h2>Two perspectives.<br/><em>One shared vision.</em></h2><p>Our approach blends thoughtful design, practical execution and personal attention to every project.</p></div>
       <div class="vsn-founders-grid">
-        <article class="vsn-founder-profile"><div class="vsn-founder-portrait"><img src="/images/brand/founder-mahesh.png" :alt="business.founder.name + ', founder of VSN Interiors'" loading="lazy" /></div><div class="vsn-founder-info"><span>FOUNDER · VSN INTERIORS</span><h3>{{ business.founder.name }}</h3><p>Helping shape spaces around the people who use them, with a focus on design clarity, materials and thoughtful details.</p></div></article>
-        <article class="vsn-founder-profile"><div class="vsn-founder-portrait"><img src="/images/brand/founder-ravi.png" :alt="business.coFounder.name + ', co-founder of VSN Interiors'" loading="lazy" /></div><div class="vsn-founder-info"><span>CO-FOUNDER · VSN INTERIORS</span><h3>{{ business.coFounder.name }}</h3><p>Bringing a collaborative, hands-on perspective to interior projects, from understanding client priorities to bringing the design together.</p></div></article>
+        <article class="vsn-founder-profile"><div class="vsn-founder-portrait"><img :src="'images/brand/founder-mahesh.png'" :alt="business.founder.name + ', founder of VSN Interiors'" loading="lazy" /></div><div class="vsn-founder-info"><span>FOUNDER · VSN INTERIORS</span><h3>{{ business.founder.name }}</h3><p>Helping shape spaces around the people who use them, with a focus on design clarity, materials and thoughtful details.</p></div></article>
+        <article class="vsn-founder-profile"><div class="vsn-founder-portrait"><img :src="'images/brand/founder-ravi.png'" :alt="business.coFounder.name + ', co-founder of VSN Interiors'" loading="lazy" /></div><div class="vsn-founder-info"><span>CO-FOUNDER · VSN INTERIORS</span><h3>{{ business.coFounder.name }}</h3><p>Bringing a collaborative, hands-on perspective to interior projects, from understanding client priorities to bringing the design together.</p></div></article>
       </div>
       <a href="#/contact" class="vsn-founders-contact">Start a conversation with our team <ArrowUpRight :size="18" /></a>
     </section>
@@ -123,7 +122,13 @@ const journey = [
     <section class="sa-principles studio-section">
       <div class="studio-container sa-principles-layout">
         <div class="sa-principles-intro reveal">
-          <VisualCarousel :slides="clientVisuals.principles" label="Our design principles in pictures" :interval="5600" class="vsn-principles-photos" />
+          <VisualCarousel
+            :slides="clientVisuals.principles"
+            label="Our design principles in pictures"
+            :interval="5600"
+            sizes="(max-width: 760px) 90vw, (min-width: 1512px) 600px, 42vw"
+            class="vsn-principles-photos"
+          />
           <p class="studio-kicker">OUR DESIGN PRINCIPLES</p>
           <h2>Considered. Connected. <em>Yours.</em></h2>
           <p>Six ideas that guide the decisions behind every space.</p>
